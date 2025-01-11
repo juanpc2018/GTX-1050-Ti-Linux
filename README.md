@@ -25,7 +25,7 @@ works ok, NVIDIA propietary driver 510 </br>
 Clean Install  </br>
 3D FAIL, NVIDIA propietary driver 535 </br>
 2D Desktop works ok, </br>
-3440x 1440x 160fps </br>
+3440x1440 160fps </br>
 DisplayPort out </br>
 
 > $ neofetch --off </br>
