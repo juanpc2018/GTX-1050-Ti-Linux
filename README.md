@@ -5,6 +5,7 @@
 i try to use only [LTS](https://en.wikipedia.org/wiki/Long-term_support) releases, </br>
 [Ubuntu Version History](https://en.wikipedia.org/wiki/Ubuntu_version_history) </br>
 Kernel 6.7 or higher because [Focusrite USB mk2/3 ](https://github.com/geoffreybennett/alsa-scarlett-gui/blob/master/docs/INSTALL.md) drivers are Activated by Default. </br> 
+
 Real GPU is required to Dual Boot legacy OS like Windows8.1 in Z790 boards + 12th gen cpu's. </br>
 iGPU removed Legacy boot support, works up to 10th gen cpu's, 11th gen CPU's untested. </br>
 
