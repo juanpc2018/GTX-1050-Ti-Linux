@@ -4,7 +4,7 @@
 
 i try to use only [LTS](https://en.wikipedia.org/wiki/Long-term_support) releases, </br>
 [Ubuntu Version History](https://en.wikipedia.org/wiki/Ubuntu_version_history) </br>
-Kernel 6.7 or higher because Focusrite USB drivers are Activated by Default in the Kernel. </br> 
+Kernel 6.7 or higher because [Focusrite USB mk2/3 ](https://github.com/geoffreybennett/alsa-scarlett-gui/blob/master/docs/INSTALL.md) drivers are Activated by Default in the Kernel. </br> 
 
 using [Unigine Tropics 1.3 (2010)](https://benchmark.unigine.com/tropics) [.run](https://assets.unigine.com/d/Unigine_Tropics-1.3.run) Benchmark for Linux OpenGL </br>
 
