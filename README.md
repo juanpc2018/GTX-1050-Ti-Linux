@@ -1,0 +1,1 @@
+# GTX-1050-Ti-Linux
