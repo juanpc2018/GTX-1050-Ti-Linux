@@ -8,6 +8,7 @@ works ok, NVIDIA propietary driver 510 </br>
 Kubuntu 22.04.5 LTS </br>
 Clean Install  </br>
 FAIL, NVIDIA propietary driver 535 </br>
+2D Desktop works ok, 34440x1440x160fps </br>
 
 > $ neofetch --off
 >  
