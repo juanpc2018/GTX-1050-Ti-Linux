@@ -6,6 +6,7 @@ Kubuntu 22.04.4 LTS </br>
 works ok, NVIDIA propietary driver 510 </br>
 
 Kubuntu 22.04.5 LTS </br>
+Clean Install  </br>
 FAIL, NVIDIA propietary driver 535 </br>
 
 > $ neofetch --off
