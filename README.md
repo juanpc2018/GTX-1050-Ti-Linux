@@ -24,7 +24,9 @@ works ok, NVIDIA propietary driver 510 </br>
 [Kubuntu 22.04.5 LTS](https://cdimage.ubuntu.com/kubuntu/releases/22.04.5/release/kubuntu-22.04.5-desktop-amd64.iso.torrent) </br>
 Clean Install  </br>
 3D FAIL, NVIDIA propietary driver 535 </br>
-2D Desktop works ok, 3440x1440x160fps DisplayPort out </br>
+2D Desktop works ok, </br>
+3440x 1440x 160fps </br>
+DisplayPort out </br>
 
 > $ neofetch --off </br>
 >   </br>
