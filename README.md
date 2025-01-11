@@ -1,6 +1,6 @@
 # GTX 1050 Ti Linux
 
-# 22.04 LTS
+# 22.04.x LTS
 
 i try to use only [LTS](https://en.wikipedia.org/wiki/Long-term_support) releases, </br>
 [Ubuntu Version History](https://en.wikipedia.org/wiki/Ubuntu_version_history) </br>
@@ -50,6 +50,7 @@ https://cdimage.ubuntu.com/ubuntucinnamon/releases/24.04.1/release/ </br>
 
 -------------------------
 
-# 24.04 LTS
+# 24.04.x LTS
 
-https://cdimage.ubuntu.com/ubuntucinnamon/releases/24.04.1/release/
+[Ubuntu Cinnamon 24.04.1 (Noble Numbat)](https://cdimage.ubuntu.com/ubuntucinnamon/releases/24.04.1/release/ubuntucinnamon-24.04.1-desktop-amd64.iso.torrent) </br>
+https://cdimage.ubuntu.com/ubuntucinnamon/releases/24.04.1/release/ </br>
