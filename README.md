@@ -9,8 +9,7 @@ Kubuntu 22.04.5 LTS </br>
 FAIL, NVIDIA propietary driver 535 </br>
 
 > $ neofetch --off
-> j@Z790-LiveMixer 
-> ---------------- 
+>  
 > OS: Kubuntu 22.04.5 LTS x86_64 
 > Host: Z790 LiveMixer 
 > Kernel: 6.8.0-40-generic 
