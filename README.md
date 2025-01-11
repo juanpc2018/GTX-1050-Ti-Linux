@@ -34,6 +34,8 @@ Clean Install  </br>
 2D Desktop works ok, </br>
 3440x1440 160fps </br>
 DisplayPort out </br>
+FireFox HW acceleration requires all VDPAU GL & Mesa drivers, </br>
+or CPU load will be very high decoding h.264 / VP9 / h.265 videos on YT. </br>
 
 > $ neofetch --off </br>
 >   </br>
