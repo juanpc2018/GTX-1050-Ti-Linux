@@ -1,4 +1,4 @@
-# GTX 1050-Ti Linux
+# GTX 1050 Ti Linux
 
 using [Unigine Tropics 1.3 (2010)](https://benchmark.unigine.com/tropics) [.run](https://assets.unigine.com/d/Unigine_Tropics-1.3.run) Benchmark for Linux OpenGL </br>
 
