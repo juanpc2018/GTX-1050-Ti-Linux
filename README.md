@@ -13,6 +13,7 @@ other methods like robots.txt to stop [archive.org](https://web.archive.org/web/
 other is to hide the directory, stop mirrors, etc... </br>
 i wish i could find [10.04](https://archive.org/download/ubuntu-repo-lucid-lynx-10.04-20210302) and [10.10](https://archive.org/download/ubuntu-repo-maverick-meerkat-10.10-20210302) source code, & older to see the changes, </br>
 [Ubuntu Version History](https://en.wikipedia.org/wiki/Ubuntu_version_history) </br>
+[Ubuntu old-releases](http://old-releases.ubuntu.com/releases/) </br>
 
 for VLC developers: Non-LTS = LTS </br> 
 they link [VLC version to OS version](https://packages.ubuntu.com/search?searchon=sourcenames&keywords=vlc) </br>
@@ -26,6 +27,21 @@ i like [Unigine Tropics 1.3 (2010)](https://benchmark.unigine.com/tropics) [.run
 But 24.04.0 has libxrandr v2, Not backward compatible with libxrandr v1.x </br>
 making a lot of old software incompatible with 24.04.0 </br>
 Like Uninige Tropics </br>
+
+There has been other mayor changes that break backward compatibility </br>
+Ubuntu 16.x had Ext4 v1.x, since Ubuntu 17 or 18 Ext4 was upgraded to v2.0 </br>
+Superblock & Magic Numbers from 32-Bit to 64-Bit and Journal changes. </br>
+if you open an HDD formatter with ext4 v2 in Ext2Fsb v0.69 "designed for Ext4 v1.x" Damages the Superblock & Magic Number </br>
+
+similar happens with XFS: </br>
+XFS developed by sgi/Unix/IRIX, was open sourced and made compatible with Linux </br>
+XFS worked ok for many years, but has the [2038 bug/limit](https://en.wikipedia.org/wiki/Year_2038_problem) </br>
+since xfs_tools v6.x XFS was changed, becoming backward incompatible </br>
+If you open a drive formatted with XFS v5.x, and copy the partition to another drive with xfs_tools v6.x</br>
+will Damage the Superblock, becoming backward incompatible. </br>
+
+for those reasons its recomended to use Gparted that comes with the Distribution installer .iso </br>
+[Not the latest Gparted](https://gparted.org/download.php) from the website... </br>
 
 [Ubuntu 22.04.0 LTS](https://web.archive.org/web/20220421144653/https://releases.ubuntu.com/22.04/ubuntu-22.04-desktop-amd64.iso.torrent) </br>
 [Kubuntu 22.04.0 LTS](https://web.archive.org/web/20220421153412/https://cdimage.ubuntu.com/kubuntu/releases/22.04/release/kubuntu-22.04-desktop-amd64.iso.torrent) </br>
