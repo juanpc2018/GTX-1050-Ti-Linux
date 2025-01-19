@@ -110,7 +110,7 @@ i tested 7 different brands of network adapters: pcie, usb, wifi, rj45, sfp+ </b
 all require internet. </br>
 The board i have, also has realtek. </br>
 [Apple USB2.0 to RJ45 100Mbps Ethernet Adapter](https://www.apple.com/shop/product/MC704LL/A/apple-usb-ethernet-adapter) has [AX88772A](https://www.asix.com.tw/en/support/download) </br>
-[Belkin USB 2.0 100Mbps Adapter F4U047 v1](https://www.belkin.com/support-article/?articleNum=4908)
+[Belkin USB 2.0 100Mbps Adapter F4U047 v1](https://www.belkin.com/support-article/?articleNum=4908) </br>
 ASUS SFP+ 10G, Sonnet 10G Solo, etc... </br>
 
 [Ubuntu 24.04.1 LTS](https://releases.ubuntu.com/24.04/ubuntu-24.04.1-desktop-amd64.iso.torrent) </br>
