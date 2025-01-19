@@ -41,7 +41,7 @@ Like Uninige Tropics </br>
 
 [Ubuntu 22.04.3 LTS](https://web.archive.org/web/20231012154014/https://releases.ubuntu.com/22.04/ubuntu-22.04.3-desktop-amd64.iso.torrent) </br>
 [Kubuntu 22.04.3 LTS](https://web.archive.org/web/20230814215535/https://cdimage.ubuntu.com/kubuntu/releases/22.04.3/release/kubuntu-22.04.3-desktop-amd64.iso.torrent) </br>
-Installer Requires Safe Graphics Mode, Wayland is Not working, X11 is being phased out. </br>
+Kubuntu 22.04.3 Installer Requires Safe Graphics Mode, Wayland is Not working, X11 is being phased out. </br>
 
 [Ubuntu 22.04.4 LTS](https://web.archive.org/web/20240618125657/https://releases.ubuntu.com/22.04/ubuntu-22.04.4-desktop-amd64.iso.torrent) </br>
 [Kubuntu 22.04.4 LTS](https://web.archive.org/web/20240225143127/https://cdimage.ubuntu.com/kubuntu/releases/22.04.4/release/kubuntu-22.04.4-desktop-amd64.iso.torrent) </br>
@@ -52,7 +52,7 @@ NVIDIA propietary driver 510 work ok. </br>
 [Kubuntu 22.04.5 LTS](https://cdimage.ubuntu.com/kubuntu/releases/22.04.5/release/kubuntu-22.04.5-desktop-amd64.iso.torrent) </br>
 Clean Install  </br>
 3D FAIL, NVIDIA propietary driver 535 </br>
-2D Desktop works, </br>
+2D Desktop works, but... may have small issues. </br>
 3440x1440 160fps </br>
 DisplayPort out. </br>
 
