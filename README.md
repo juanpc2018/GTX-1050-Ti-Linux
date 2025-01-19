@@ -31,7 +31,8 @@ Like Uninige Tropics </br>
 There has been other mayor changes that break backward compatibility </br>
 Ubuntu 16.x had Ext4 v1.x, since Ubuntu 17 or 18 Ext4 was upgraded to v2.0 </br>
 Superblock & Magic Numbers from 32-Bit to 64-Bit and Journal changes. </br>
-if you open an HDD formatter with ext4 v2 in Ext2Fsb v0.69 "designed for Ext4 v1.x" Damages the Superblock & Magic Number </br>
+if you open an HDD formatted with ext4 v2 in [Ext2Fsb v0.69](https://sourceforge.net/projects/ext2fsd/files/Ext2fsd/).[1](https://github.com/LiveMirror/ext2fsd) designed for Ext4 v1.x in R/W mode, will Damage the Superblock & Magic Number </br>
+Ext4 v2.0 partition Requires [Ext2Fsb v0.71](https://www.accum.se/~bosse/) designed for Ext4 v2 </br>
 
 similar happens with XFS: </br>
 XFS developed by sgi/Unix/IRIX, was open sourced and made compatible with Linux </br>
