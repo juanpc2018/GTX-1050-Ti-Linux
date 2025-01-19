@@ -57,7 +57,7 @@ Clean Install  </br>
 DisplayPort out. </br>
 
 Non-LTS: </br>
-[Ubuntu 22.10](https://web.archive.org/web/20240618125657/https://releases.ubuntu.com/23.10/ubuntu-23.10-desktop-amd64.iso.torrent) <>/br
+[Ubuntu 22.10](https://web.archive.org/web/20231012153418/https://releases.ubuntu.com/mantic/ubuntu-23.10-desktop-amd64.iso.torrent) </br>
 [Kubuntu 22.10](https://web.archive.org/web/20240225143127/https://cdimage.ubuntu.com/kubuntu/releases/23.10/release/kubuntu-23.10-desktop-amd64.iso.torrent) </br>
 [Ubuntu Cinnamon 22.10](https://sourceforge.net/projects/ubuntu-cinnamon-remix/files/) </br>
 
