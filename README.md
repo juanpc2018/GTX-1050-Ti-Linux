@@ -6,20 +6,20 @@ i try to use [LTS](https://en.wikipedia.org/wiki/Long-term_support) releases, </
 and Linux developers also, they delete the source code for Non-LTS releases, </br>
 example: Ubuntu 23.10 (Mantic Minotaur) </br>
 released on 12 October 2023, supported for nine months until July 2024. </br>
-[Source code](https://cdimage.ubuntu.com/releases/23.10/release/source/) Deleted January 2025. </br>
+[Source code Deleted](https://cdimage.ubuntu.com/releases/23.10/release/source/) January 2025. </br>
 to me it´s insane to delete source code, goes against the laws of [Reversible Computing](https://en.wikipedia.org/wiki/Reversible_computing) </br>
 but thats one of the ways they have to keep open source closed as possible. </br>
 other methods like robots.txt to stop [archive.org](https://web.archive.org/web/20240303064513/https://cdimage.ubuntu.com/releases/23.10/release/source/) to make a copy. </br>
-other is to hide the diractory, stop mirrors, etc... </br>
-i wish i could find 10.04 and 10.10 source code, and older to see the changes, </br>
+other is to hide the directory, stop mirrors, etc... </br>
+i wish i could find [10.04](https://archive.org/download/ubuntu-repo-lucid-lynx-10.04-20210302) and [10.10](https://archive.org/download/ubuntu-repo-maverick-meerkat-10.10-20210302) source code, & older to see the changes, </br>
 [Ubuntu Version History](https://en.wikipedia.org/wiki/Ubuntu_version_history) </br>
 
 for VLC developers: Non-LTS = LTS </br> 
-they link VLC version to [OS version](https://packages.ubuntu.com/search?searchon=sourcenames&keywords=vlc) </br>
+they link [VLC version to OS version](https://packages.ubuntu.com/search?searchon=sourcenames&keywords=vlc) </br>
 
 i prefer Kernel 6.7 or higher because [Focusrite USB mk2/3 ](https://github.com/geoffreybennett/alsa-scarlett-gui/blob/master/docs/INSTALL.md) drivers are Activated by Default. </br> 
 
-Real GPU is Required for Dual Boot legacy OS like Windows8.1 in Z790 boards + 12th gen cpu's. </br>
+Real GPU is Required for Dual Boot with legacy OS like Windows8.1 in Z790 boards + 12th gen cpu's. </br>
 iGPU removed Legacy boot support, works up to 10th gen cpu's, 11th gen CPU's Unknown / Untested. </br>
 
 i like [Unigine Tropics 1.3 (2010)](https://benchmark.unigine.com/tropics) [.run](https://assets.unigine.com/d/Unigine_Tropics-1.3.run) Benchmark for Linux OpenGL </br>
@@ -41,16 +41,16 @@ Like Uninige Tropics </br>
 
 [Ubuntu 22.04.3 LTS](https://web.archive.org/web/20231012154014/https://releases.ubuntu.com/22.04/ubuntu-22.04.3-desktop-amd64.iso.torrent) </br>
 [Kubuntu 22.04.3 LTS](https://web.archive.org/web/20230814215535/https://cdimage.ubuntu.com/kubuntu/releases/22.04.3/release/kubuntu-22.04.3-desktop-amd64.iso.torrent) </br>
-Kubuntu 22.04.3 Installer Requires Safe Graphics Mode, Wayland Not working, X11 is phased out. </br>
+Kubuntu 22.04.3 Installer Requires Safe Graphics Mode, Wayland Not working, X11 phased out. </br>
 
 [Ubuntu 22.04.4 LTS](https://web.archive.org/web/20240618125657/https://releases.ubuntu.com/22.04/ubuntu-22.04.4-desktop-amd64.iso.torrent) </br>
 [Kubuntu 22.04.4 LTS](https://web.archive.org/web/20240225143127/https://cdimage.ubuntu.com/kubuntu/releases/22.04.4/release/kubuntu-22.04.4-desktop-amd64.iso.torrent) </br>
-Wayland installer work, but has glitches.  </br>
+Wayland installer work, but has glitches. </br>
 NVIDIA propietary driver 510 work ok. </br>
 
 [Ubuntu 22.04.5 LTS](https://releases.ubuntu.com/22.04/ubuntu-22.04.5-desktop-amd64.iso.torrent) </br>
 [Kubuntu 22.04.5 LTS](https://cdimage.ubuntu.com/kubuntu/releases/22.04.5/release/kubuntu-22.04.5-desktop-amd64.iso.torrent) </br>
-Clean Install  </br>
+Clean Install </br>
 3D FAIL, NVIDIA propietary driver 535 </br>
 2D Desktop works, but... may have small issues. </br>
 3440x1440 160fps </br>
@@ -65,7 +65,7 @@ FireFox / VLC HW acceleration requires All VDPAU GL & Mesa drivers, </br>
 or CPU load will be very high decoding h.264 / VP9 / h.265 videos on YT. </br>
 
 > $ neofetch --off </br>
->   </br>
+> </br>
 > OS: Kubuntu 22.04.5 LTS x86_64  </br>
 > Host: Z790 LiveMixer  </br>
 > Kernel: 6.8.0-40-generic  </br>
@@ -118,3 +118,9 @@ ASUS SFP+ 10G, Sonnet 10G Solo, etc... </br>
 [Ubuntu Cinnamon 24.04.1 (Noble Numbat)](https://cdimage.ubuntu.com/ubuntucinnamon/releases/24.04.1/release/ubuntucinnamon-24.04.1-desktop-amd64.iso.torrent) </br>
 
 https://cdimage.ubuntu.com/ubuntucinnamon/releases/24.04.1/release/ </br>
+
+--------------------------
+
+# Debian 12.x Bookworm
+
+[AV Linux 23.x](https://www.bandshed.net/avlinux/)
