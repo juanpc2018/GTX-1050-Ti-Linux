@@ -3,7 +3,7 @@
 # 22.04.x LTS
 
 i try to use [LTS](https://en.wikipedia.org/wiki/Long-term_support) releases, </br>
-and Linux developers also, they delete the source code for Non-LTS releases 1st, </br>
+and Linux developers also, they delete the source code for Non-LTS releases, </br>
 example: Ubuntu 23.10 (Mantic Minotaur) </br>
 released on 12 October 2023, supported for nine months until July 2024. </br>
 [Source code](https://cdimage.ubuntu.com/releases/23.10/release/source/) Deleted January 2025. </br>
