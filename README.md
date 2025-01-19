@@ -8,14 +8,14 @@ example: Ubuntu 23.10 (Mantic Minotaur) </br>
 released on 12 October 2023, supported for nine months until July 2024. </br>
 [Source code](https://cdimage.ubuntu.com/releases/23.10/release/source/) Deleted January 2025. </br>
 to me it´s insane to delete source code, goes against the laws of [Reversible Computing](https://en.wikipedia.org/wiki/Reversible_computing) </br>
-but thats one of the ways they have to keep open source as closed as possible. </br>
-other is to put robots.txt to stop archive.org to make a copy. </br>
-other is to hide the diractory, </br>
-other is to stop mirrors, etc... </br>
-i wish i could find 10.4 and 10.10 source code, and older to see the changes, </br>
+but thats one of the ways they have to keep open source closed as possible. </br>
+other methods like robots.txt to stop [archive.org](https://web.archive.org/web/20240303064513/https://cdimage.ubuntu.com/releases/23.10/release/source/) to make a copy. </br>
+other is to hide the diractory, stop mirrors, etc... </br>
+i wish i could find 10.04 and 10.10 source code, and older to see the changes, </br>
 [Ubuntu Version History](https://en.wikipedia.org/wiki/Ubuntu_version_history) </br>
-but VLC developers link VLC apt install to OS version, </br>
-for them Non-LTS are = as LTS. </br>
+
+for VLC developers: Non-LTS = LTS </br> 
+they link VLC version to [OS version](https://packages.ubuntu.com/search?searchon=sourcenames&keywords=vlc) </br>
 
 i prefer Kernel 6.7 or higher because [Focusrite USB mk2/3 ](https://github.com/geoffreybennett/alsa-scarlett-gui/blob/master/docs/INSTALL.md) drivers are Activated by Default. </br> 
 
