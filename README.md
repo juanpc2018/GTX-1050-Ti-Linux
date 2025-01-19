@@ -2,14 +2,30 @@
 
 # 22.04.x LTS
 
-i try to use only [LTS](https://en.wikipedia.org/wiki/Long-term_support) releases, </br>
+i try to use [LTS](https://en.wikipedia.org/wiki/Long-term_support) releases, </br>
+and Linux developers also, they delete the source code for Non-LTS releases 1st, </br>
+example: Ubuntu 23.10 (Mantic Minotaur) </br>
+released on 12 October 2023, supported for nine months until July 2024. </br>
+[Source code](https://cdimage.ubuntu.com/releases/23.10/release/source/) Deleted January 2025. </br>
+to me it´s insane to delete source code, goes against the laws of [Reversible Computing](https://en.wikipedia.org/wiki/Reversible_computing) </br>
+but thats one of the ways they have to keep open source as closed as possible. </br>
+other is to put robots.txt to stop archive.org to make a copy. </br>
+other is to hide the diractory, </br>
+other is to stop mirrors, etc... </br>
+i wish i could find 10.4 and 10.10 source code, and older to see the changes, </br>
 [Ubuntu Version History](https://en.wikipedia.org/wiki/Ubuntu_version_history) </br>
-Kernel 6.7 or higher because [Focusrite USB mk2/3 ](https://github.com/geoffreybennett/alsa-scarlett-gui/blob/master/docs/INSTALL.md) drivers are Activated by Default. </br> 
+but VLC developers link VLC apt install to OS version, </br>
+for them Non-LTS are = as LTS. </br>
 
-Real GPU is required to Dual Boot legacy OS like Windows8.1 in Z790 boards + 12th gen cpu's. </br>
-iGPU removed Legacy boot support, works up to 10th gen cpu's, 11th gen CPU's untested. </br>
+i prefer Kernel 6.7 or higher because [Focusrite USB mk2/3 ](https://github.com/geoffreybennett/alsa-scarlett-gui/blob/master/docs/INSTALL.md) drivers are Activated by Default. </br> 
 
-using [Unigine Tropics 1.3 (2010)](https://benchmark.unigine.com/tropics) [.run](https://assets.unigine.com/d/Unigine_Tropics-1.3.run) Benchmark for Linux OpenGL </br>
+Real GPU is Required for Dual Boot legacy OS like Windows8.1 in Z790 boards + 12th gen cpu's. </br>
+iGPU removed Legacy boot support, works up to 10th gen cpu's, 11th gen CPU's Unknown / Untested. </br>
+
+i like [Unigine Tropics 1.3 (2010)](https://benchmark.unigine.com/tropics) [.run](https://assets.unigine.com/d/Unigine_Tropics-1.3.run) Benchmark for Linux OpenGL </br>
+But 24.04.0 has libxrandr v2, and is Not backward compatible with libxrandr v1.x </br>
+making a lot of old software incompatible with 24.04.0 </br>
+Like Uninige Tropics </br>
 
 [Ubuntu 22.04.0 LTS](https://web.archive.org/web/20220421144653/https://releases.ubuntu.com/22.04/ubuntu-22.04-desktop-amd64.iso.torrent) </br>
 [Kubuntu 22.04.0 LTS](https://web.archive.org/web/20220421153412/https://cdimage.ubuntu.com/kubuntu/releases/22.04/release/kubuntu-22.04-desktop-amd64.iso.torrent) </br>
@@ -22,18 +38,20 @@ using [Unigine Tropics 1.3 (2010)](https://benchmark.unigine.com/tropics) [.run]
 
 [Ubuntu 22.04.3 LTS](https://web.archive.org/web/20231012154014/https://releases.ubuntu.com/22.04/ubuntu-22.04.3-desktop-amd64.iso.torrent) </br>
 [Kubuntu 22.04.3 LTS](https://web.archive.org/web/20230814215535/https://cdimage.ubuntu.com/kubuntu/releases/22.04.3/release/kubuntu-22.04.3-desktop-amd64.iso.torrent) </br>
+Installer Requires Safe Graphics Mode, Wayland is Not working well, X11 is being phased out. </br>
 
 [Ubuntu 22.04.4 LTS](https://web.archive.org/web/20240618125657/https://releases.ubuntu.com/22.04/ubuntu-22.04.4-desktop-amd64.iso.torrent) </br>
 [Kubuntu 22.04.4 LTS](https://web.archive.org/web/20240225143127/https://cdimage.ubuntu.com/kubuntu/releases/22.04.4/release/kubuntu-22.04.4-desktop-amd64.iso.torrent) </br>
-works ok, NVIDIA propietary driver 510 </br>
+Wayland installer work, but has glitches.  </br>
+NVIDIA propietary driver 510 work ok. </br>
 
 [Ubuntu 22.04.5 LTS](https://releases.ubuntu.com/22.04/ubuntu-22.04.5-desktop-amd64.iso.torrent) </br>
 [Kubuntu 22.04.5 LTS](https://cdimage.ubuntu.com/kubuntu/releases/22.04.5/release/kubuntu-22.04.5-desktop-amd64.iso.torrent) </br>
 Clean Install  </br>
 3D FAIL, NVIDIA propietary driver 535 </br>
-2D Desktop works ok, </br>
+2D Desktop works, </br>
 3440x1440 160fps </br>
-DisplayPort out </br>
+DisplayPort out. </br>
 
 FireFox / VLC HW acceleration requires All VDPAU GL & Mesa drivers, </br>
 or CPU load will be very high decoding h.264 / VP9 / h.265 videos on YT. </br>
@@ -63,6 +81,19 @@ https://cdimage.ubuntu.com/ubuntucinnamon/releases/24.04.1/release/ </br>
 -------------------------
 
 # 24.04.x LTS
+
+I had to reinstall several times,  </br>
+Kubuntu 24.04.0 installer does Not allow to install propietary drivers like older installers, </br>
+if install nvidia 1st, realtek network cannot be installed later. </br>
+if all network devices require propietary drivers, OS becomes offline. </br>
+does not allow to "download dependencies" to compile drivers without internet, like [Marvell Aquantia AQtion ACQ100 SFP+ 10G Fiber PCIe](https://github.com/juanpc2018/Aquantia-PCIe-SFP-) </br>
+OS becomes offline, requires erase & reinstall, or buy a network device that does not require propietary drivers, nor compile drivers, </br>
+i tested 7 different brands of network adapters: pcie, usb, wifi, rj45, sfp+ </br>
+all require internet. </br>
+The board i have, also has realtek. </br>
+[Apple USB2.0 to RJ45 100Mbps Ethernet Adapter](https://www.apple.com/shop/product/MC704LL/A/apple-usb-ethernet-adapter) has [AX88772A](https://www.asix.com.tw/en/support/download) </br>
+[Belkin USB 2.0 100Mbps Adapter F4U047 v1](https://www.belkin.com/support-article/?articleNum=4908)
+ASUS SFP+ 10G, Sonnet 10G Solo, etc... </br>
 
 [Ubuntu 24.04.1 LTS](https://releases.ubuntu.com/24.04/ubuntu-24.04.1-desktop-amd64.iso.torrent) </br>
 [Kubuntu 24.04.1 LTS](https://cdimage.ubuntu.com/kubuntu/releases/noble/release/kubuntu-24.04.1-desktop-amd64.iso.torrent) </br>
