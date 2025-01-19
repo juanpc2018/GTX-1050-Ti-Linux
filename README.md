@@ -23,7 +23,7 @@ Real GPU is Required for Dual Boot legacy OS like Windows8.1 in Z790 boards + 12
 iGPU removed Legacy boot support, works up to 10th gen cpu's, 11th gen CPU's Unknown / Untested. </br>
 
 i like [Unigine Tropics 1.3 (2010)](https://benchmark.unigine.com/tropics) [.run](https://assets.unigine.com/d/Unigine_Tropics-1.3.run) Benchmark for Linux OpenGL </br>
-But 24.04.0 has libxrandr v2, and is Not backward compatible with libxrandr v1.x </br>
+But 24.04.0 has libxrandr v2, Not backward compatible with libxrandr v1.x </br>
 making a lot of old software incompatible with 24.04.0 </br>
 Like Uninige Tropics </br>
 
