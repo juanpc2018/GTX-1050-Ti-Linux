@@ -37,7 +37,7 @@ will Damage the Superblock & Magic Number </br>
 Ext4 v2.0 Requires [Ext2Fsb](https://www.accum.se/~bosse/).[v0.71](https://github.com/bobranten/Ext4Fsd/releases) designed for Ext4 v2 </br>
 
 similar happens with XFS: </br>
-XFS developed by sgi/Unix/IRIX, Open sourced and made compatible with Linux </br>
+XFS developed by sgi for Unix/IRIX, Open sourced and made compatible with Linux </br>
 XFS works ok for many years, but has the [2038 bug/limit](https://en.wikipedia.org/wiki/Year_2038_problem) </br>
 since xfs_tools v6.x XFS was changed, becoming backward incompatible; </br>
 If you open a drive formatted with XFS v5.x and copy the partition with xfs_tools v6.x </br>
