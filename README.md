@@ -43,7 +43,7 @@ If you open a drive formatted with XFS v5.x and copy the partition with xfs_tool
 will Damage the Superblock, becoming backward incompatible. </br>
 
 for those reasons its recommended to use Gparted / Gnome Disk that comes with the Distribution .iso </br>
-[Not the latest Gparted](https://gparted.org/download.php) from the website... </br>
+[Not the latest Gparted](https://gparted.org/download.php) from website... </br>
 
 --------------
 
