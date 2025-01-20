@@ -125,13 +125,14 @@ Kubuntu 24.04.0 installer does Not allow to install propietary drivers like olde
 if install nvidia 1st, realtek network cannot be installed later. </br>
 if all network devices require propietary drivers, OS becomes offline. </br>
 does not allow to "download dependencies" to compile drivers without internet, like [Marvell Aquantia AQtion ACQ100 SFP+ 10G Fiber PCIe](https://github.com/juanpc2018/Aquantia-PCIe-SFP-) </br>
-OS becomes offline, requires erase & reinstall, or buy a network device that does not require propietary drivers, nor compile drivers, </br>
+Offline OS requires erase & reinstall, or buy a network device that does not require propietary drivers, nor compile drivers, </br>
 i tested 7 different brands of network adapters: pcie, usb, wifi, rj45, sfp+ </br>
 all require internet. </br>
 The board i have, also has realtek. </br>
 [Apple USB2.0 to RJ45 100Mbps Ethernet Adapter](https://www.apple.com/shop/product/MC704LL/A/apple-usb-ethernet-adapter) has [AX88772A](https://www.asix.com.tw/en/support/download) </br>
 [Belkin USB 2.0 100Mbps Adapter F4U047 v1](https://www.belkin.com/support-article/?articleNum=4908) </br>
-ASUS SFP+ 10G, Sonnet 10G Solo, etc... </br>
+ASUS SFP+ 10G </br>
+Sonnet 10G Solo, etc... </br>
 
 [Ubuntu 24.04.1 LTS](https://releases.ubuntu.com/24.04/ubuntu-24.04.1-desktop-amd64.iso.torrent) </br>
 [Kubuntu 24.04.1 LTS](https://cdimage.ubuntu.com/kubuntu/releases/noble/release/kubuntu-24.04.1-desktop-amd64.iso.torrent) </br>
