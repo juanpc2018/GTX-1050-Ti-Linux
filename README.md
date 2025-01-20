@@ -33,7 +33,7 @@ Ubuntu 16 had Ext4 v1.x, but Ext4 was upgraded to v2.0 since Ubuntu 17 or 18 </b
 Superblock & Magic Numbers from 32-Bit to 64-Bit and Journal changes. </br>
 if you Open an HDD formatted with ext4 v2 in [Ext2Fsb](https://sourceforge.net/projects/ext2fsd/files/Ext2fsd/).[v0.69](https://github.com/LiveMirror/ext2fsd) designed for Ext4 v1.x </br>
 will Damage the Superblock & Magic Number </br>
-Ext4 v2.0 Requires [Ext2Fsb v0.71](https://www.accum.se/~bosse/) designed for Ext4 v2 </br>
+Ext4 v2.0 Requires [Ext2Fsb](https://www.accum.se/~bosse/).[v0.71](https://github.com/bobranten/Ext4Fsd/releases) designed for Ext4 v2 </br>
 
 similar happens with XFS: </br>
 XFS developed by sgi/Unix/IRIX, Open sourced and made compatible with Linux </br>
