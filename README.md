@@ -131,7 +131,7 @@ all require internet. </br>
 
 [Apple USB 2 to RJ45 100Mbps Ethernet Adapter A1277](https://www.apple.com/shop/product/MC704LL/A/apple-usb-ethernet-adapter) has [asix AX88772A](https://www.asix.com.tw/en/support/download) </br>
 [Belkin USB 2 to RJ45 100Mbps Adapter F4U047](https://www.belkin.com/support-article/?articleNum=4908) Realtek </br>
-QP-W24HPUSB "1 Watt" Wi-Fi USB, Realtek </br>
+Qpcom QP-W24HPUSB "1 Watt" Wi-Fi USB, Realtek RTL8187 </br>
 Belkin N300 Wi-Fi USB F9L1002V1 Realtek </br>
 TP-Link 150Mbps High Power "1 Watt" Wi-Fi USB TL-WN7200ND, MediaTek Ralink RT3070 </br>
 ASUS SFP+ 10G PCIe, AQC100 </br>
