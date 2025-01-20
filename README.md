@@ -28,7 +28,7 @@ But 24.04.0 has libxrandr v2, Not backward compatible with libxrandr v1.x </br>
 making a lot of old software incompatible with 24.04.0 </br>
 Like Uninige Tropics </br>
 
-There has been other mayor changes that break backward compatibility </br>
+There has been other mayor changes that break backward compatibility: </br>
 Ubuntu 16.x had Ext4 v1.x, since Ubuntu 17 or 18 Ext4 was upgraded to v2.0 </br>
 Superblock & Magic Numbers from 32-Bit to 64-Bit and Journal changes. </br>
 if you open an HDD formatted with ext4 v2 in [Ext2Fsb v0.69](https://sourceforge.net/projects/ext2fsd/files/Ext2fsd/).[1](https://github.com/LiveMirror/ext2fsd) designed for Ext4 v1.x </br>
