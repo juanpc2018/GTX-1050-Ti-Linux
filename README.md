@@ -127,7 +127,7 @@ if install nvidia 1st, realtek network cannot be installed later. </br>
 if all network devices require propietary drivers, OS becomes offline. </br>
 does not allow to "download dependencies" to compile drivers without internet, like [Marvell Aquantia AQtion ACQ100 SFP+ 10G Fiber PCIe](https://github.com/juanpc2018/Aquantia-PCIe-SFP-) </br>
 Offline OS requires erase & reinstall, or buy a network device that does not require propietary drivers, nor compile drivers, </br>
-i tested 8 different brands of network adapters: pcie, usb, wifi, rj45, sfp+ </br>
+tested 8 different brands of network adapters: pcie, usb, wifi, rj45, sfp+ </br>
 all require internet. </br>
 
 [Apple USB 2 to RJ45 100Mbps Ethernet Adapter A1277](https://www.apple.com/shop/product/MC704LL/A/apple-usb-ethernet-adapter) has [asix AX88772A](https://www.asix.com.tw/en/support/download) </br>
