@@ -57,7 +57,7 @@ intel [i3-10110u](https://www.cpu-monkey.com/en/compare_cpu-intel_core_i3_10110u
 Maybe 22.04.5 if using a lower version Nvidia driver, </br>
 535 fail, seems 510 is the last driver that works with GTX 1050 Ti </br>
 but 22.04.5 does Not have 510, has 470. </br>
-there are offline downloads from [Nvidia archive](https://www.nvidia.com/en-us/drivers/unix/linux-amd64-display-archive/) </br>
+requires manual install from [Nvidia archive](https://www.nvidia.com/en-us/drivers/unix/linux-amd64-display-archive/) </br>
 
 Tropics 1.3 does Not work with 24.04.0 </br>
 Haven´t tested 20.04.5 </br>
