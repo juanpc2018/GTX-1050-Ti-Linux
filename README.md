@@ -11,7 +11,7 @@ to me it´s insane to delete source code, goes against the laws of [Reversible C
 but thats one of the ways they have to keep open source closed as possible. </br>
 other methods like robots.txt to stop [archive.org](https://web.archive.org/web/20240303064513/https://cdimage.ubuntu.com/releases/23.10/release/source/) to make a [copy](https://web.archive.org/web/20240421133031/http://cdimage.ubuntu.com/releases/mantic/release/source/) </br>
 other is to hide the directory, stop mirrors, etc... </br>
-i wish i could find [10.04](https://archive.org/download/ubuntu-repo-lucid-lynx-10.04-20210302) and [10.10](https://archive.org/download/ubuntu-repo-maverick-meerkat-10.10-20210302) source code, & older to see the changes, </br>
+i wish i could find [10.04.4](https://archive.org/download/ubuntu-repo-lucid-lynx-10.04-20210302) and [10.10](https://archive.org/download/ubuntu-repo-maverick-meerkat-10.10-20210302) [source](https://old-releases.ubuntu.com/releases/releases/) to see the changes, </br>
 [Ubuntu Version History](https://en.wikipedia.org/wiki/Ubuntu_version_history) </br>
 [Ubuntu old-releases](http://old-releases.ubuntu.com/releases/) </br>
 
