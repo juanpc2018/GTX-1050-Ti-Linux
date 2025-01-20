@@ -57,6 +57,8 @@ Maybe 22.04.5 if using a lower version Nvidia driver, </br>
 535 fail, seems 510 is the last driver that works with GTX 1050 Ti </br>
 but 22.04.5 does Not have 510, has 470. </br>
 
+Tropics 1.3 does Not work with 24.04.0 </br>
+
 ------------------------
 
 [Ubuntu 22.04.0 LTS](https://web.archive.org/web/20220421144653/https://releases.ubuntu.com/22.04/ubuntu-22.04-desktop-amd64.iso.torrent) </br>
