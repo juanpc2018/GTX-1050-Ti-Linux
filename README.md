@@ -26,7 +26,8 @@ iGPU removed Legacy boot support, works up to 10th gen cpu's, 11th gen CPU's Unk
 i like [Unigine Tropics 1.3 (2010)](https://benchmark.unigine.com/tropics) [.run](https://assets.unigine.com/d/Unigine_Tropics-1.3.run) Benchmark for Linux OpenGL </br>
 But 24.04.0 has libxrandr v2, Not backward compatible with libxrandr v1.x </br>
 making a lot of old software incompatible with 24.04.0 </br>
-Like Uninige Tropics </br>
+DOS & W95/98/XP games that were Open sourced by developer & converted to Linux by others, </br>
+80.GB of Games </br>
 
 There has been other mayor changes that break backward compatibility: </br>
 Ubuntu 16 had Ext4 v1.x, but Ext4 was upgraded to v2.0 since Ubuntu 17 or 18 </br>
