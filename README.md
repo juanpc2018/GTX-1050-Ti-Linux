@@ -158,7 +158,7 @@ all require internet. </br>
 Qpcom QP-W24HPUSB "1 Watt" Wi-Fi USB, Realtek RTL8187 </br>
 Belkin N300 Wi-Fi USB F9L1002V1 Realtek </br>
 TP-Link 150Mbps High Power "1 Watt" Wi-Fi USB TL-WN7200ND, MediaTek Ralink RT3070 </br>
-ASUS XF-C100F SFP+ 10G PCIe, AQC100 </br>
+ASUS XG-C100F SFP+ 10G PCIe, AQC100 </br>
 Sonnet 10G Solo PCIe, AQC100 </br>
 The board i have: Realtek 2.5GbE </br>
 
