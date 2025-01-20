@@ -51,7 +51,7 @@ for those reasons its recommended to use Gparted / Gnome Disk that comes with th
 [pearOS Monterrey (2021.07.01)](https://archive.org/details/pearOS_Monterey_64bit-12-beta-2021.07.01) </br>
 based on Ubuntu 20.04.4 LTS </br>
 Unigine Tropics 1.3 works ok, 
-intel [i3-10110u](https://www.cpu-monkey.com/en/compare_cpu-intel_core_i3_10110u-vs-intel_core_i3_12100) </br>
+intel [i3-10110u](https://www.cpu-monkey.com/en/compare_cpu-intel_core_i3_10110u-vs-intel_core_i3_12100) iGPU </br>
 
 [Tropics 1.3 (2010)](https://benchmark.unigine.com/tropics) works with 20.04.4 & 22.04.4 Only. </br>
 Maybe 22.04.5 if using a lower version Nvidia driver, </br>
