@@ -24,7 +24,7 @@ Real GPU is Required for Dual Boot with legacy OS like Windows8.1 in Z790 boards
 iGPU removed Legacy boot support, works up to 10th gen cpu's, 11th gen CPU's Unknown / Untested. </br>
 
 i like [Unigine Tropics 1.3 (2010)](https://benchmark.unigine.com/tropics) [.run](https://assets.unigine.com/d/Unigine_Tropics-1.3.run) Benchmark for Linux OpenGL </br>
-But 24.04.0 has libxrandr v2, Not backward compatible with libxrandr v1.x </br>
+But 24.04.0 has libxrandr v2:1.5.x, Not backward compatible with libxrandr v1.x </br>
 making a lot of old software incompatible with 24.04.0 </br>
 DOS & W95/98/XP games that were Open sourced by developer & converted to Linux by others, </br>
 80.GB of Games </br>
@@ -48,6 +48,17 @@ for those reasons its recommended to use Gparted / Gnome Disk that comes with th
 
 --------------
 
+[pearOS Monterrey (2021.07.01)](https://archive.org/details/pearOS_Monterey_64bit-12-beta-2021.07.01) </br>
+based on Ubuntu 20.04.4 LTS </br>
+Unigine Tropics works ok, intel i3-10110u </br>
+
+Tropics 1.3 works with 20.04.4 & 22.04.4 Only. </br>
+Maybe 22.04.5 if using a lower version Nvidia driver, </br>
+535 fail, seems 510 is the last driver that works with GTX 1050 Ti </br>
+but 22.04.5 does Not have 510, has 470. </br>
+
+------------------------
+
 [Ubuntu 22.04.0 LTS](https://web.archive.org/web/20220421144653/https://releases.ubuntu.com/22.04/ubuntu-22.04-desktop-amd64.iso.torrent) </br>
 [Kubuntu 22.04.0 LTS](https://web.archive.org/web/20220421153412/https://cdimage.ubuntu.com/kubuntu/releases/22.04/release/kubuntu-22.04-desktop-amd64.iso.torrent) </br>
 
@@ -59,19 +70,27 @@ for those reasons its recommended to use Gparted / Gnome Disk that comes with th
 [Kubuntu 22.04.2 LTS](https://web.archive.org/web/20230304093850/https://cdimage.ubuntu.com/kubuntu/releases/22.04.2/release/kubuntu-22.04.2-desktop-amd64.iso.torrent) </br>
 [Ubuntu Cinnamon 22.04.2](https://sourceforge.net/projects/ubuntu-cinnamon-remix/files/) </br>
 "Try Ubuntu Cinnamon" has Aquantia AQtion AQC100 drivers pre-compiled in the Kernel. </br>
+Kubuntu 22.04.2 is the best installer, works Flawless, Fast.  </br>
+Cinnamon 22.04.2 installer works super slow if cannot find DNS server, Network Manager is different. </br>
+Unigine Tropics 1.3 does Not work in 22.04.2 has sh, execp and syntax errors. </br>
+updating all apt, Unigine Tropics 1.3 has the same error as 24.04.0 libxrandr v2:1.5.x Not backward compatible with libxrandr v1.x </br> 
 
 [Ubuntu 22.04.3 LTS](https://web.archive.org/web/20231012154014/https://releases.ubuntu.com/22.04/ubuntu-22.04.3-desktop-amd64.iso.torrent) </br>
 [Kubuntu 22.04.3 LTS](https://web.archive.org/web/20230814215535/https://cdimage.ubuntu.com/kubuntu/releases/22.04.3/release/kubuntu-22.04.3-desktop-amd64.iso.torrent) </br>
 Kubuntu 22.04.3 Installer Requires Safe Graphics Mode, Wayland Not working, X11 phased out. </br>
+22.04.3 is the worse installer. </br>
+OS works, but Unigine Tropics 1.3 does Not, has sh, execp and syntax errors. </br>
 
 [Ubuntu 22.04.4 LTS](https://web.archive.org/web/20240618125657/https://releases.ubuntu.com/22.04/ubuntu-22.04.4-desktop-amd64.iso.torrent) </br>
 [Kubuntu 22.04.4 LTS](https://web.archive.org/web/20240225143127/https://cdimage.ubuntu.com/kubuntu/releases/22.04.4/release/kubuntu-22.04.4-desktop-amd64.iso.torrent) </br>
 Wayland installer work, but has glitches. </br>
 NVIDIA propietary driver 510 work ok. </br>
+Unigine Tropics 1.3 works. </br>
 
 [Ubuntu 22.04.5 LTS](https://releases.ubuntu.com/22.04/ubuntu-22.04.5-desktop-amd64.iso.torrent) </br>
 [Kubuntu 22.04.5 LTS](https://cdimage.ubuntu.com/kubuntu/releases/22.04.5/release/kubuntu-22.04.5-desktop-amd64.iso.torrent) </br>
-Clean Install </br>
+Wayland installer work, but has glitches. </br>
+Unigine Tropics 1.3 </br>
 3D FAIL, NVIDIA propietary driver 535 </br>
 2D Desktop works, but... may have small issues. </br>
 3440x1440 160fps </br>
@@ -135,9 +154,9 @@ all require internet. </br>
 Qpcom QP-W24HPUSB "1 Watt" Wi-Fi USB, Realtek RTL8187 </br>
 Belkin N300 Wi-Fi USB F9L1002V1 Realtek </br>
 TP-Link 150Mbps High Power "1 Watt" Wi-Fi USB TL-WN7200ND, MediaTek Ralink RT3070 </br>
-ASUS SFP+ 10G PCIe, AQC100 </br>
+ASUS XF-C100F SFP+ 10G PCIe, AQC100 </br>
 Sonnet 10G Solo PCIe, AQC100 </br>
-The board i have 2.5GbE Realtek </br>
+The board i have: Realtek 2.5GbE </br>
 
 [Ubuntu 24.04.1 LTS](https://releases.ubuntu.com/24.04/ubuntu-24.04.1-desktop-amd64.iso.torrent) </br>
 [Kubuntu 24.04.1 LTS](https://cdimage.ubuntu.com/kubuntu/releases/noble/release/kubuntu-24.04.1-desktop-amd64.iso.torrent) </br>
