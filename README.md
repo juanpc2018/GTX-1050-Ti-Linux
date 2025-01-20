@@ -29,20 +29,20 @@ making a lot of old software incompatible with 24.04.0 </br>
 Like Uninige Tropics </br>
 
 There has been other mayor changes that break backward compatibility: </br>
-Ubuntu 16.x had Ext4 v1.x, since Ubuntu 17 or 18 Ext4 was upgraded to v2.0 </br>
+Ubuntu 16 had Ext4 v1.x, but Ext4 was upgraded to v2.0 since Ubuntu 17 or 18 </br>
 Superblock & Magic Numbers from 32-Bit to 64-Bit and Journal changes. </br>
-if you open an HDD formatted with ext4 v2 in [Ext2Fsb v0.69](https://sourceforge.net/projects/ext2fsd/files/Ext2fsd/).[1](https://github.com/LiveMirror/ext2fsd) designed for Ext4 v1.x </br>
+if you Open an HDD formatted with ext4 v2 in [Ext2Fsb](https://sourceforge.net/projects/ext2fsd/files/Ext2fsd/).[v0.69](https://github.com/LiveMirror/ext2fsd) designed for Ext4 v1.x </br>
 will Damage the Superblock & Magic Number </br>
 Ext4 v2.0 Requires [Ext2Fsb v0.71](https://www.accum.se/~bosse/) designed for Ext4 v2 </br>
 
 similar happens with XFS: </br>
 XFS developed by sgi/Unix/IRIX, Open sourced and made compatible with Linux </br>
-XFS work ok for many years, but has the [2038 bug/limit](https://en.wikipedia.org/wiki/Year_2038_problem) </br>
-since xfs_tools v6.x XFS was changed, becoming backward incompatible: </br>
-If you open a drive formatted with XFS v5.x, and copy the partition to another drive with xfs_tools v6.x</br>
+XFS works ok for many years, but has the [2038 bug/limit](https://en.wikipedia.org/wiki/Year_2038_problem) </br>
+since xfs_tools v6.x XFS was changed, becoming backward incompatible; </br>
+If you open a drive formatted with XFS v5.x and copy the partition with xfs_tools v6.x </br>
 will Damage the Superblock, becoming backward incompatible. </br>
 
-for those reasons its recomended to use Gparted / Gnome Disk that comes with the Distribution .iso </br>
+for those reasons its recommended to use Gparted / Gnome Disk that comes with the Distribution .iso </br>
 [Not the latest Gparted](https://gparted.org/download.php) from the website... </br>
 
 --------------
