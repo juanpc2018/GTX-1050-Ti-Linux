@@ -137,7 +137,7 @@ Belkin N300 Wi-Fi USB F9L1002V1 Realtek </br>
 TP-Link 150Mbps High Power "1 Watt" Wi-Fi USB TL-WN7200ND, MediaTek Ralink RT3070 </br>
 ASUS SFP+ 10G PCIe, AQC100 </br>
 Sonnet 10G Solo PCIe, AQC100 </br>
-The board i have has 2.5GbE Realtek </br>
+The board i have 2.5GbE Realtek </br>
 
 [Ubuntu 24.04.1 LTS](https://releases.ubuntu.com/24.04/ubuntu-24.04.1-desktop-amd64.iso.torrent) </br>
 [Kubuntu 24.04.1 LTS](https://cdimage.ubuntu.com/kubuntu/releases/noble/release/kubuntu-24.04.1-desktop-amd64.iso.torrent) </br>
