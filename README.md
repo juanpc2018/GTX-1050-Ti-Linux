@@ -31,18 +31,21 @@ Like Uninige Tropics </br>
 There has been other mayor changes that break backward compatibility </br>
 Ubuntu 16.x had Ext4 v1.x, since Ubuntu 17 or 18 Ext4 was upgraded to v2.0 </br>
 Superblock & Magic Numbers from 32-Bit to 64-Bit and Journal changes. </br>
-if you open an HDD formatted with ext4 v2 in [Ext2Fsb v0.69](https://sourceforge.net/projects/ext2fsd/files/Ext2fsd/).[1](https://github.com/LiveMirror/ext2fsd) designed for Ext4 v1.x in R/W mode, will Damage the Superblock & Magic Number </br>
-Ext4 v2.0 partition Requires [Ext2Fsb v0.71](https://www.accum.se/~bosse/) designed for Ext4 v2 </br>
+if you open an HDD formatted with ext4 v2 in [Ext2Fsb v0.69](https://sourceforge.net/projects/ext2fsd/files/Ext2fsd/).[1](https://github.com/LiveMirror/ext2fsd) designed for Ext4 v1.x </br>
+will Damage the Superblock & Magic Number </br>
+Ext4 v2.0 Requires [Ext2Fsb v0.71](https://www.accum.se/~bosse/) designed for Ext4 v2 </br>
 
 similar happens with XFS: </br>
-XFS developed by sgi/Unix/IRIX, was open sourced and made compatible with Linux </br>
-XFS worked ok for many years, but has the [2038 bug/limit](https://en.wikipedia.org/wiki/Year_2038_problem) </br>
-since xfs_tools v6.x XFS was changed, becoming backward incompatible </br>
+XFS developed by sgi/Unix/IRIX, Open sourced and made compatible with Linux </br>
+XFS work ok for many years, but has the [2038 bug/limit](https://en.wikipedia.org/wiki/Year_2038_problem) </br>
+since xfs_tools v6.x XFS was changed, becoming backward incompatible: </br>
 If you open a drive formatted with XFS v5.x, and copy the partition to another drive with xfs_tools v6.x</br>
 will Damage the Superblock, becoming backward incompatible. </br>
 
-for those reasons its recomended to use Gparted that comes with the Distribution installer .iso </br>
+for those reasons its recomended to use Gparted / Gnome Disk that comes with the Distribution .iso </br>
 [Not the latest Gparted](https://gparted.org/download.php) from the website... </br>
+
+--------------
 
 [Ubuntu 22.04.0 LTS](https://web.archive.org/web/20220421144653/https://releases.ubuntu.com/22.04/ubuntu-22.04-desktop-amd64.iso.torrent) </br>
 [Kubuntu 22.04.0 LTS](https://web.archive.org/web/20220421153412/https://cdimage.ubuntu.com/kubuntu/releases/22.04/release/kubuntu-22.04-desktop-amd64.iso.torrent) </br>
