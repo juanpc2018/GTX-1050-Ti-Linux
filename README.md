@@ -126,13 +126,17 @@ if install nvidia 1st, realtek network cannot be installed later. </br>
 if all network devices require propietary drivers, OS becomes offline. </br>
 does not allow to "download dependencies" to compile drivers without internet, like [Marvell Aquantia AQtion ACQ100 SFP+ 10G Fiber PCIe](https://github.com/juanpc2018/Aquantia-PCIe-SFP-) </br>
 Offline OS requires erase & reinstall, or buy a network device that does not require propietary drivers, nor compile drivers, </br>
-i tested 7 different brands of network adapters: pcie, usb, wifi, rj45, sfp+ </br>
+i tested 8 different brands of network adapters: pcie, usb, wifi, rj45, sfp+ </br>
 all require internet. </br>
-The board i have, also has realtek. </br>
-[Apple USB2.0 to RJ45 100Mbps Ethernet Adapter](https://www.apple.com/shop/product/MC704LL/A/apple-usb-ethernet-adapter) has [AX88772A](https://www.asix.com.tw/en/support/download) </br>
-[Belkin USB 2.0 100Mbps Adapter F4U047 v1](https://www.belkin.com/support-article/?articleNum=4908) </br>
-ASUS SFP+ 10G </br>
-Sonnet 10G Solo, etc... </br>
+
+[Apple USB2.0 to RJ45 100Mbps Ethernet Adapter A1277](https://www.apple.com/shop/product/MC704LL/A/apple-usb-ethernet-adapter) has [asix AX88772A](https://www.asix.com.tw/en/support/download) </br>
+[Belkin USB 2.0 100Mbps Adapter F4U047](https://www.belkin.com/support-article/?articleNum=4908) Realtek </br>
+QP-W24HPUSB "1 Watt" Realtek </br>
+Belkin N300 Wi-Fi USB F9L1002V1 Realtek </br>
+TP-Link 150Mbps High Power "1 Watt" Wi-Fi USB TL-WN7200ND MediaTek Ralink RT3070 </br>
+ASUS SFP+ 10G PCIe AQC100 </br>
+Sonnet 10G Solo PCIe AQC100, </br>
+The board i have has 2.5GbE Realtek </br>
 
 [Ubuntu 24.04.1 LTS](https://releases.ubuntu.com/24.04/ubuntu-24.04.1-desktop-amd64.iso.torrent) </br>
 [Kubuntu 24.04.1 LTS](https://cdimage.ubuntu.com/kubuntu/releases/noble/release/kubuntu-24.04.1-desktop-amd64.iso.torrent) </br>
