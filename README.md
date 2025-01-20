@@ -89,7 +89,7 @@ OS works, but Unigine Tropics 1.3 does Not, has sh, execp and syntax errors. </b
 [Kubuntu 22.04.4 LTS](https://web.archive.org/web/20240225143127/https://cdimage.ubuntu.com/kubuntu/releases/22.04.4/release/kubuntu-22.04.4-desktop-amd64.iso.torrent) </br>
 Wayland installer work, but has glitches. </br>
 NVIDIA propietary driver 510 work ok. </br>
-Unigine Tropics 1.3 works. </br>
+Unigine Tropics 1.3 work ok. </br>
 
 [Ubuntu 22.04.5 LTS](https://releases.ubuntu.com/22.04/ubuntu-22.04.5-desktop-amd64.iso.torrent) </br>
 [Kubuntu 22.04.5 LTS](https://cdimage.ubuntu.com/kubuntu/releases/22.04.5/release/kubuntu-22.04.5-desktop-amd64.iso.torrent) </br>
