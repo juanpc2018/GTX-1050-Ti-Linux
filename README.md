@@ -77,14 +77,14 @@ Haven´t tested 20.04.5 </br>
 "Try Ubuntu Cinnamon" has Aquantia AQtion AQC100 drivers pre-compiled in the Kernel. </br>
 Kubuntu 22.04.2 is the best installer, works Flawless, Fast.  </br>
 Cinnamon 22.04.2 installer works super slow if cannot find DNS server, Network Manager is different. </br>
-Unigine Tropics 1.3 does Not work in 22.04.2 has sh, execp and syntax errors. </br>
+Unigine Tropics 1.3 does Not work in 22.04.2 has sh, execvp and syntax errors. </br>
 updating all apt, Unigine Tropics 1.3 has the same error as 24.04.0 libxrandr v2:1.5.x Not backward compatible with libxrandr v1.x </br> 
 
 [Ubuntu 22.04.3 LTS](https://web.archive.org/web/20231012154014/https://releases.ubuntu.com/22.04/ubuntu-22.04.3-desktop-amd64.iso.torrent) </br>
 [Kubuntu 22.04.3 LTS](https://web.archive.org/web/20230814215535/https://cdimage.ubuntu.com/kubuntu/releases/22.04.3/release/kubuntu-22.04.3-desktop-amd64.iso.torrent) </br>
 Kubuntu 22.04.3 Installer Requires Safe Graphics Mode, Wayland Not working, X11 phased out. </br>
 22.04.3 is the worse installer. </br>
-OS works, but Unigine Tropics 1.3 does Not, has sh, execp and syntax errors. </br>
+OS works, but Unigine Tropics 1.3 does Not, has sh, execvp and syntax errors. </br>
 
 [Ubuntu 22.04.4 LTS](https://web.archive.org/web/20240618125657/https://releases.ubuntu.com/22.04/ubuntu-22.04.4-desktop-amd64.iso.torrent) </br>
 [Kubuntu 22.04.4 LTS](https://web.archive.org/web/20240225143127/https://cdimage.ubuntu.com/kubuntu/releases/22.04.4/release/kubuntu-22.04.4-desktop-amd64.iso.torrent) </br>
