@@ -100,8 +100,10 @@ Unigine Tropics 1.3 </br>
 2D Desktop works, but... may have small issues. </br>
 3440x1440 160fps </br>
 DisplayPort out. </br>
-[UbuntuStudio 22.04.5] Nvidia propietary driver 470 Unigine Tropics 1.3 has the same error as 24.04.0 libxrandr v2:1.5.x Not backward compatible with libxrandr v1.x </br>
-Nvidia NV137 open driver has execvp error </br>
+[UbuntuStudio 22.04.5](https://cdimage.ubuntu.com/ubuntustudio/releases/22.04.5/release/ubuntustudio-22.04.5-dvd-amd64.iso.torrent) </br>
+Nvidia propietary driver 470 </br> 
+Unigine Tropics 1.3 error: libxrandr v2:1.5.x Not backward compatible with libxrandr v1.x </br>
+Nvidia NV137 Nouveau Open Source driver: execvp error. </br>
 
 Non-LTS: </br>
 [Ubuntu 22.10](https://web.archive.org/web/20231012153418/https://releases.ubuntu.com/mantic/ubuntu-23.10-desktop-amd64.iso.torrent) </br>
