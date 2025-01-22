@@ -118,11 +118,6 @@ Nvidia propietary driver 470 </br>
 Unigine Tropics 1.3 error: libxrandr v2:1.5.x Not backward compatible with libxrandr v1.x </br>
 Nvidia NV137 Nouveau Open Source driver: execvp error. </br>
 
-Non-LTS: </br>
-[Ubuntu 22.10](https://web.archive.org/web/20231012153418/https://releases.ubuntu.com/mantic/ubuntu-23.10-desktop-amd64.iso.torrent) </br>
-[Kubuntu 22.10](https://web.archive.org/web/20240225143127/https://cdimage.ubuntu.com/kubuntu/releases/23.10/release/kubuntu-23.10-desktop-amd64.iso.torrent) </br>
-[Ubuntu Cinnamon 22.10](https://sourceforge.net/projects/ubuntu-cinnamon-remix/files/) </br>
-
 FireFox / VLC HW acceleration requires All VDPAU GL & Mesa drivers, </br>
 or CPU load will be very high decoding h.264 / VP9 / h.265 videos on YT. </br>
 
@@ -147,6 +142,14 @@ or CPU load will be very high decoding h.264 / VP9 / h.265 videos on YT. </br>
 https://ubuntu.com/download/alternative-downloads </br>
 https://kubuntu.org/alternative-downloads/ </br>
 https://cdimage.ubuntu.com/ubuntucinnamon/releases/24.04.1/release/ </br>
+
+-------------------------
+
+# 22.10 Non-LTS: </br>
+
+[Ubuntu 22.10](https://web.archive.org/web/20231012153418/https://releases.ubuntu.com/mantic/ubuntu-23.10-desktop-amd64.iso.torrent) </br>
+[Kubuntu 22.10](https://web.archive.org/web/20240225143127/https://cdimage.ubuntu.com/kubuntu/releases/23.10/release/kubuntu-23.10-desktop-amd64.iso.torrent) </br>
+[Ubuntu Cinnamon 22.10](https://sourceforge.net/projects/ubuntu-cinnamon-remix/files/) </br>
 
 -------------------------
 
