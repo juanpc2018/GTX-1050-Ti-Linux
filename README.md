@@ -48,7 +48,7 @@ for those reasons its recommended to use Gparted / Gnome Disk that comes with th
 
 --------------
 
-# 20.04.x
+# 20.04.x LTS
 
 [pearOS Monterrey (2021.07.01)](https://archive.org/details/pearOS_Monterey_64bit-12-beta-2021.07.01) </br>
 based on Ubuntu 20.04.4 LTS </br>
