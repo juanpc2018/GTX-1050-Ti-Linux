@@ -66,6 +66,9 @@ Haven´t tested 20.04.5 </br>
 [Ubuntu Cinnamon 20.04.5](https://sourceforge.net/projects/ubuntu-cinnamon-remix/files/) </br>
 [UbuntuStudio 20.04.5](https://web.archive.org/web/20220901194445/https://cdimage.ubuntu.com/ubuntustudio/releases/20.04.5/release/ubuntustudio-20.04.5-dvd-amd64.iso.torrent) </br>
 
+FireFox & VLC HW acceleration requires All VDPAU GL & Mesa drivers, </br>
+or CPU load will be very high decoding h.264 / VP9 / h.265 videos on YT. </br>
+
 ------------------------
 
 [Ubuntu 22.04.0 LTS](https://web.archive.org/web/20220421144653/https://releases.ubuntu.com/22.04/ubuntu-22.04-desktop-amd64.iso.torrent) </br>
@@ -118,8 +121,6 @@ Nvidia propietary driver 470 </br>
 Unigine Tropics 1.3 error: libxrandr v2:1.5.x Not backward compatible with libxrandr v1.x </br>
 Nvidia NV137 Nouveau Open Source driver: execvp error. </br>
 
-FireFox / VLC HW acceleration requires All VDPAU GL & Mesa drivers, </br>
-or CPU load will be very high decoding h.264 / VP9 / h.265 videos on YT. </br>
 
 > $ neofetch --off </br>
 > </br>
