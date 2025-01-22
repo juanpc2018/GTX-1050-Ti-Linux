@@ -48,6 +48,8 @@ for those reasons its recommended to use Gparted / Gnome Disk that comes with th
 
 --------------
 
+# 20.04.x
+
 [pearOS Monterrey (2021.07.01)](https://archive.org/details/pearOS_Monterey_64bit-12-beta-2021.07.01) </br>
 based on Ubuntu 20.04.4 LTS </br>
 Unigine Tropics 1.3 works ok, 
@@ -61,6 +63,8 @@ requires manual install from [Nvidia archive](https://www.nvidia.com/en-us/drive
 
 Tropics 1.3 does Not work with 24.04.0 </br>
 Haven´t tested 20.04.5 </br>
+[Ubuntu Cinnamon 20.04.5](https://sourceforge.net/projects/ubuntu-cinnamon-remix/files/) </br>
+[UbuntuStudio 20.04.5](https://web.archive.org/web/20220901194445/https://cdimage.ubuntu.com/ubuntustudio/releases/20.04.5/release/ubuntustudio-20.04.5-dvd-amd64.iso.torrent) </br>
 
 ------------------------
 
