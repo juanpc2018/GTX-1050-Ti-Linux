@@ -66,10 +66,12 @@ Haven´t tested 20.04.5 </br>
 
 [Ubuntu 22.04.0 LTS](https://web.archive.org/web/20220421144653/https://releases.ubuntu.com/22.04/ubuntu-22.04-desktop-amd64.iso.torrent) </br>
 [Kubuntu 22.04.0 LTS](https://web.archive.org/web/20220421153412/https://cdimage.ubuntu.com/kubuntu/releases/22.04/release/kubuntu-22.04-desktop-amd64.iso.torrent) </br>
+[UbuntuStudio 22.04.0](https://web.archive.org/web/20220421203035/https://cdimage.ubuntu.com/ubuntustudio/releases/22.04/release/ubuntustudio-22.04-dvd-amd64.iso.torrent) </br>
 
 [Ubuntu 22.04.1 LTS](https://web.archive.org/web/20221225065350/https://releases.ubuntu.com/22.04/ubuntu-22.04.1-desktop-amd64.iso.torrent) </br>
 [Kubuntu 22.04.1 LTS](https://web.archive.org/web/20220819101631/https://cdimage.ubuntu.com/kubuntu/releases/22.04.1/release/kubuntu-22.04.1-desktop-amd64.iso.torrent) </br>
 [Ubuntu Cinnamon 22.04.1](https://sourceforge.net/projects/ubuntu-cinnamon-remix/files/) </br>
+[UbuntuStudio 22.04.1](https://web.archive.org/web/20220824233538/https://cdimage.ubuntu.com/ubuntustudio/releases/22.04.1/release/ubuntustudio-22.04.1-dvd-amd64.iso.torrent) </br>
 
 [Ubuntu 22.04.2 LTS](https://web.archive.org/web/20230226173353/https://releases.ubuntu.com/22.04/ubuntu-22.04.2-desktop-amd64.iso.torrent) </br>
 [Kubuntu 22.04.2 LTS](https://web.archive.org/web/20230304093850/https://cdimage.ubuntu.com/kubuntu/releases/22.04.2/release/kubuntu-22.04.2-desktop-amd64.iso.torrent) </br>
@@ -79,18 +81,25 @@ Kubuntu 22.04.2 is the best installer, works Flawless, Fast.  </br>
 Cinnamon 22.04.2 installer works super slow if cannot find DNS server, Network Manager is different. </br>
 Unigine Tropics 1.3 does Not work in 22.04.2 has sh, execvp and syntax errors. </br>
 updating all apt, Unigine Tropics 1.3 has the same error as 24.04.0 libxrandr v2:1.5.x Not backward compatible with libxrandr v1.x </br> 
+[UbuntuStudio 22.04.2](https://web.archive.org/web/20230227132827/https://cdimage.ubuntu.com/ubuntustudio/releases/22.04.2/release/ubuntustudio-22.04.2-dvd-amd64.iso.torrent) </br>
 
 [Ubuntu 22.04.3 LTS](https://web.archive.org/web/20231012154014/https://releases.ubuntu.com/22.04/ubuntu-22.04.3-desktop-amd64.iso.torrent) </br>
 [Kubuntu 22.04.3 LTS](https://web.archive.org/web/20230814215535/https://cdimage.ubuntu.com/kubuntu/releases/22.04.3/release/kubuntu-22.04.3-desktop-amd64.iso.torrent) </br>
 Kubuntu 22.04.3 Installer Requires Safe Graphics Mode, Wayland Not working, X11 phased out. </br>
 22.04.3 is the worse installer. </br>
 OS works, but Unigine Tropics 1.3 does Not, has sh, execvp and syntax errors. </br>
+[UbuntuStudio 22.04.3](https://web.archive.org/web/20230813114706/https://cdimage.ubuntu.com/ubuntustudio/releases/22.04.3/release/ubuntustudio-22.04.3-dvd-amd64.iso.torrent) </br>
 
 [Ubuntu 22.04.4 LTS](https://web.archive.org/web/20240618125657/https://releases.ubuntu.com/22.04/ubuntu-22.04.4-desktop-amd64.iso.torrent) </br>
 [Kubuntu 22.04.4 LTS](https://web.archive.org/web/20240225143127/https://cdimage.ubuntu.com/kubuntu/releases/22.04.4/release/kubuntu-22.04.4-desktop-amd64.iso.torrent) </br>
 Wayland installer work, but has glitches. </br>
 NVIDIA propietary driver 510 work ok. </br>
 Unigine Tropics 1.3 work ok. </br>
+[UbuntuStudio 22.04.4](https://web.archive.org/web/20240223072006/https://cdimage.ubuntu.com/ubuntustudio/releases/22.04.4/release/ubuntustudio-22.04.4-dvd-amd64.iso.torrent) </br>
+installer has glitches </br>
+Nvidia propietary driver 470 </br> 
+Unigine Tropics 1.3 error: libxrandr v2:1.5.x Not backward compatible with libxrandr v1.x </br>
+Nvidia NV137 Nouveau Open Source driver: execvp error. </br>
 
 [Ubuntu 22.04.5 LTS](https://releases.ubuntu.com/22.04/ubuntu-22.04.5-desktop-amd64.iso.torrent) </br>
 [Kubuntu 22.04.5 LTS](https://cdimage.ubuntu.com/kubuntu/releases/22.04.5/release/kubuntu-22.04.5-desktop-amd64.iso.torrent) </br>
