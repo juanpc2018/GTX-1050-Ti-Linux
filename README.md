@@ -48,7 +48,7 @@ for those reasons its recommended to use Gparted / Gnome Disk that comes with th
 
 other was a special version of libc.so.6 that is only available in Ubuntu 17.x, </br>
 if you try to compile software designed for 17 on other version wont compile, </br>
-unless its modified, and the special version of libc.so.6 cannot be installed on other OS, </br>
+unless its modified, the special version of libc.so.6 cannot be installed on other OS, </br>
 because its linked to kernel version and other dependecies only available in 17. </br>
 older & newer versions of libc.so.6 in Ubuntu 16 & 18 do Not compile. </br>
 
