@@ -46,6 +46,11 @@ will Damage the Superblock, becoming backward incompatible. </br>
 for those reasons its recommended to use Gparted / Gnome Disk that comes with the Distribution .iso </br>
 [Not the latest Gparted](https://gparted.org/download.php) from website... </br>
 
+other was a special version of libc.so.6 that is only available in Ubuntu 17.x, </br>
+if you try to compile software designed for 17 on other version wont compile, </br>
+unless its modified, and the special version of libc.so.6 cannot be installed on other OS, </br>
+because its linked to kernel version and other dependecies only available in 17. </br>
+
 --------------
 
 # 20.04.x LTS
