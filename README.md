@@ -61,7 +61,7 @@ based on Ubuntu 20.04.4 LTS </br>
 Unigine Tropics 1.3 works ok, 
 intel [i3-10110u](https://www.cpu-monkey.com/en/compare_cpu-intel_core_i3_10110u-vs-intel_core_i3_12100) iGPU </br>
 
-[Tropics 1.3 (2010)](https://benchmark.unigine.com/tropics) works with 20.04.4 & 22.04.4 Only. </br>
+[Tropics 1.3 (2010)](https://benchmark.unigine.com/tropics) works with 20.04.4 & 22.04.1 Only. </br>
 Maybe 22.04.5 if using a lower version Nvidia driver, </br>
 535 fail, seems 510 is the last driver that works with GTX 1050 Ti </br>
 but 22.04.5 does Not have 510, has 470. </br>
