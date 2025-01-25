@@ -68,9 +68,8 @@ but 22.04.5 does Not have 510, has 470. </br>
 requires manual install from [Nvidia archive](https://www.nvidia.com/en-us/drivers/unix/linux-amd64-display-archive/) </br>
 
 Tropics 1.3 does Not work with 24.04.0 </br>
-Haven´t tested 20.04.5 </br>
+Tested [UbuntuStudio 20.04.5](https://web.archive.org/web/20220901194445/https://cdimage.ubuntu.com/ubuntustudio/releases/20.04.5/release/ubuntustudio-20.04.5-dvd-amd64.iso.torrent) up to 22.04.5 None work. </br>
 [Ubuntu Cinnamon 20.04.5](https://sourceforge.net/projects/ubuntu-cinnamon-remix/files/) </br>
-[UbuntuStudio 20.04.5](https://web.archive.org/web/20220901194445/https://cdimage.ubuntu.com/ubuntustudio/releases/20.04.5/release/ubuntustudio-20.04.5-dvd-amd64.iso.torrent) </br>
 
 FireFox & VLC HW acceleration requires All VDPAU GL & Mesa drivers, </br>
 or CPU load will be very high decoding h.264 / VP9 / h.265 videos on YT. </br>
