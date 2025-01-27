@@ -210,10 +210,10 @@ Version: 2.31
 OpenGL error: invalid enum
 ```
 installing Nvidia-510 webdriver, is complicated. </br>
-Nvidie web driver requires to completely dissable Nouveau drivers. </br>
-in 22.04.5 LTS uninstalling default Nvidia driver damages / removes Realtek propietary drivers from Kernel module, </br>
+requires to completely dissable Nouveau drivers, </br>
+in 22.04.5 and 24.04.0 Uninstalling default Nvidia driver damages / removes Realtek propietary drivers from Kernel module, </br>
 requires compiling [Realtek webdriver](https://www.realtek.com/Download/Index?cate_id=194&menu_id=297) before uninstalling Nvidia default driver. </br>
-the board has 2.5GbE r8125, but Linux default is: r8169 </br>
+board has 2.5GbE r8125, but Linux default is: r8169 </br>
 $ lsmod | grep r81* </br>
 $ rmmod </br>
 $ modprobe </br>
