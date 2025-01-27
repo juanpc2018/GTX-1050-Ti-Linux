@@ -208,12 +208,17 @@ Version: 2.31
 OpenGL error: invalid enum
 ```
 installing Nvidia-510 webdriver, is complicated. </br>
-in 22-04-5 LTS uninstalling default Nvidia driver damages / removes Realtek propietary drivers. </br>
-lsmod </br>
-modprobe </br>
-rmmod </br>
-also requires to completelly dissable Nouveau drivers. </br>
+Nvidie web driver requires to completely dissable Nouveau drivers. </br>
+in 22.04.5 LTS uninstalling default Nvidia driver damages / removes Realtek propietary drivers from Kernel module, </br>
+requires compiling [Realtek webdriver](https://www.realtek.com/Download/Index?cate_id=194&menu_id=297) before uninstalling Nvidia default driver. </br>
+the board has 2.5GbE r8125, but Linux default is: r8169 </br>
+$ lsmod | grep r81* </br>
+$ rmmod </br>
+$ modprobe </br>
 
+very strange tropics does Not work with 470 driver Nor 535. </br>
+probably also requires i386 drivers </br>
+ 
 --------------------------
 
 There is many DOS/W95/98/XP games that were Open sourced by developers & converted to Linux by others, </br>
