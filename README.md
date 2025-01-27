@@ -37,16 +37,26 @@ it "worked" without sollution, when i installed something, but im unable to repr
 > Save path: /home/j/.Unigine Tropics/ </br>
 ./tropics/bin/Tropics </br>
 does Not detect Data path: /tropics/data </br>
-searches for: /tropics/bin/data </br>
-but there is Nothing on /bin/data </br>
+./tropics/bin/Tropics searches for: /tropics/bin/data </br>
+but there is Nothing on /tropics/bin/data </br>
 copy: /tropics/data to /tropics/bin/data </br>
-and delete log & .cfg in Save path /.Unigine Tropics
+delete: log & .cfg in Save path: /.Unigine Tropics
 makes the software run. </br>
 but... </br>
 
 #### Problem #2.
 > runs very slow with GTX 1050 Ti & driver 470 & 535, </br>
 > there is something wrong. </br>
+
+probably the error is: </br>
+> Loading "libopenal.so.1"... </br>
+> ALWrapper::init(): can't load "libopenal.so.1" library </br>
+> libopenal.so.1: cannot open shared object file: No such file or directory </br>
+> Can't initialize OpenAL wrapper </br>
+
+´´´$ whereis libopenal.so.1
+libopenal.so: /usr/lib/x86_64-linux-gnu/libopenal.so.1 /usr/lib/x86_64-linux-gnu/libopenal.so´´´
+
 
 There is many DOS/W95/98/XP games that were Open sourced by developers & converted to Linux by others, </br>
 80.GB of Games </br>
