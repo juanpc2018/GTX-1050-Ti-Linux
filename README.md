@@ -24,11 +24,11 @@ Real GPU is Required for Dual Boot with legacy OS like Windows8.1 in Z790 boards
 iGPU removed Legacy boot support, works up to 10th gen cpu's, 11th gen CPU's Unknown / Untested. </br>
 
 i like: </br>
-[Unigine Tropics 1.3 (2008-2010)](https://benchmark.unigine.com/tropics) [.run](https://assets.unigine.com/d/Unigine_Tropics-1.3.run) [Benchmark](https://benchmark.unigine.com/) for Linux OpenGL </br>
-[Sanctuary (2007)](https://benchmark.unigine.com/sanctuary) </br>
-[Heaven (2009)](https://benchmark.unigine.com/heaven) </br>
-[Valley (2013)](https://benchmark.unigine.com/valley) </br>
-[Superposition (2017)](https://benchmark.unigine.com/superposition) </br>
+[Unigine Tropics-1.3 (2008-2010)](https://benchmark.unigine.com/tropics) [.run](https://assets.unigine.com/d/Unigine_Tropics-1.3.run) [Benchmark](https://benchmark.unigine.com/) for Linux OpenGL </br>
+[Sanctuary-2.3 (2007)](https://benchmark.unigine.com/sanctuary) </br>
+[Heaven-4.0 (2009)](https://benchmark.unigine.com/heaven) </br>
+[Valley-1.0 (2013)](https://benchmark.unigine.com/valley) </br>
+[Superposition-1.1 (2017)](https://benchmark.unigine.com/superposition) </br>
 
 But Tropics & Sanctuary are weird, sometimes works flawless, clean install fails, [Never works again](https://forums.linuxmint.com/viewtopic.php?t=337657) </br>
 requires [MesaGL, OpenAL, xorg libs](https://freebsd.pkgs.org/14/freebsd-amd64/linux-unigine-tropics-1.3.pkg.html) but still does Not work, </br>
@@ -37,6 +37,8 @@ i think found the problem, but tested all OS without knowing, i have to re-test 
 the most strange was Kubuntu 22.04.5 </br>
 "worked" without sollution, when i installed something, but im unable to reproduce. </br>
 same happens with other OS like pearOS, i have other M.2 works flawless, but clean install in other machine does Not work. </br>
+
+.run installer properties needs to be allowed to be executed. </br>
 
 #### Problem #1. 
 > App path:  /home/j/AppImage/tropics/bin/ </br>
