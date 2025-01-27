@@ -90,6 +90,89 @@ but version 3.0.3 does Not work. </br>
 
 --------------------------
 
+[Unigine Tropics-1.3 (2008-2010)](https://benchmark.unigine.com/tropics)  & [Sanctuary-2.3 (2007)](https://benchmark.unigine.com/sanctuary) require OpenAL,
+
+but renamed to .so.1
+
+if Not, gives install OpenAl 
+```
+Loading "libopenal.so.1"...
+ALWrapper::init(): can't load "libopenal.so.1" library
+libopenal.so.1: cannot open shared object file: No such file or directory
+Can't initialize OpenAL wrapper
+Install latest OpenAL
+```
+
+and still does Not work...
+
+installing 32-Bit .so.1
+
+```
+$ ./1024x768_windowed.sh
+Loading "/home/j/.Unigine Tropics/unigine.cfg"...
+Loading "libGL.so.1"...
+Loading "libopenal.so.1"...
+ALSA lib conf.c:3722:(snd_config_hooks_call) Cannot open shared library libasound_module_conf_pulse.so (/usr/lib/i386-linux-gnu/alsa-lib/libasound_module_conf_pulse.so: libasound_module_conf_pulse.so: cannot open shared object file: No such file or directory)
+ALSA lib pcm.c:2642:(snd_pcm_open_noupdate) Unknown PCM default
+ALExt::init(): can't open device
+Set 1024x768 windowed video mode
+Set 1.00 gamma value
+Unigine engine http://unigine.com/
+Binary: Linux 32bit GCC 4.3.2 Release May 20 2010
+App path:  /home/j/Downloads/tropics/bin/
+Data path: /home/j/Downloads/tropics/data/
+Save path: /home/j/.Unigine Tropics/
+
+---- System ----
+System: Linux 6.3.13-1-liquorix-amd64 x86_64
+CPU: 12th Gen Intel(R) Core(TM) i3-12100 3302MHz MMX SSE SSE2 SSE3 SSSE3 SSE41 SSE42 HTT
+GPU: NVIDIA GeForce GTX 1050 Ti PCI Express 470.256.02
+System memory: 64167 Mb
+Video memory:  4096 Mb
+
+---- MathLib ----
+Set SSE3 simd processor
+
+---- Sound ----
+NULL
+```
+
+installing x64-bit .so.1
+gives wrong ELF class error
+```
+Loading "libopenal.so.1"...
+ALWrapper::init(): can't load "libopenal.so.1" library
+libopenal.so.1: wrong ELF class: ELFCLASS64
+Can't initialize OpenAL wrapper
+Install latest OpenAL
+
+```
+
+manual copy </br>
+/usr/lib/i386-linux-gnu/alsa-lib/libasound_module_conf_pulse.so </br>
+gives a different error: </br>
+```
+Loading "libopenal.so.1"...
+ALSA lib conf.c:3722:(snd_config_hooks_call) Cannot open shared library libasound_module_conf_pulse.so (/usr/lib/i386-linux-gnu/alsa-lib/libasound_module_conf_pulse.so: libmpg123.so.0: wrong ELF class: ELFCLASS64)
+ALSA lib pcm.c:2642:(snd_pcm_open_noupdate) Unknown PCM default
+ALExt::init(): can't open device
+```
+manual copy: </br>
+/usr/lib/x86_64-linux-gnu/libmpg123.so.0 ./bin
+gives another error: </br>
+copy libmpg123, its 64-bits, requires 32-Bit. </br>
+[libmpg123](https://sourceforge.net/projects/mpg123/files/mpg123/) [v1.25](http://mpg123.org/download/?V=1&O=D) </br>
+
+installing mpg123 :i386 from [Launchpad](https://launchpad.net/ubuntu/+source/mpg123)</br>
+gives another error:</br>
+libmp3lame.so.0</br>
+
+installing libmp3lame0 i386 from [Launchpad](https://launchpad.net/ubuntu/+source/lame) </br>
+Works! </br>
+but does Not solve the slow GPU frame rate problem with driver 470 </br>
+
+--------------------------
+
 There is many DOS/W95/98/XP games that were Open sourced by developers & converted to Linux by others, </br>
 80.GB of Games </br>
 
