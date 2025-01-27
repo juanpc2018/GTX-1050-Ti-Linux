@@ -43,7 +43,7 @@ does Not detect Data path: /tropics/data </br>
 ./tropics/bin/Tropics searches for: /tropics/bin/data </br>
 but there is Nothing on /tropics/bin/data </br>
 copy: /tropics/data to /tropics/bin/data </br>
-delete: log & .cfg in Save path: /.Unigine Tropics
+delete: .cache optional: .log & .cfg in Save path: /.Unigine Tropics </br>
 makes the software run. </br>
 but... </br>
 
