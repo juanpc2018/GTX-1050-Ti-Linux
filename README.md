@@ -199,7 +199,20 @@ Maximum auxiliary sends: 2
 ```
 but does Not solve the slow GPU frame rate problem with driver 470. </br>
 
-installing Nvidia 510 webdriver, is complicated. </br>
+there is 2 more errors:
+```
+---- Render ----
+GLRender::GLRender(): Unknown GPU
+---- Interpreter ----
+Version: 2.31
+OpenGL error: invalid enum
+```
+installing Nvidia-510 webdriver, is complicated. </br>
+in 22-04-5 LTS uninstalling default Nvidia driver damages / removes Realtek propietary drivers. </br>
+lsmod </br>
+modprobe </br>
+rmmod </br>
+also requires to completelly dissable Nouveau drivers. </br>
 
 --------------------------
 
