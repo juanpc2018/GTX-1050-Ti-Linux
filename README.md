@@ -176,6 +176,8 @@ ALExt::init(): can't open device
 ```
 libmp3lame.so.0</br>
 installing libmp3lame0 i386 from [Launchpad](https://launchpad.net/ubuntu/+source/lame) </br>
+> $ sudo dpkg -i libmp3lame0_3.100-3_i386.deb
+
 ### Works! </br>
 ```
 ---- Sound ----
