@@ -85,7 +85,7 @@ $ sudo cat /etc/ld.so.conf.d/x86_64-linux-gnu.conf </br>
 > /usr/lib/x86_64-linux-gnu </br>
 $ sudo ldconfig </br>
 
-seems requires manual copy the [32-Bit pre-compiled binary OpenAL](https://github.com/Lulu04/ALSound/releases?page=2) to /tropics/bin folder </br>
+requires manual copy [32-Bit pre-compiled binary OpenAL](https://github.com/Lulu04/ALSound/releases?page=2) to /tropics/bin folder </br>
 but version 3.0.3 does Not work. </br>
 
 --------------------------
