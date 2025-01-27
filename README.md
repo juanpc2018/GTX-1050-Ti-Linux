@@ -24,9 +24,30 @@ Real GPU is Required for Dual Boot with legacy OS like Windows8.1 in Z790 boards
 iGPU removed Legacy boot support, works up to 10th gen cpu's, 11th gen CPU's Unknown / Untested. </br>
 
 i like [Unigine Tropics 1.3 (2010)](https://benchmark.unigine.com/tropics) [.run](https://assets.unigine.com/d/Unigine_Tropics-1.3.run) Benchmark for Linux OpenGL </br>
-But 24.04.0 has libxrandr v2:1.5.x, Not backward compatible with libxrandr v1.x </br>
-making a lot of old software incompatible with 24.04.0 </br>
-DOS & W95/98/XP games that were Open sourced by developer & converted to Linux by others, </br>
+But Tropics its a weird software....</br>
+sometimes works flawless, clean install fails, [never works again](https://forums.linuxmint.com/viewtopic.php?t=337657) </br>
+i think i found the problem, but tested all OS without knowing the sollution, i have to re-test again. </br>
+
+the most strange was Kubuntu 22.04.5 </br>
+it "worked" without sollution, when i installed something, but im unable to reproduce. </br>
+
+#### Problem #1. 
+> App path:  /home/j/AppImage/tropics/bin/ </br>
+> Data path: /home/j/AppImage/tropics/data/ </br>
+> Save path: /home/j/.Unigine Tropics/ </br>
+./tropics/bin/Tropics </br>
+does Not detect Data path: /tropics/data </br>
+searches for: /tropics/bin/data </br>
+but there is Nothing on /bin/data </br>
+copy: /tropics/data to /tropics/bin/data </br>
+and delete log & .cfg in Save path /.Unigine Tropics
+makes the software run. </br>
+but... </br>
+#### Problem #2.
+runs very slow with GTX 1050 Ti & driver 470 & 535, </br>
+there is something wrong. </br>
+
+There is many DOS/W95/98/XP games that were Open sourced by developers & converted to Linux by others, </br>
 80.GB of Games </br>
 
 There has been other mayor changes that break backward compatibility: </br>
