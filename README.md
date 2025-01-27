@@ -23,15 +23,20 @@ i prefer Kernel 6.7 or higher because [Focusrite USB mk2/3 ](https://github.com/
 Real GPU is Required for Dual Boot with legacy OS like Windows8.1 in Z790 boards + 12th gen cpu's. </br>
 iGPU removed Legacy boot support, works up to 10th gen cpu's, 11th gen CPU's Unknown / Untested. </br>
 
-i like [Unigine Tropics 1.3 (2010)](https://benchmark.unigine.com/tropics) [.run](https://assets.unigine.com/d/Unigine_Tropics-1.3.run) Benchmark for Linux OpenGL </br>
-But Tropics its a weird software....</br>
-sometimes works flawless, clean install fails, [never works again](https://forums.linuxmint.com/viewtopic.php?t=337657) </br>
+i like: </br>
+[Unigine Tropics 1.3 (2008-2010)](https://benchmark.unigine.com/tropics) [.run](https://assets.unigine.com/d/Unigine_Tropics-1.3.run) [Benchmark](https://benchmark.unigine.com/) for Linux OpenGL </br>
+[Sanctuary (2007)](https://benchmark.unigine.com/sanctuary) </br>
+[Heaven (2009)](https://benchmark.unigine.com/heaven) </br>
+[Valley (2013)](https://benchmark.unigine.com/valley) </br>
+[Superposition (2017)](https://benchmark.unigine.com/superposition) </br>
+
+But Tropics & Sanctuary are weird, sometimes works flawless, clean install fails, [Never works again](https://forums.linuxmint.com/viewtopic.php?t=337657) </br>
 requires [MesaGL, OpenAL, xorg libs](https://freebsd.pkgs.org/14/freebsd-amd64/linux-unigine-tropics-1.3.pkg.html) but still does Not work, </br>
-i think i found the problem, but tested all OS without knowing, i have to re-test again. </br>
+i think found the problem, but tested all OS without knowing, i have to re-test again. </br>
 
 the most strange was Kubuntu 22.04.5 </br>
 "worked" without sollution, when i installed something, but im unable to reproduce. </br>
-same happens with other OS like pearOS, i have other M.2 and works flawless, but clean install does Not work. </br>
+same happens with other OS like pearOS, i have other M.2 works flawless, but clean install in other machine does Not work. </br>
 
 #### Problem #1. 
 > App path:  /home/j/AppImage/tropics/bin/ </br>
@@ -42,16 +47,22 @@ same happens with other OS like pearOS, i have other M.2 and works flawless, but
 does Not detect Data path: /tropics/data </br>
 ./tropics/bin/Tropics searches for: /tropics/bin/data </br>
 but there is Nothing on /tropics/bin/data </br>
+
 copy: /tropics/data to /tropics/bin/data </br>
-delete: .cache optional: .log & .cfg in Save path: /.Unigine Tropics </br>
-makes the software run. </br>
+delete: .cache .log .cfg in Save path: "/.Unigine Tropics" </br>
+$ ./1024x768_windowed.sh </br> 
+Works! </br>
 but... </br>
 
 #### Problem #2.
 > runs very slow with GTX 1050 Ti & driver 470 & 535, </br>
 > there is something wrong. </br>
+i've seen it run flawless with driver 510, same machine, same OS, but unable to reproduce, </br>
+seems Kubuntu installer 22.04.5 does something strange/different when detects an Nvidia GPU, instead of iGPU </br>
+installing propietary drivers are a custom version different from nvidia web drives, </br>
+web drivers does Not install easy. </br>
 
-probably the error is: </br>
+probably the 2nd error is: </br>
 > Loading "libopenal.so.1"... </br>
 > ALWrapper::init(): can't load "libopenal.so.1" library </br>
 > libopenal.so.1: cannot open shared object file: No such file or directory </br>
