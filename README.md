@@ -216,8 +216,12 @@ $ lsmod | grep r81* </br>
 $ rmmod </br>
 $ modprobe </br>
 
-very strange tropics does Not work with 470 driver Nor 535. </br>
- 
+very strange [Unigine Tropics-1.3 (2008-2010)](https://benchmark.unigine.com/tropics) & [Sanctuary-2.3 (2007)](https://benchmark.unigine.com/sanctuary) does Not work with 470 driver Nor 535. </br>
+all others work ok.</br>
+[Heaven 4.0 (2009)](https://benchmark.unigine.com/heaven) </br>
+[Valley 1.0 (2013)](https://benchmark.unigine.com/valley) </br>
+[Superposition 1.1 (2017)](https://benchmark.unigine.com/superposition) </br>
+
 --------------------------
 
 There is many DOS/W95/98/XP games that were Open sourced by developers & converted to Linux by others, </br>
