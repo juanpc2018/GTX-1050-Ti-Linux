@@ -19,6 +19,8 @@ for VLC developers: Non-LTS = LTS </br>
 they link [VLC version to OS version](https://packages.ubuntu.com/search?searchon=sourcenames&keywords=vlc) </br>
 
 i prefer Kernel 6.7 or higher because [Focusrite USB mk2/3 ](https://github.com/geoffreybennett/alsa-scarlett-gui/blob/master/docs/INSTALL.md) drivers are Activated by Default. </br> 
+but pearOS fully updated goes up to: 20.04.6 LTS & liquorix kernel goes up to: 6.3.13-1-liquorix-amd64 </br>
+does Not have Gtk4, Focusrite app requires Flatpak </br>
 
 Real GPU is Required for Dual Boot with legacy OS like Windows8.1 in Z790 boards + 12th gen cpu's. </br>
 iGPU removed Legacy boot support, works up to 10th gen cpu's, 11th gen CPU's Unknown / Untested. </br>
