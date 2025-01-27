@@ -178,6 +178,26 @@ libmp3lame.so.0</br>
 installing libmp3lame0 i386 from [Launchpad](https://launchpad.net/ubuntu/+source/lame) </br>
 ### Works! </br>
 but does Not solve the slow GPU frame rate problem with driver 470. </br>
+```
+---- Sound ----
+Renderer: OpenAL Soft
+OpenAL vendor:   OpenAL Community
+OpenAL renderer: OpenAL Soft
+OpenAL version:  1.1 ALSOFT 1.22.0
+Found AL_EXT_LINEAR_DISTANCE
+Found AL_EXT_OFFSET
+Found ALC_EXT_EFX
+Found EFX Filter
+Found EFX Reverb
+Found EAX Reverb
+Found QUAD16 format
+Found 51CHN16 format
+Found 61CHN16 format
+Found 71CHN16 format
+Maximum sources:         256
+Maximum effect slots:    16
+Maximum auxiliary sends: 2
+```
 
 --------------------------
 
