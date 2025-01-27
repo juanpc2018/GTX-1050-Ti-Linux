@@ -57,8 +57,9 @@ Works! </br>
 but... </br>
 
 #### Problem #2.
-> runs very slow with GTX 1050 Ti & driver 470 & 535, </br>
-> there is something wrong. </br>
+ runs very slow with GTX 1050 Ti & driver 470 & 535, </br>
+ there is something wrong. </br>
+ 
 i've seen it run flawless with driver 510, same machine, same OS, but unable to reproduce, </br>
 seems Kubuntu installer 22.04.5 does something strange/different when detects an Nvidia GPU, instead of iGPU </br>
 installing propietary drivers are a custom version different from nvidia web drives, </br>
