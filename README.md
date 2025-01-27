@@ -43,9 +43,10 @@ copy: /tropics/data to /tropics/bin/data </br>
 and delete log & .cfg in Save path /.Unigine Tropics
 makes the software run. </br>
 but... </br>
+
 #### Problem #2.
-runs very slow with GTX 1050 Ti & driver 470 & 535, </br>
-there is something wrong. </br>
+> runs very slow with GTX 1050 Ti & driver 470 & 535, </br>
+> there is something wrong. </br>
 
 There is many DOS/W95/98/XP games that were Open sourced by developers & converted to Linux by others, </br>
 80.GB of Games </br>
