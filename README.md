@@ -150,7 +150,7 @@ Install latest OpenAL
 
 probem 3: Tropics requires i386 libs, </br>
 manual copy to /bin folder: </br>
-$ cp /usr/lib/i386-linux-gnu/alsa-lib/libasound_module_conf_pulse.so ./bin </br>
+> $ cp /usr/lib/i386-linux-gnu/alsa-lib/libasound_module_conf_pulse.so ./bin </br>
 
 gives a different error: </br>
 ```
