@@ -177,7 +177,6 @@ ALExt::init(): can't open device
 libmp3lame.so.0</br>
 installing libmp3lame0 i386 from [Launchpad](https://launchpad.net/ubuntu/+source/lame) </br>
 ### Works! </br>
-but does Not solve the slow GPU frame rate problem with driver 470. </br>
 ```
 ---- Sound ----
 Renderer: OpenAL Soft
@@ -198,6 +197,9 @@ Maximum sources:         256
 Maximum effect slots:    16
 Maximum auxiliary sends: 2
 ```
+but does Not solve the slow GPU frame rate problem with driver 470. </br>
+
+installing Nvidia 510 webdriver, is complicated. </br>
 
 --------------------------
 
