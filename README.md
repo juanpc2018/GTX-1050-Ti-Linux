@@ -62,7 +62,7 @@ libopenal.so: /usr/lib/x86_64-linux-gnu/libopenal.so.1 /usr/lib/x86_64-linux-gnu
 $ ls /etc/ld.so.conf.d </br>
 fakeroot-x86_64-linux-gnu.conf  i386-linux-gnu.conf  libc.conf  x86_64-linux-gnu.conf </br>
 $ sudo cat /etc/ld.so.conf.d/x86_64-linux-gnu.conf </br>
-> # Multiarch support </br>
+> ####### Multiarch support </br>
 > /usr/local/lib/x86_64-linux-gnu </br>
 > /lib/x86_64-linux-gnu </br>
 > /usr/lib/x86_64-linux-gnu </br>
