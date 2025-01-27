@@ -160,14 +160,15 @@ ALSA lib pcm.c:2642:(snd_pcm_open_noupdate) Unknown PCM default
 ALExt::init(): can't open device
 ```
 manual copy: </br>
-$ cp /usr/lib/x86_64-linux-gnu/libmpg123.so.0 ./bin </br>
+> $ cp /usr/lib/x86_64-linux-gnu/libmpg123.so.0 ./bin </br>
 
 gives another error: </br>
 libmpg123 its 64-bits, requires 32-Bit. </br>
 [libmpg123](https://sourceforge.net/projects/mpg123/files/mpg123/) [v1.25](http://mpg123.org/download/?V=1&O=D) </br>
 
 installing mpg123 :i386 from [Launchpad](https://launchpad.net/ubuntu/+source/mpg123)</br>
-gives another error:</br>
+requires to satisfy a lot of dependencies, </br>
+then tropics gives another error: </br>
 ```
 Loading "libopenal.so.1"...
 ALSA lib conf.c:3722:(snd_config_hooks_call) Cannot open shared library libasound_module_conf_pulse.so (/usr/lib/i386-linux-gnu/alsa-lib/libasound_module_conf_pulse.so: libmp3lame.so.0: cannot open shared object file: No such file or directory)
