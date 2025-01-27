@@ -26,15 +26,18 @@ iGPU removed Legacy boot support, works up to 10th gen cpu's, 11th gen CPU's Unk
 i like [Unigine Tropics 1.3 (2010)](https://benchmark.unigine.com/tropics) [.run](https://assets.unigine.com/d/Unigine_Tropics-1.3.run) Benchmark for Linux OpenGL </br>
 But Tropics its a weird software....</br>
 sometimes works flawless, clean install fails, [never works again](https://forums.linuxmint.com/viewtopic.php?t=337657) </br>
-i think i found the problem, but tested all OS without knowing the sollution, i have to re-test again. </br>
+requires [MesaGL, OpenAL, xorg libs](https://freebsd.pkgs.org/14/freebsd-amd64/linux-unigine-tropics-1.3.pkg.html) but still does Not work, </br>
+i think i found the problem, but tested all OS without knowing, i have to re-test again. </br>
 
 the most strange was Kubuntu 22.04.5 </br>
-it "worked" without sollution, when i installed something, but im unable to reproduce. </br>
+"worked" without sollution, when i installed something, but im unable to reproduce. </br>
+same happens with other OS like pearOS, i have other M.2 and works flawless, but clean install does Not work. </br>
 
 #### Problem #1. 
 > App path:  /home/j/AppImage/tropics/bin/ </br>
 > Data path: /home/j/AppImage/tropics/data/ </br>
 > Save path: /home/j/.Unigine Tropics/ </br>
+
 ./tropics/bin/Tropics </br>
 does Not detect Data path: /tropics/data </br>
 ./tropics/bin/Tropics searches for: /tropics/bin/data </br>
@@ -54,9 +57,18 @@ probably the error is: </br>
 > libopenal.so.1: cannot open shared object file: No such file or directory </br>
 > Can't initialize OpenAL wrapper </br>
 
-´´´$ whereis libopenal.so.1
-libopenal.so: /usr/lib/x86_64-linux-gnu/libopenal.so.1 /usr/lib/x86_64-linux-gnu/libopenal.so´´´
+$ whereis libopenal.so.1 </br>
+libopenal.so: /usr/lib/x86_64-linux-gnu/libopenal.so.1 /usr/lib/x86_64-linux-gnu/libopenal.so </br>
+$ ls /etc/ld.so.conf.d </br>
+fakeroot-x86_64-linux-gnu.conf  i386-linux-gnu.conf  libc.conf  x86_64-linux-gnu.conf </br>
+$ sudo cat /etc/ld.so.conf.d/x86_64-linux-gnu.conf </br>
+> # Multiarch support </br>
+> /usr/local/lib/x86_64-linux-gnu </br>
+> /lib/x86_64-linux-gnu </br>
+> /usr/lib/x86_64-linux-gnu </br>
+$ sudo ldconfig </br>
 
+--------------------------
 
 There is many DOS/W95/98/XP games that were Open sourced by developers & converted to Linux by others, </br>
 80.GB of Games </br>
