@@ -92,9 +92,9 @@ but version 3.0.3 does Not work. </br>
 
 [Unigine Tropics-1.3 (2008-2010)](https://benchmark.unigine.com/tropics)  & [Sanctuary-2.3 (2007)](https://benchmark.unigine.com/sanctuary) require OpenAL,
 
-but renamed to .so.1
+copy in the /tropics/bin folder but renamed to .so.1
 
-if Not, gives install OpenAl 
+if Not, gives install OpenAl error
 ```
 Loading "libopenal.so.1"...
 ALWrapper::init(): can't load "libopenal.so.1" library
@@ -148,8 +148,10 @@ Install latest OpenAL
 
 ```
 
-manual copy </br>
-/usr/lib/i386-linux-gnu/alsa-lib/libasound_module_conf_pulse.so </br>
+probem 3: Tropics requires i386 libs, </br>
+manual copy to /bin folder: </br>
+$ cp /usr/lib/i386-linux-gnu/alsa-lib/libasound_module_conf_pulse.so ./bin </br>
+
 gives a different error: </br>
 ```
 Loading "libopenal.so.1"...
@@ -158,18 +160,24 @@ ALSA lib pcm.c:2642:(snd_pcm_open_noupdate) Unknown PCM default
 ALExt::init(): can't open device
 ```
 manual copy: </br>
-/usr/lib/x86_64-linux-gnu/libmpg123.so.0 ./bin
+$ cp /usr/lib/x86_64-linux-gnu/libmpg123.so.0 ./bin </br>
+
 gives another error: </br>
-copy libmpg123, its 64-bits, requires 32-Bit. </br>
+libmpg123 its 64-bits, requires 32-Bit. </br>
 [libmpg123](https://sourceforge.net/projects/mpg123/files/mpg123/) [v1.25](http://mpg123.org/download/?V=1&O=D) </br>
 
 installing mpg123 :i386 from [Launchpad](https://launchpad.net/ubuntu/+source/mpg123)</br>
 gives another error:</br>
+```
+Loading "libopenal.so.1"...
+ALSA lib conf.c:3722:(snd_config_hooks_call) Cannot open shared library libasound_module_conf_pulse.so (/usr/lib/i386-linux-gnu/alsa-lib/libasound_module_conf_pulse.so: libmp3lame.so.0: cannot open shared object file: No such file or directory)
+ALSA lib pcm.c:2642:(snd_pcm_open_noupdate) Unknown PCM default
+ALExt::init(): can't open device
+```
 libmp3lame.so.0</br>
-
 installing libmp3lame0 i386 from [Launchpad](https://launchpad.net/ubuntu/+source/lame) </br>
-Works! </br>
-but does Not solve the slow GPU frame rate problem with driver 470 </br>
+### Works! </br>
+but does Not solve the slow GPU frame rate problem with driver 470. </br>
 
 --------------------------
 
