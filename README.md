@@ -217,7 +217,6 @@ $ rmmod </br>
 $ modprobe </br>
 
 very strange tropics does Not work with 470 driver Nor 535. </br>
-probably also requires i386 drivers </br>
  
 --------------------------
 
