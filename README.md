@@ -19,8 +19,8 @@ for VLC developers: Non-LTS = LTS </br>
 they link [VLC version to OS version](https://packages.ubuntu.com/search?searchon=sourcenames&keywords=vlc) </br>
 
 i prefer Kernel 6.7 or higher because [Focusrite USB mk2/3 ](https://github.com/geoffreybennett/alsa-scarlett-gui/blob/master/docs/INSTALL.md) drivers are Activated by Default. </br> 
-but pearOS fully updated goes up to: 20.04.6 LTS & liquorix kernel goes up to: 6.3.13-1-liquorix-amd64 </br>
-does Not have Gtk4, Focusrite app requires Flatpak </br>
+[pearOS Monterrey (2021.07.01)](https://archive.org/details/pearOS_Monterey_64bit-12-beta-2021.07.01) fully updated goes up to: 20.04.6 LTS + [liquorix](https://liquorix.net/) kernel goes up to: 6.3.13-1-liquorix-amd64 </br>
+does Not have Gtk4, Focusrite app requires Gtk4 to compile or install Flatpak </br>
 
 Real GPU is Required for Dual Boot with legacy OS like Windows8.1 in Z790 boards + 12th gen cpu's. </br>
 iGPU removed Legacy boot support, works up to 10th gen cpu's, 11th gen CPU's Unknown / Untested. </br>
@@ -237,6 +237,10 @@ older & newer versions of libc.so.6 in Ubuntu 16 & 18 do Not compile. </br>
 based on Ubuntu 20.04.4 LTS </br>
 Unigine Tropics 1.3 works ok, 
 intel [i3-10110u](https://www.cpu-monkey.com/en/compare_cpu-intel_core_i3_10110u-vs-intel_core_i3_12100) iGPU </br>
+but clean install does Not. </br>
+probably installer detects UEFI vs. Normal Boot and also changes other things appart from /boot/efi </br>
+maybe installer when installing proprietary Nvidia drivers, also changes other things. </br>
+
 
 [Tropics 1.3 (2010)](https://benchmark.unigine.com/tropics) works with 20.04.4 & 22.04.1 Only. </br>
 Maybe 22.04.5 if using a lower version Nvidia driver, </br>
