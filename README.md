@@ -49,6 +49,7 @@ same happens with other OS like pearOS, i have other M.2 works flawless, but cle
 
 ./tropics/bin/Tropics </br>
 does Not detect Data path: /tropics/data </br>
+if .run is in a different folder than /Downloads or /home </br>
 ./tropics/bin/Tropics searches for: /tropics/bin/data </br>
 but there is Nothing on /tropics/bin/data </br>
 
@@ -58,16 +59,16 @@ $ ./1024x768_windowed.sh </br>
 Works! </br>
 but... </br>
 
-#### Problem #2.
- runs very slow with GTX 1050 Ti & driver 470 & 535, </br>
- there is something wrong. </br>
+#### Problem #2. </br>
+runs very slow with GTX 1050 Ti & driver 470 & 535, </br>
+there is something wrong. </br>
  
 i've seen it run flawless with driver 510, same machine, same OS, but unable to reproduce, </br>
 seems Kubuntu installer 22.04.5 does something strange/different when detects an Nvidia GPU, instead of iGPU </br>
 installing propietary drivers are a custom version different from nvidia web drives, </br>
 web drivers does Not install easy. </br>
 
-probably the 2nd error is: </br>
+#### Problem #3. </br>
 > Loading "libopenal.so.1"... </br>
 > ALWrapper::init(): can't load "libopenal.so.1" library </br>
 > libopenal.so.1: cannot open shared object file: No such file or directory </br>
@@ -83,6 +84,9 @@ $ sudo cat /etc/ld.so.conf.d/x86_64-linux-gnu.conf </br>
 > /lib/x86_64-linux-gnu </br>
 > /usr/lib/x86_64-linux-gnu </br>
 $ sudo ldconfig </br>
+
+seems requires manual copy the [32-Bit pre-compiled binary OpenAL](https://github.com/Lulu04/ALSound/releases?page=2) to /tropics/bin folder </br>
+but version 3.0.3 does Not work. </br>
 
 --------------------------
 
