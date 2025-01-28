@@ -97,11 +97,10 @@ $ sudo ldconfig </br>
 
 --------------------------
 
-[Unigine Tropics-1.3 (2008-2010)](https://benchmark.unigine.com/tropics)  & [Sanctuary-2.3 (2007)](https://benchmark.unigine.com/sanctuary) require OpenAL,
-OpenAL require manual copy [32-Bit pre-compiled binary OpenAL](https://github.com/Lulu04/ALSound/releases?page=2) to /tropics/bin folder </br>
+[Unigine Tropics-1.3 (2008-2010)](https://benchmark.unigine.com/tropics)  & [Sanctuary-2.3 (2007)](https://benchmark.unigine.com/sanctuary) require OpenAL, </br>
+OpenAL requires manual copy [32-Bit pre-compiled binary OpenAL](https://github.com/Lulu04/ALSound/releases?page=2) to /tropics/bin folder </br>
 latest version 3.0.3, but downloaded tested 3.0.0 </br>
-Tropics requires i386 libs, </br>
-in the /tropics/bin folder but renamed to .so.1 </br>
+Tropics requires i386 libs, in the /tropics/bin folder, but renamed to .so.1 </br>
 if Not, gives install OpenAl error: </br>
 ```
 Loading "libopenal.so.1"...
@@ -156,7 +155,7 @@ Install latest OpenAL
 
 ```
 
-also requires to manual copy: </br>
+also requires manual copy: </br>
 > $ cp /usr/lib/i386-linux-gnu/alsa-lib/libasound_module_conf_pulse.so ./bin </br>
 
 and gives a different error: </br>
@@ -169,12 +168,15 @@ ALExt::init(): can't open device
 also requires manual copy: </br>
 > $ cp /usr/lib/x86_64-linux-gnu/libmpg123.so.0 ./bin </br>
 
-and  gives another error: </br>
-libmpg123 its 64-bits, requires 32-Bit. </br>
+and gives another error: </br>
+libmpg123 is 64-bits, requires 32-Bit. </br>
 pearOS 12.0.0 updated to Ubuntu 20.04.6 LTS "Focal" comes with 64-Bit [libmpg123](https://sourceforge.net/projects/mpg123/files/mpg123/) [v1.25](http://mpg123.org/download/?V=1&O=D) </br>
 
 installing mpg123 v1.25 :i386 from [Launchpad](https://launchpad.net/ubuntu/+source/mpg123)</br>
 requires to satisfy a lot of dependencies, </br>
+or from: </br>
+$ sudo synaptic </br>
+architecture </br>
 then tropics gives another error: </br>
 ```
 Loading "libopenal.so.1"...
@@ -212,6 +214,7 @@ same problem 20.04.6 and 22.04.5 </br>
 drivers 470 & 535 </br>
 i've seen tropics run flawless in 22.04 and 20.04 with driver 510 </br>
 but clean install does Not work. </br>
+ppa apt rolling repository makes harder clean install. </br>
 
 2 more errors: </br>
 ```
@@ -230,12 +233,13 @@ $ lsmod | grep r81* </br>
 $ rmmod </br>
 $ modprobe </br>
 
-very strange [Unigine Tropics-1.3 (2008-2010)](https://benchmark.unigine.com/tropics) & [Sanctuary-2.3 (2007)](https://benchmark.unigine.com/sanctuary) does Not work with 470 driver Nor 535. </br>
+strange [Unigine Tropics-1.3](https://benchmark.unigine.com/tropics) & [Sanctuary-2.3](https://benchmark.unigine.com/sanctuary) does Not work with 470 driver Nor 535. </br>
 all others work ok.</br>
 [Heaven 4.0 (2009)](https://benchmark.unigine.com/heaven) </br>
 [Valley 1.0 (2013)](https://benchmark.unigine.com/valley) </br>
 [Superposition 1.1 (2017)](https://benchmark.unigine.com/superposition) </br>
-but sometimes Tropics works flawless, i've seen 22.04.3 LTS with 510 Not from installer .iso Not web driver. </br>
+but Tropics works flawless sometimes, </br>
+i've seen 22.04.3 LTS with 510 Not from installer .iso Not web driver. </br>
 Software & Update Driver </br>
 
 somehow [software-properties-qt](https://www.kubuntuforums.net/forum/general/documentation/the-laboratory/674904-software-updates?p=674922#post674922) got uninstalled, </br>
