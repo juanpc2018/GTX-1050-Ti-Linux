@@ -232,6 +232,7 @@ also somehow [software-properties-qt](https://www.kubuntuforums.net/forum/genera
 
 or </br>
 > $ sudo apt install software-properties-kde </br>
+
 works ok. </br>
 
 --------------------------
