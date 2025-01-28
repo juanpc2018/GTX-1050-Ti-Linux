@@ -39,10 +39,15 @@ i think found the problem, but tested all OS without knowing, have to re-test ag
 
 the most strange was Kubuntu 22.04.5 </br>
 "worked" without sollution, when i installed something, but im unable to reproduce. </br>
-Clean install Fails. </br>
+Clean install Fail. </br>
 same happens with other OS like pearOS, i have other M.2 works flawless, but clean install does Not work. </br>
 
 .run installer needs to be allowed to be executed in properties. </br>
+
+64 bit requires to [Enable 32 bit](https://gitlab.winehq.org/wine/wine/-/wikis/Debian-Ubuntu) architecture: </br>
+> sudo dpkg --add-architecture i386 </br>
+
+> $ ./1024x768_windowed.sh </br>
 
 #### Problem #1. 
 > App path:  /home/j/AppImage/tropics/bin/ </br>
@@ -51,7 +56,7 @@ same happens with other OS like pearOS, i have other M.2 works flawless, but cle
 
 ./tropics/bin/Tropics </br>
 does Not detect Data path: /tropics/data </br>
-if .run is in a different folder than /Downloads or /home </br>
+if .run was in a different folder than /Downloads or /home </br>
 ./tropics/bin/Tropics searches for: /tropics/bin/data </br>
 but there is Nothing on /tropics/bin/data </br>
 
