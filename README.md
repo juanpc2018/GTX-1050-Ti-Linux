@@ -229,6 +229,7 @@ Software & Update Driver </br>
 
 also somehow [software-properties-qt](https://www.kubuntuforums.net/forum/general/documentation/the-laboratory/674904-software-updates?p=674922#post674922) got uninstalled, </br>
 > $ sudo apt install software-properties-qt </br>
+
 or </br>
 > $ sudo apt install software-properties-kde </br>
 works ok. </br>
