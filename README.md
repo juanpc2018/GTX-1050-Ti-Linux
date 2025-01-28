@@ -42,7 +42,7 @@ the most strange was Kubuntu 22.04.5 </br>
 Clean install Fail. </br>
 same happens with other OS like pearOS, i have other M.2 works flawless, but clean install does Not work. </br>
 
-.run installer needs to be allowed to be executed in properties. </br>
+.run installer needs to be allowed to be executable in properties. </br>
 
 64 bit requires to [Enable 32 bit](https://gitlab.winehq.org/wine/wine/-/wikis/Debian-Ubuntu) architecture: </br>
 > sudo dpkg --add-architecture i386 </br>
