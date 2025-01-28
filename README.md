@@ -35,7 +35,7 @@ i like: </br>
 But Tropics & Sanctuary are weird, </br>
 sometimes works flawless, but clean install fails & [Never works again](https://forums.linuxmint.com/viewtopic.php?t=337657) </br>
 requires [MesaGL, OpenAL, xorg libs](https://freebsd.pkgs.org/14/freebsd-amd64/linux-unigine-tropics-1.3.pkg.html) but still does Not work, </br>
-i think found the problem, but tested all OS without knowing, have to re-test again. </br>
+i think found the problem, but tested all OS without knowing, have to re-test. </br>
 
 the most strange was Kubuntu 22.04.5 </br>
 "worked" without sollution, when i installed something, but im unable to reproduce. </br>
