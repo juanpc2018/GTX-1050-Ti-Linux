@@ -85,16 +85,15 @@ $ sudo cat /etc/ld.so.conf.d/x86_64-linux-gnu.conf </br>
 > /usr/lib/x86_64-linux-gnu </br>
 $ sudo ldconfig </br>
 
-requires manual copy [32-Bit pre-compiled binary OpenAL](https://github.com/Lulu04/ALSound/releases?page=2) to /tropics/bin folder </br>
-latest version 3.0.3, but downloaded tested 3.0.0. </br>
 
 --------------------------
 
 [Unigine Tropics-1.3 (2008-2010)](https://benchmark.unigine.com/tropics)  & [Sanctuary-2.3 (2007)](https://benchmark.unigine.com/sanctuary) require OpenAL,
-
-copy in the /tropics/bin folder but renamed to .so.1
-
-if Not, gives install OpenAl error
+manual copy [32-Bit pre-compiled binary OpenAL](https://github.com/Lulu04/ALSound/releases?page=2) to /tropics/bin folder </br>
+latest version 3.0.3, but downloaded tested 3.0.0 </br>
+probem 3: requires i386 libs, </br>
+in the /tropics/bin folder but renamed to .so.1 </br>
+if Not, gives install OpenAl error: </br>
 ```
 Loading "libopenal.so.1"...
 ALWrapper::init(): can't load "libopenal.so.1" library
@@ -103,9 +102,9 @@ Can't initialize OpenAL wrapper
 Install latest OpenAL
 ```
 
-and still does Not work...
+and still does Not work... </br>
 
-installing 32-Bit .so.1
+installing 32-Bit .so.1 </br>
 
 ```
 $ ./1024x768_windowed.sh
@@ -137,8 +136,8 @@ Set SSE3 simd processor
 NULL
 ```
 
-installing x64-bit .so.1
-gives wrong ELF class error
+installing x64-bit .so.1 </br>
+gives wrong ELF class error </br>
 ```
 Loading "libopenal.so.1"...
 ALWrapper::init(): can't load "libopenal.so.1" library
@@ -148,7 +147,7 @@ Install latest OpenAL
 
 ```
 
-probem 3: Tropics requires i386 libs, </br>
+
 manual copy to /bin folder: </br>
 > $ cp /usr/lib/i386-linux-gnu/alsa-lib/libasound_module_conf_pulse.so ./bin </br>
 
@@ -177,7 +176,7 @@ ALExt::init(): can't open device
 ```
 libmp3lame.so.0</br>
 installing libmp3lame0 i386 from [Launchpad](https://launchpad.net/ubuntu/+source/lame) </br>
-> $ sudo dpkg -i libmp3lame0_3.100-3_i386.deb
+> $ sudo dpkg -i libmp3lame0_3.100-3_i386.deb </br>
 
 ### Works! </br>
 ```
@@ -200,9 +199,9 @@ Maximum sources:         256
 Maximum effect slots:    16
 Maximum auxiliary sends: 2
 ```
-but does Not solve the slow GPU frame rate problem with driver 470. </br>
+but does Not solve the slow GPU frame rate with driver 470. </br>
 
-there is 2 more errors:
+there is 2 more errors: </br>
 ```
 ---- Render ----
 GLRender::GLRender(): Unknown GPU
@@ -224,10 +223,10 @@ all others work ok.</br>
 [Heaven 4.0 (2009)](https://benchmark.unigine.com/heaven) </br>
 [Valley 1.0 (2013)](https://benchmark.unigine.com/valley) </br>
 [Superposition 1.1 (2017)](https://benchmark.unigine.com/superposition) </br>
-but sometimes Tropics works flawless, 22.04.3 LTS with 510 Not from installer .iso Not web driver. </br>
+sometimes Tropics works flawless, 22.04.3 LTS with 510 Not from installer .iso Not web driver. </br>
 Software & Update Driver </br>
 
-also somehow [software-properties-qt](https://www.kubuntuforums.net/forum/general/documentation/the-laboratory/674904-software-updates?p=674922#post674922) got uninstalled, </br>
+somehow [software-properties-qt](https://www.kubuntuforums.net/forum/general/documentation/the-laboratory/674904-software-updates?p=674922#post674922) got uninstalled, </br>
 > $ sudo apt install software-properties-qt </br>
 
 or </br>
@@ -265,11 +264,11 @@ older & newer versions of libc.so.6 in Ubuntu 16 & 18 do Not compile. </br>
 
 --------------
 
-# 20.04.x LTS
+# 20.04.x LTS </br>
 
 [pearOS Monterrey (2021.07.01)](https://archive.org/details/pearOS_Monterey_64bit-12-beta-2021.07.01) </br>
 based on Ubuntu 20.04.4 LTS </br>
-Unigine Tropics 1.3 works ok, 
+Unigine Tropics 1.3 works ok,  </br>
 intel [i3-10110u](https://www.cpu-monkey.com/en/compare_cpu-intel_core_i3_10110u-vs-intel_core_i3_12100) iGPU </br>
 but clean install does Not. </br>
 probably installer detects UEFI vs. Normal Boot and also changes other things appart from /boot/efi </br>
