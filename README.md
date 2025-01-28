@@ -209,8 +209,8 @@ Maximum auxiliary sends: 2
 but does Not solve the slow GPU problem. </br>
 same problem 20.04.6 and 22.04.5 </br>
 drivers 470 & 535 </br>
-i've seen tropics run flawless in 22.04 with driver 510 </br>
-but clean install 22.04 with driver 510 does Not work. </br>
+i've seen tropics run flawless in 22.04 and 20.04 with driver 510 </br>
+but clean install does Not work. </br>
 
 2 more errors: </br>
 ```
