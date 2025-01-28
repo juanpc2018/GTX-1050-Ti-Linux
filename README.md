@@ -243,10 +243,11 @@ somehow [software-properties-qt](https://www.kubuntuforums.net/forum/general/doc
 
 or </br>
 > $ sudo apt install software-properties-kde </br>
+> $ sudo apt install software-properties-gtk </br>
 
 works again. </br>
 
-there is something strange with linux .iso installers, propietary drivers & :i386. </br>
+there is something strange with linux .iso installers, propietary drivers & :i386 </br>
 
 --------------------------
 
