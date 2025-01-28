@@ -224,6 +224,7 @@ all others work ok.</br>
 [Heaven 4.0 (2009)](https://benchmark.unigine.com/heaven) </br>
 [Valley 1.0 (2013)](https://benchmark.unigine.com/valley) </br>
 [Superposition 1.1 (2017)](https://benchmark.unigine.com/superposition) </br>
+but sometimes Tropics works flawless, 22.04.3 LTS with 510 Not from installer .iso </br>
 
 --------------------------
 
