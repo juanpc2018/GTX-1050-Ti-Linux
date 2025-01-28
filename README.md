@@ -227,6 +227,12 @@ all others work ok.</br>
 but sometimes Tropics works flawless, 22.04.3 LTS with 510 Not from installer .iso Not web driver. </br>
 Software & Update Driver </br>
 
+also somehow [software-properties-qt](https://www.kubuntuforums.net/forum/general/documentation/the-laboratory/674904-software-updates?p=674922#post674922) got uninstalled, </br>
+> $ sudo apt install software-properties-qt </br>
+or </br>
+> $ sudo apt install software-properties-kde </br>
+works ok. </br>
+
 --------------------------
 
 There is many DOS/W95/98/XP games that were Open sourced by developers & converted to Linux by others, </br>
