@@ -62,7 +62,8 @@ but there is Nothing on /tropics/bin/data </br>
 
 copy: /tropics/data to /tropics/bin/data </br>
 delete: .cache .log .cfg in Save path: "/.Unigine Tropics" </br>
-$ ./1024x768_windowed.sh </br> 
+> $ ./1024x768_windowed.sh </br> 
+
 Works! </br>
 but... </br>
 
@@ -73,7 +74,7 @@ and has No sound. </br>
  
 i've seen it run flawless with driver 510, same machine, same OS, but unable to reproduce, </br>
 seems Kubuntu installer 22.04.5 does something strange/different when detects Nvidia GPU, instead of iGPU </br>
-.iso propietary drivers seem different from nvidia web drives, </br>
+.iso propietary drivers seem different from nvidia web drivers, </br>
 web drivers does Not install easy. </br>
 
 #### Problem #3. </br>
