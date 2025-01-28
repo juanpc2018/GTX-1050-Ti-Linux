@@ -32,15 +32,17 @@ i like: </br>
 [Valley-1.0 (2013)](https://benchmark.unigine.com/valley) </br>
 [Superposition-1.1 (2017)](https://benchmark.unigine.com/superposition) </br>
 
-But Tropics & Sanctuary are weird, sometimes works flawless, clean install fails, [Never works again](https://forums.linuxmint.com/viewtopic.php?t=337657) </br>
+But Tropics & Sanctuary are weird, </br>
+sometimes works flawless, but clean install fails & [Never works again](https://forums.linuxmint.com/viewtopic.php?t=337657) </br>
 requires [MesaGL, OpenAL, xorg libs](https://freebsd.pkgs.org/14/freebsd-amd64/linux-unigine-tropics-1.3.pkg.html) but still does Not work, </br>
-i think found the problem, but tested all OS without knowing, i have to re-test again. </br>
+i think found the problem, but tested all OS without knowing, have to re-test again. </br>
 
 the most strange was Kubuntu 22.04.5 </br>
 "worked" without sollution, when i installed something, but im unable to reproduce. </br>
-same happens with other OS like pearOS, i have other M.2 works flawless, but clean install in other machine does Not work. </br>
+Clean install Fails. </br>
+same happens with other OS like pearOS, i have other M.2 works flawless, but clean install does Not work. </br>
 
-.run installer properties needs to be allowed to be executed. </br>
+.run installer needs to be allowed to be executed in properties. </br>
 
 #### Problem #1. 
 > App path:  /home/j/AppImage/tropics/bin/ </br>
@@ -60,12 +62,13 @@ Works! </br>
 but... </br>
 
 #### Problem #2. </br>
-runs very slow with GTX 1050 Ti & driver 470 & 535, </br>
+GPU runs very slow with GTX 1050 Ti & driver 470 & 535, </br>
 there is something wrong. </br>
+and has No sound. </br>
  
 i've seen it run flawless with driver 510, same machine, same OS, but unable to reproduce, </br>
-seems Kubuntu installer 22.04.5 does something strange/different when detects an Nvidia GPU, instead of iGPU </br>
-installing propietary drivers are a custom version different from nvidia web drives, </br>
+seems Kubuntu installer 22.04.5 does something strange/different when detects Nvidia GPU, instead of iGPU </br>
+.iso propietary drivers seem different from nvidia web drives, </br>
 web drivers does Not install easy. </br>
 
 #### Problem #3. </br>
@@ -89,9 +92,9 @@ $ sudo ldconfig </br>
 --------------------------
 
 [Unigine Tropics-1.3 (2008-2010)](https://benchmark.unigine.com/tropics)  & [Sanctuary-2.3 (2007)](https://benchmark.unigine.com/sanctuary) require OpenAL,
-manual copy [32-Bit pre-compiled binary OpenAL](https://github.com/Lulu04/ALSound/releases?page=2) to /tropics/bin folder </br>
+OpenAL require manual copy [32-Bit pre-compiled binary OpenAL](https://github.com/Lulu04/ALSound/releases?page=2) to /tropics/bin folder </br>
 latest version 3.0.3, but downloaded tested 3.0.0 </br>
-probem 3: requires i386 libs, </br>
+Tropics requires i386 libs, </br>
 in the /tropics/bin folder but renamed to .so.1 </br>
 if Not, gives install OpenAl error: </br>
 ```
@@ -147,25 +150,24 @@ Install latest OpenAL
 
 ```
 
-
-manual copy to /bin folder: </br>
+also requires to manual copy: </br>
 > $ cp /usr/lib/i386-linux-gnu/alsa-lib/libasound_module_conf_pulse.so ./bin </br>
 
-gives a different error: </br>
+and gives a different error: </br>
 ```
 Loading "libopenal.so.1"...
 ALSA lib conf.c:3722:(snd_config_hooks_call) Cannot open shared library libasound_module_conf_pulse.so (/usr/lib/i386-linux-gnu/alsa-lib/libasound_module_conf_pulse.so: libmpg123.so.0: wrong ELF class: ELFCLASS64)
 ALSA lib pcm.c:2642:(snd_pcm_open_noupdate) Unknown PCM default
 ALExt::init(): can't open device
 ```
-manual copy: </br>
+also requires manual copy: </br>
 > $ cp /usr/lib/x86_64-linux-gnu/libmpg123.so.0 ./bin </br>
 
-gives another error: </br>
+and  gives another error: </br>
 libmpg123 its 64-bits, requires 32-Bit. </br>
-[libmpg123](https://sourceforge.net/projects/mpg123/files/mpg123/) [v1.25](http://mpg123.org/download/?V=1&O=D) </br>
+pearOS 12.0.0 updated to Ubuntu 20.04.6 LTS "Focal" comes with 64-Bit [libmpg123](https://sourceforge.net/projects/mpg123/files/mpg123/) [v1.25](http://mpg123.org/download/?V=1&O=D) </br>
 
-installing mpg123 :i386 from [Launchpad](https://launchpad.net/ubuntu/+source/mpg123)</br>
+installing mpg123 v1.25 :i386 from [Launchpad](https://launchpad.net/ubuntu/+source/mpg123)</br>
 requires to satisfy a lot of dependencies, </br>
 then tropics gives another error: </br>
 ```
@@ -174,8 +176,8 @@ ALSA lib conf.c:3722:(snd_config_hooks_call) Cannot open shared library libasoun
 ALSA lib pcm.c:2642:(snd_pcm_open_noupdate) Unknown PCM default
 ALExt::init(): can't open device
 ```
-libmp3lame.so.0</br>
-installing libmp3lame0 i386 from [Launchpad](https://launchpad.net/ubuntu/+source/lame) </br>
+libmp3lame.so.0 </br>
+installing libmp3lame0 :i386 from [Launchpad](https://launchpad.net/ubuntu/+source/lame) </br>
 > $ sudo dpkg -i libmp3lame0_3.100-3_i386.deb </br>
 
 ### Works! </br>
@@ -199,7 +201,7 @@ Maximum sources:         256
 Maximum effect slots:    16
 Maximum auxiliary sends: 2
 ```
-but does Not solve the slow GPU frame rate with driver 470. </br>
+but does Not solve the slow GPU problem. </br>
 
 there is 2 more errors: </br>
 ```
@@ -223,7 +225,7 @@ all others work ok.</br>
 [Heaven 4.0 (2009)](https://benchmark.unigine.com/heaven) </br>
 [Valley 1.0 (2013)](https://benchmark.unigine.com/valley) </br>
 [Superposition 1.1 (2017)](https://benchmark.unigine.com/superposition) </br>
-sometimes Tropics works flawless, 22.04.3 LTS with 510 Not from installer .iso Not web driver. </br>
+but sometimes Tropics works flawless, i've seen 22.04.3 LTS with 510 Not from installer .iso Not web driver. </br>
 Software & Update Driver </br>
 
 somehow [software-properties-qt](https://www.kubuntuforums.net/forum/general/documentation/the-laboratory/674904-software-updates?p=674922#post674922) got uninstalled, </br>
@@ -232,7 +234,7 @@ somehow [software-properties-qt](https://www.kubuntuforums.net/forum/general/doc
 or </br>
 > $ sudo apt install software-properties-kde </br>
 
-works ok. </br>
+works again, but there is something strange with linux installers & propietary drivers. </br>
 
 --------------------------
 
