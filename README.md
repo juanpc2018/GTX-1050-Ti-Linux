@@ -234,7 +234,9 @@ somehow [software-properties-qt](https://www.kubuntuforums.net/forum/general/doc
 or </br>
 > $ sudo apt install software-properties-kde </br>
 
-works again, but there is something strange with linux installers & propietary drivers. </br>
+works again. </br>
+
+there is something strange with linux .iso installers, propietary drivers & :i386. </br>
 
 --------------------------
 
