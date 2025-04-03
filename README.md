@@ -226,21 +226,23 @@ OpenGL error: invalid enum
 ```
 installing Nvidia-510 webdriver, is complicated. </br>
 requires to completely dissable Nouveau drivers, </br>
-in 22.04.5 and 24.04.0 Uninstalling default Nvidia driver damages / removes Realtek propietary drivers from Kernel module, </br>
+but i've seen Nouveau driver NV137 work flawless in 20.04.4 LTS. </br>
+
+22.04.5 and 24.04.0 Uninstalling default Nvidia driver damages / removes Realtek propietary drivers from Kernel module, </br>
 requires compiling [Realtek webdriver](https://www.realtek.com/Download/Index?cate_id=194&menu_id=297) before uninstalling Nvidia default driver. </br>
 board has 2.5GbE r8125, but Linux default is: r8169 </br>
 $ lsmod | grep r81* </br>
 $ rmmod </br>
 $ modprobe </br>
 
-strange [Unigine Tropics-1.3](https://benchmark.unigine.com/tropics) & [Sanctuary-2.3](https://benchmark.unigine.com/sanctuary) does Not work with 470 driver Nor 535. </br>
+[Unigine Tropics-1.3](https://benchmark.unigine.com/tropics) & [Sanctuary-2.3](https://benchmark.unigine.com/sanctuary) does Not work well. </br>
 all others work ok.</br>
 [Heaven 4.0 (2009)](https://benchmark.unigine.com/heaven) </br>
 [Valley 1.0 (2013)](https://benchmark.unigine.com/valley) </br>
 [Superposition 1.1 (2017)](https://benchmark.unigine.com/superposition) </br>
 but Tropics works flawless sometimes, </br>
-i've seen 22.04.3 LTS with 510 Not from installer .iso Not web driver. </br>
-Software & Update Driver </br>
+i've seen 22.04.3 LTS with 510 Not from installer .iso, Not web driver. </br>
+from Software & Update Driver. </br>
 
 somehow [software-properties-qt](https://www.kubuntuforums.net/forum/general/documentation/the-laboratory/674904-software-updates?p=674922#post674922) got uninstalled, </br>
 > $ sudo apt install software-properties-qt </br>
@@ -251,7 +253,7 @@ or </br>
 
 works again. </br>
 
-there is something strange with linux .iso installers, propietary drivers & :i386 </br>
+there is something strange with linux .iso installers, propietary drivers & i386 </br>
 
 --------------------------
 
