@@ -20,7 +20,8 @@ they link [VLC version to OS version](https://packages.ubuntu.com/search?searcho
 
 i prefer Kernel 6.7 or higher because [Focusrite USB mk2/3 ](https://github.com/geoffreybennett/alsa-scarlett-gui/blob/master/docs/INSTALL.md) drivers are Activated by Default. </br> 
 [pearOS Monterrey (2021.07.01)](https://archive.org/details/pearOS_Monterey_64bit-12-beta-2021.07.01) fully updated goes up to: 20.04.6 LTS + [liquorix](https://liquorix.net/) kernel: 6.3.13-1-liquorix-amd64 </br>
-does Not have Gtk4, Focusrite app requires Gtk4 to compile or install Flatpak </br>
+does Not have Gtk4, Focusrite app requires Gtk4 to compile, </br>
+without Gtk4 Focusrite app requires Flatpak version. </br>
 
 Real GPU is Required for Dual Boot with legacy OS like Windows8.1 in Z790 boards + 12th gen cpu's. </br>
 iGPU removed Legacy boot support, works up to 10th gen cpu's, 11th gen CPU's Unknown / Untested. </br>
