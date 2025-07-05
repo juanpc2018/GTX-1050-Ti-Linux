@@ -76,7 +76,7 @@ and Legacy GL Support "Libgl1" drivers: </br>
 ![image](https://github.com/user-attachments/assets/3d7409b7-8bb8-4433-8906-011468566e7e) </br>
 
 Problem: </br>
-LibGl1 i386 drivers are Not 100% compatible with All Nvidia & Nouveau drivers, </br>
+LibGL1 i386 drivers are Not 100% compatible with All Nvidia & Nouveau drivers, </br>
 and Nvidia & Nouveau drivers are Not 100% compatible with All GPU's. </br>
 
 i've seen tropics-1.3 run flawless. </br>
@@ -111,10 +111,16 @@ Stores does Not work in W8.1x64. </br>
 games work, but... </br>
 without store app, games do Not run/install. </br>
 
-Original [DVD](https://archive.org/details/NFSRUN) [installers](https://www.old-games.com/download/11915/need-for-speed-the-run) for [Need for Speed The Run Special Edition](https://www.gog.com/dreamlist/game/need-for-speed-the-run-2011).[moby](https://www.mobygames.com/game/53576/need-for-speed-the-run/).[wiki](https://en.wikipedia.org/wiki/Need_for_Speed%3A_The_Run).[Origin](https://web.archive.org/web/20160322050632/https://www.origin.com/en-us/store/buy/nfs-the-run-2012/pc-download/base-game/standard-edition).[YT](https://www.youtube.com/watch?v=v-4msZsoe18&t=6s) for PC, are almost useless. </br>
+Original [DVD](https://archive.org/details/NFSRUN) [installers](https://www.old-games.com/download/11915/need-for-speed-the-run) for [Need for Speed The Run Special Edition](https://www.gog.com/dreamlist/game/need-for-speed-the-run-2011).[moby](https://www.mobygames.com/game/53576/need-for-speed-the-run/).[wiki](https://en.wikipedia.org/wiki/Need_for_Speed%3A_The_Run).[Origin](https://web.archive.org/web/20160322050632/https://www.origin.com/en-us/store/buy/nfs-the-run-2012/pc-download/base-game/standard-edition).[cdkeys](https://www.cdkeys.com/need-for-speed-the-run-pc-cd-key-origin).[YT](https://www.youtube.com/watch?v=v-4msZsoe18&t=6s) for PC, are almost useless. </br>
 game was designed to require Online, Original SE installers were Not designed for W8.1 </br>
 game was updated several times & discontinued, updates cannot be downloaded </br>
-some [mods are available](https://github.com/mRally2?tab=repositories) </br>
+but [mods are available](https://github.com/mRally2?tab=repositories) </br>
+
+Back then the best GPU to play NFSTR was GTX 580, the GTX 590 was same but undeclocked, *NFSTR does Not work with dual GPU's, only single GPU </br>
+GTX 680 & GTX 690 felt inferior, but overclocked a complete dissapointment. </br>
+GTX Titan 6GB & AMD HD7950 also nice. </br>
+but GPU depends on the board, Ram & CPU. </br>
+New 34" WQHD monitors with 160fps "Ultra Wide" would be interesting to test. </br>
 
 -----------------------
 
