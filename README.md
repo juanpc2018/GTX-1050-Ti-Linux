@@ -71,8 +71,11 @@ requires driver 470.256.02 </br>
 and libgl1 drivers: </br>
 ![image](https://github.com/user-attachments/assets/3d7409b7-8bb8-4433-8906-011468566e7e) </br>
 
-i've seen tropics-1.3 run flawless </br>
-The goal is to run Unigine Tropics-1.3 on modern hardware:  </br>
+Problem is LibGl1 32-Bit drivers are Not 100% compatible with All Nvidia & Nouveau drivers, </br>
+and Nvidia drivers are Not compatible with All GPU's. </br>
+
+i've seen tropics-1.3 run flawless. </br>
+The goal is to run Tropics-1.3 on modern hardware:  </br>
 x670e + 7600x </br>
 Z790 + 12100 / 12600 on Linux,  </br>
 
@@ -80,7 +83,7 @@ The reason is: </br>
 Nvidia GPU's run faster with faster CPU's. </br>
 Faster Single-core. </br>
 [R15](https://www.cpu-monkey.com/en/cpu_benchmark-cinebench_r15_single_core), [R20](https://www.cpu-monkey.com/en/cpu_benchmark-cinebench_r20_single_core), [R23](https://www.cpu-monkey.com/en/cpu_benchmark-cinebench_r23_single_core), [2024](https://www.cpu-monkey.com/en/cpu_benchmark-cinebench_2024_single_core) </br>
-Games loads faster in Newer board with PCIe v4 & PCIe v5 </br>
+Games load faster in Newer boards with PCIe v4 & PCIe v5 NVMe </br>
 PCIe v3 GPU's run very slow on older PCIe v2.0 boards. </br>
 
 IF Unigine Tropics-1.3 does Not work, </br>
@@ -89,23 +92,54 @@ require 32-Bit OpenGL drivers. </br>
 32-Bit 3D graphics have issues on Linux. </br>
 
 Unigine Tropics-1.3 on Win8.1x64 & W10 is easy, just needs NET3.5 </br>
-But on Linux is tricky. </br>
+on Linux is tricky. </br>
 
-Win 32-but 3D games could run flawless on Wine9.x because Wine was designed mostly for 32-Bits, but problem is the GPU drivers, Not designed for 32-Bits on Linux. </br>
+Windows 32-bit 3D games could run flawless on Wine 9.x because Wine was designed mostly for 32-Bits, </br>
+problem is GPU drivers, Not All work for 32-Bits on Linux. </br>
 
-Legal Games require a "middle man" software like EA "Origin" or Steem + useless anti-cheat, </br>
-are designed for latest 64-Bit Windows11 & 10. </br>
-Support for Win8.1x64 was Dropped /Deleted. </br>
+Legal Games require a "middleman" software like EA "Origin" or Steem + useless anti-cheat, that can be bypased with DMA PCIe cards </br>
+Those Game Stores are designed for latest 64-Bit Windows11 & 10 </br>
+Support for Win8.1x64 was Dropped / Deleted </br>
 But Win8.1x64 works ok for 32-Bits, </br>
-also Win10 tested with Tropics 1.3 </br>
 
-Linux + Lutris + Proton allows to install EA & Steem and Run Windows games, but problem is the 32-Bit driver support on Linux. </br>
+Win10 Tropics-1.3 OpenGL driver had strange results </br>
+M6000 24GB on a HP Z server with intel lga3647 Platinum CPU </br>
+4x Anisotropy: <5500 points. </br>
+
+Some results: </br>
+#### GTX 1050 Ti </br>
+1920x1080 windowed | High, Trilinear </br>
+Linux: 470.256.02 | 7600x CPU + x670e </br>
+No Anisotropy: 3538 points. </br>
+16x Anisotropy: 3137 points. </br>
+
+#### Win8.1x64 | driver 416 | i3-12100 CPU + Z790 </br>
+1920x1080: 3047 points. </br>
+3440x1440: 1367 points. </br>
+#### Quadro P400 | AMD Opteron 6308 </br>
+4x Anisotropy: 965 points </br>
+#### Quadro 6000 | AMD Opteron 6308 </br>
+4x Anisotropy: 1502 points. </br>
+#### Quadro M2000 4GB | AMD Opteron 6308 </br>
+4x Anisotropy: 2028 points. </br>
+#### Quadro M6000 24GB | AMD Opteron 6308 Supermicro H8SGL </br>
+4x Anisotropy: 3364 points. </br>
+#### Quadro M6000 24GB | Dual Opteron 6328 "2x8 16-cores" Tyan S8232 | Win8.1 limited to 8-cores </br>
+4x Anisotropy: 3811 points. </br>
+#### Quadro M6000 24GB | 7600x x670e </br>
+4x Anisotropy: 6537 ponts. </br>
+
+---------------
+
+Linux + Lutris + Proton allows to install EA "Origin" & Steem to Run Windows games, </br>
+problem is the 32-Bit driver support on Linux. </br>
 
 Ubuntu 17.04 was the last to release a 32-Bit "100% Bios" .iso installer. </br>
 
 Installing 17.04 on VirtualBox 6.1.44 </br>
-works, but VirtualBox 6.1 3D acceleration is incomplete, does Not have the minimum requirements for Unigine Heaven 4.0 </br>
-Fail to run. </br>
+"works" but VirtualBox 6.1 3D acceleration is incomplete, </br>
+does Not have the minimum OpenGL requirements for Unigine Heaven-4.0 </br>
+Fails to run. </br>
 
 VirtualBox 6.1 allows to install Win8.1x64 2D works ok. </br>
 VirtualBox 7 has a problem with video drivers for Win8.1 </br>
