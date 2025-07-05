@@ -14,11 +14,11 @@ but [pearOS Monterrey (2021.07.01)](https://archive.org/details/pearOS_Monterey_
 [Superposition-1.1 (2017)](https://benchmark.unigine.com/superposition) </br>
 
 Heaven works flawless in most systems, most drivers, tested 17.04, 20.04, 22.04 </br>
-problem is Tropics 1.3 & Sanctuary, are 32-Bit, require 32-Bit OpenGL drivers </br>
-Latest Nvidia RTX 5000 GPU's removed 32-Bit support for Phycs. </br>
+problem is 32-Bit Tropics 1.3 & Sanctuary, require 32-Bit OpenGL drivers </br>
+Latest Nvidia RTX 5000 GPU's removed 32-Bit support for [Physx](https://www.nvidia.com/en-us/drivers/physx/physx-9-23-1019-driver/).[Legacy](https://www.nvidia.com/en-us/drivers/physx/physx-9-13-0604-legacy-driver/).[9.19](https://www.nvidia.com/en-us/drivers/physx/physx-9-19-0218-driver/) </br>
 to run 32-Bit games, requires older GPU. </br>
 
-Tropics 1.3 sometimes works flawless, but clean install Fails & [Never works again](https://forums.linuxmint.com/viewtopic.php?t=337657) </br>
+Tropics-1.3 sometimes works flawless, but clean install Fails & [Never works](https://forums.linuxmint.com/viewtopic.php?t=337657) </br>
 requires [MesaGL, OpenAL, xorg libs](https://freebsd.pkgs.org/14/freebsd-amd64/linux-unigine-tropics-1.3.pkg.html) but still does Not work, </br>
 i think found the problem, but tested all OS without knowing, have to re-test. </br>
 
@@ -28,12 +28,13 @@ Clean install Fail. </br>
 same happens with other OS like pearOS, i have other M.2 works flawless, but clean install does Not work. </br>
 
 .run installer needs to be [X] executable in properties. </br>
-creates /tropics folder </br>
+creates /Downloads/tropics folder </br>
 
 copy 1024x768_windowed.sh to 1920x1080_windowed.sh </br>
-edit 1920x1080_windowed.sh with Tea Kate or other text editor </br>
+edit 1920x1080_windowed.sh with Tea, Kate or similar text editor </br>
 replace 1024 with 1920, and 768 with 1080 & save. </br>
-with 3440x1440 WQHD monitors, Runnin the benchmark at 1920x1080 is better windowed. </br>
+
+3440x1440 WQHD monitors, benchmark at 1920x1080 windowed. </br>
 
 64-bit OS requires to [Enable 32-bit](https://gitlab.winehq.org/wine/wine/-/wikis/Debian-Ubuntu) architecture: </br>
 > sudo dpkg --add-architecture i386 </br>
@@ -65,23 +66,24 @@ Works! </br>
 but... </br>
 
 #### Problem #2. </br>
-GTX 1050 Ti runs very slow with Nouveau NV driver, but works ok with intel iGPU 10110u </br>
-runs very slow with Nvidia propietary driver 570 & 535 </br>
+
+Nouveau NV driver runs very slow with 1050 Ti, but works ok with intel iGPU 10110u </br>
+GTX 1050 Ti also runs very slow with Nvidia propietary driver 570 & 535 </br>
 requires driver 470.256.02 </br>
-and libgl1 drivers: </br>
+and Libgl1 drivers: </br>
 ![image](https://github.com/user-attachments/assets/3d7409b7-8bb8-4433-8906-011468566e7e) </br>
 
-Problem is LibGl1 32-Bit drivers are Not 100% compatible with All Nvidia & Nouveau drivers, </br>
-and Nvidia drivers are Not compatible with All GPU's. </br>
+Problem: LibGl1 32-Bit drivers are Not 100% compatible with All Nvidia & Nouveau drivers, </br>
+and Nvidia drivers are Not 100% compatible with All GPU's. </br>
 
 i've seen tropics-1.3 run flawless. </br>
 The goal is to run Tropics-1.3 on modern hardware:  </br>
 x670e + 7600x </br>
-Z790 + 12100 / 12600 on Linux,  </br>
+Z790 + i3-12100 / i5-12600 on Linux. </br>
 
 The reason is: </br>
 Nvidia GPU's run faster with faster CPU's. </br>
-Faster Single-core. </br>
+Faster Single-core... </br>
 [R15](https://www.cpu-monkey.com/en/cpu_benchmark-cinebench_r15_single_core), [R20](https://www.cpu-monkey.com/en/cpu_benchmark-cinebench_r20_single_core), [R23](https://www.cpu-monkey.com/en/cpu_benchmark-cinebench_r23_single_core), [2024](https://www.cpu-monkey.com/en/cpu_benchmark-cinebench_2024_single_core) </br>
 Games load faster in Newer boards with PCIe v4 & PCIe v5 NVMe </br>
 PCIe v3 GPU's run very slow on older PCIe v2.0 boards. </br>
@@ -92,18 +94,18 @@ require 32-Bit OpenGL drivers. </br>
 32-Bit 3D graphics have issues on Linux. </br>
 
 Unigine Tropics-1.3 on Win8.1x64 & W10 is easy, just needs NET3.5 </br>
-on Linux is tricky. </br>
+Linux is tricky. </br>
 
-Windows 32-bit 3D games could run flawless on Wine 9.x because Wine was designed mostly for 32-Bits, </br>
+Win 32-bit 3D games could run flawless on Wine 9.x because Wine was designed mostly for 32-Bits, </br>
 problem is GPU drivers, Not All work for 32-Bits on Linux. </br>
 
-Legal Games require a "middleman" software like EA "Origin" or Steem + useless anti-cheat, that can be bypased with DMA PCIe cards </br>
-Those Game Stores are designed for latest 64-Bit Windows11 & 10 </br>
-Support for Win8.1x64 was Dropped / Deleted </br>
+Legal Games require a "middle finger" software like [EA "Origin"](https://www.ea.com/ea-app) or [Steem](https://store.steampowered.com/about/) + useless anti-cheat, that can be bypass with DMA PCIe cards </br>
+Those Game Stores are designed for latest 64-Bit Windows11 & W10 </br>
+Support for Win8.1x64 was Deleted </br>
 But Win8.1x64 works ok for 32-Bits, </br>
 
-Win10 Tropics-1.3 OpenGL driver had strange results </br>
-M6000 24GB on a HP Z server with intel lga3647 Platinum CPU </br>
+Win10 Tropics-1.3 OpenGL had strange results </br>
+#### Quadro M6000 24GB | HP Z with intel lga3647 Platinum CPU </br>
 4x Anisotropy: <5500 points. </br>
 
 Some results: </br>
