@@ -5,10 +5,10 @@ i like Kernel 6.7 or higher because [Focusrite USB mk2/3 ](https://github.com/ge
 but [pearOS Monterrey (2021.07.01)](https://archive.org/details/pearOS_Monterey_64bit-12-beta-2021.07.01) 20.04.4 LTS + [liquorix](https://liquorix.net/) kernel: 6.3.13-1-liquorix-amd64 </br>
 20.04 does Not have Gtk4, Focusrite app requires Gtk4 to compile, without Gtk4 ALSA Scarlett Control Panel requires Flatpak version. </br>
 
-32-Bit:
+32-Bit: </br>
 [Unigine Tropics-1.3 (2008-2010)](https://benchmark.unigine.com/tropics) [.run](https://assets.unigine.com/d/Unigine_Tropics-1.3.run) [Benchmark](https://benchmark.unigine.com/) for Linux OpenGL </br>
 [Sanctuary-2.3 (2007)](https://benchmark.unigine.com/sanctuary) </br>
-64-Bit:
+64-Bit: </br>
 [Heaven-4.0 (2009)](https://benchmark.unigine.com/heaven) </br>
 [Valley-1.0 (2013)](https://benchmark.unigine.com/valley) </br>
 [Superposition-1.1 (2017)](https://benchmark.unigine.com/superposition) </br>
