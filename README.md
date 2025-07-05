@@ -72,7 +72,7 @@ but... </br>
 Nouveau NV driver runs very slow with 1050 Ti, but works ok with intel iGPU 10110u </br>
 GTX 1050 Ti also runs very slow with Nvidia propietary driver 570 & 535 </br>
 requires driver 470.256.02 </br>
-and Libgl1 drivers: </br>
+and Legacy GL Support "Libgl1" drivers: </br>
 ![image](https://github.com/user-attachments/assets/3d7409b7-8bb8-4433-8906-011468566e7e) </br>
 
 Problem: LibGl1 32-Bit drivers are Not 100% compatible with All Nvidia & Nouveau drivers, </br>
