@@ -107,19 +107,18 @@ Those Game Stores are designed for latest 64-Bit Win11 & W10 </br>
 Support for Win8.1x64 was Deleted </br>
 But Win8.1x64 works ok for 32-Bits </br>
 
-Store does Not work in W8.1x64.
-games work in Win8.1x64, but... 
+Stores does Not work in W8.1x64. </br>
+games work, but... </br>
 without store app, games do Not run/install. </br>
-Original [DVD](https://archive.org/details/NFSRUN) [installers](https://www.old-games.com/download/11915/need-for-speed-the-run) for [Need for Speed The Run](https://www.gog.com/dreamlist/game/need-for-speed-the-run-2011).[moby](https://www.mobygames.com/game/53576/need-for-speed-the-run/).[wiki](https://en.wikipedia.org/wiki/Need_for_Speed%3A_The_Run) for PC, are almost useless. </br>
-game was designed to require Online, and original installers were Not designed for W8.1 </br>
-game was updated several times & discontinued. </br>
-other option is using PS3 DVD and PS3 emulator for PC, but if game was available for PC. </br>
+Original [DVD](https://archive.org/details/NFSRUN) [installers](https://www.old-games.com/download/11915/need-for-speed-the-run) for [Need for Speed The Run Special Edition](https://www.gog.com/dreamlist/game/need-for-speed-the-run-2011).[moby](https://www.mobygames.com/game/53576/need-for-speed-the-run/).[wiki](https://en.wikipedia.org/wiki/Need_for_Speed%3A_The_Run).[Origin](https://web.archive.org/web/20160322050632/https://www.origin.com/en-us/store/buy/nfs-the-run-2012/pc-download/base-game/standard-edition).[YT](https://www.youtube.com/watch?v=v-4msZsoe18&t=6s) for PC, are almost useless. </br>
+game was designed to require Online, Original SE installers were Not designed for W8.1 </br>
+game was updated several times & discontinued, updates cannot be downloaded. </br>
 
 Win10 Tropics-1.3 OpenGL had strange results </br>
-#### Quadro M6000 24GB | HP Z with intel lga3647 Platinum CPU </br>
+#### Quadro M6000 24GB | HP Z | lga3647 Platinum CPU </br>
 4x Anisotropy: <5500 points. </br>
 
-Some results: </br>
+Other results: </br>
 #### GTX 1050 Ti </br>
 1920x1080 windowed | High, Trilinear </br>
 Linux: 470.256.02 | 7600x CPU + x670e </br>
