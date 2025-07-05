@@ -122,6 +122,8 @@ GTX Titan 6GB & AMD HD7950 also nice. </br>
 but GPU depends on the board, Ram & CPU. </br>
 New 34" WQHD monitors with 160fps "Ultra Wide" would be interesting to test. </br>
 
+Need for Speed The Run is inspired by films like [The Cannonball Run (1981)](https://www.imdb.com/title/tt0082136).[(1984)](https://www.imdb.com/title/tt0087032/), [It's a Mad Mad Mad Mad World (1963)](https://www.imdb.com/title/tt0057193), [The Gumball Rally (1976)](https://www.imdb.com/title/tt0074597/), [Cannonball! (1976)](https://www.imdb.com/title/tt0074279/) & others...
+
 -----------------------
 
 # Tropics-1.3
