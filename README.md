@@ -1,54 +1,46 @@
 # GTX 1050 Ti Linux
 
-# 22.04.x LTS
+i use [LTS](https://en.wikipedia.org/wiki/Long-term_support) releases, </br>
+i like Kernel 6.7 or higher because [Focusrite USB mk2/3 ](https://github.com/geoffreybennett/alsa-scarlett-gui/blob/master/docs/INSTALL.md) drivers are Activated by Default. </br> 
+but [pearOS Monterrey (2021.07.01)](https://archive.org/details/pearOS_Monterey_64bit-12-beta-2021.07.01) 20.04.4 LTS + [liquorix](https://liquorix.net/) kernel: 6.3.13-1-liquorix-amd64 </br>
+20.04 does Not have Gtk4, Focusrite app requires Gtk4 to compile, without Gtk4 ALSA Scarlett Control Panel requires Flatpak version. </br>
 
-i try to use [LTS](https://en.wikipedia.org/wiki/Long-term_support) releases, </br>
-Linux developers also, they delete the source code for Non-LTS releases, </br>
-example: Ubuntu 23.10 (Mantic Minotaur) </br>
-released on 12 October 2023, supported for nine months until July 2024. </br>
-[Source code Deleted](https://cdimage.ubuntu.com/releases/23.10/release/source/) January 2025. </br>
-to me it´s insane to delete source code, goes against the laws of [Reversible Computing](https://en.wikipedia.org/wiki/Reversible_computing) </br>
-but thats one of the ways they have to keep open source closed as possible. </br>
-other methods like robots.txt to stop [archive.org](https://web.archive.org/web/20240303064513/https://cdimage.ubuntu.com/releases/23.10/release/source/) to make a [copy](https://web.archive.org/web/20240421133031/http://cdimage.ubuntu.com/releases/mantic/release/source/) </br>
-other is to hide the directory, stop mirrors, etc... </br>
-i wish i could find [10.04.4](https://archive.org/download/ubuntu-repo-lucid-lynx-10.04-20210302) and [10.10](https://archive.org/download/ubuntu-repo-maverick-meerkat-10.10-20210302) [source](https://old-releases.ubuntu.com/releases/releases/) to see the changes, </br>
-[Ubuntu Version History](https://en.wikipedia.org/wiki/Ubuntu_version_history) </br>
-[Ubuntu old-releases](http://old-releases.ubuntu.com/releases/) </br>
-
-for VLC developers: Non-LTS = LTS </br> 
-they link [VLC version to OS version](https://packages.ubuntu.com/search?searchon=sourcenames&keywords=vlc) </br>
-
-i prefer Kernel 6.7 or higher because [Focusrite USB mk2/3 ](https://github.com/geoffreybennett/alsa-scarlett-gui/blob/master/docs/INSTALL.md) drivers are Activated by Default. </br> 
-[pearOS Monterrey (2021.07.01)](https://archive.org/details/pearOS_Monterey_64bit-12-beta-2021.07.01) fully updated goes up to: 20.04.6 LTS + [liquorix](https://liquorix.net/) kernel: 6.3.13-1-liquorix-amd64 </br>
-does Not have Gtk4, Focusrite app requires Gtk4 to compile, </br>
-without Gtk4 Focusrite app requires Flatpak version. </br>
-
-Real GPU is Required for Dual Boot with legacy OS like Windows8.1 in Z790 boards + 12th gen cpu's. </br>
-iGPU removed Legacy boot support, works up to 10th gen cpu's, 11th gen CPU's Unknown / Untested. </br>
-
-i like: </br>
+32-Bit:
 [Unigine Tropics-1.3 (2008-2010)](https://benchmark.unigine.com/tropics) [.run](https://assets.unigine.com/d/Unigine_Tropics-1.3.run) [Benchmark](https://benchmark.unigine.com/) for Linux OpenGL </br>
 [Sanctuary-2.3 (2007)](https://benchmark.unigine.com/sanctuary) </br>
+64-Bit:
 [Heaven-4.0 (2009)](https://benchmark.unigine.com/heaven) </br>
 [Valley-1.0 (2013)](https://benchmark.unigine.com/valley) </br>
 [Superposition-1.1 (2017)](https://benchmark.unigine.com/superposition) </br>
 
-But Tropics & Sanctuary are weird, </br>
-sometimes works flawless, but clean install fails & [Never works again](https://forums.linuxmint.com/viewtopic.php?t=337657) </br>
+Heaven works flawless in most systems, most drivers, tested 17.04, 20.04, 22.04 </br>
+problem is Tropics 1.3 & Sanctuary, are 32-Bit, require 32-Bit OpenGL drivers </br>
+Latest Nvidia RTX 5000 GPU's removed 32-Bit support for Phycs. </br>
+to run 32-Bit games, requires older GPU. </br>
+
+Tropics 1.3 sometimes works flawless, but clean install Fails & [Never works again](https://forums.linuxmint.com/viewtopic.php?t=337657) </br>
 requires [MesaGL, OpenAL, xorg libs](https://freebsd.pkgs.org/14/freebsd-amd64/linux-unigine-tropics-1.3.pkg.html) but still does Not work, </br>
 i think found the problem, but tested all OS without knowing, have to re-test. </br>
 
-the most strange was Kubuntu 22.04.5 </br>
-"worked" without sollution, when i installed something, but im unable to reproduce. </br>
+Kubuntu 22.04.5 </br>
+"worked" when installed something, but unable to reproduce. </br>
 Clean install Fail. </br>
 same happens with other OS like pearOS, i have other M.2 works flawless, but clean install does Not work. </br>
 
-.run installer needs to be allowed to be executable in properties. </br>
+.run installer needs to be [X] executable in properties. </br>
+creates /tropics folder </br>
 
-64 bit requires to [Enable 32 bit](https://gitlab.winehq.org/wine/wine/-/wikis/Debian-Ubuntu) architecture: </br>
+copy 1024x768_windowed.sh to 1920x1080_windowed.sh </br>
+edit 1920x1080_windowed.sh with Tea Kate or other text editor </br>
+replace 1024 with 1920, and 768 with 1080 & save. </br>
+with 3440x1440 WQHD monitors, Runnin the benchmark at 1920x1080 is better windowed. </br>
+
+64-bit OS requires to [Enable 32-bit](https://gitlab.winehq.org/wine/wine/-/wikis/Debian-Ubuntu) architecture: </br>
 > sudo dpkg --add-architecture i386 </br>
 
 > $ ./1024x768_windowed.sh </br>
+or... </br>
+> $ ./1920x1080_windowed.sh </br>
 
 #### Problem #1. 
 > App path:  /home/j/AppImage/tropics/bin/ </br>
@@ -58,27 +50,79 @@ same happens with other OS like pearOS, i have other M.2 works flawless, but cle
 ./tropics/bin/Tropics </br>
 does Not detect Data path: /tropics/data </br>
 if .run was in a different folder than /Downloads or /home </br>
-./tropics/bin/Tropics searches for: /tropics/bin/data </br>
+./tropics/bin/Tropics search for: /tropics/bin/data </br>
 but there is Nothing on /tropics/bin/data </br>
 
 copy: /tropics/data to /tropics/bin/data </br>
+or... </br>
 delete: .cache .log .cfg in Save path: "/.Unigine Tropics" </br>
 > $ ./1024x768_windowed.sh </br> 
+> </br>
+or... </br>
+> $ ./1920x1080_windowed.sh </br>
 
 Works! </br>
 but... </br>
 
 #### Problem #2. </br>
-GPU runs very slow with GTX 1050 Ti & driver 470 & 535, </br>
-there is something wrong. </br>
-and has No sound. </br>
- 
-i've seen it run flawless with driver 510, same machine, same OS, but unable to reproduce, </br>
-seems Kubuntu installer 22.04.5 does something strange/different when detects Nvidia GPU, instead of iGPU </br>
+GTX 1050 Ti runs very slow with Nouveau NV driver, but works ok with intel iGPU 10110u </br>
+runs very slow with Nvidia propietary driver 570 & 535 </br>
+requires driver 470.256.02 </br>
+and libgl1 drivers: </br>
+![image](https://github.com/user-attachments/assets/3d7409b7-8bb8-4433-8906-011468566e7e) </br>
+
+i've seen tropics-1.3 run flawless </br>
+The goal is to run Unigine Tropics-1.3 on modern hardware:  </br>
+x670e + 7600x </br>
+Z790 + 12100 / 12600 on Linux,  </br>
+
+The reason is: </br>
+Nvidia GPU's run faster with faster CPU's. </br>
+Faster Single-core. </br>
+[R15](https://www.cpu-monkey.com/en/cpu_benchmark-cinebench_r15_single_core), [R20](https://www.cpu-monkey.com/en/cpu_benchmark-cinebench_r20_single_core), [R23](https://www.cpu-monkey.com/en/cpu_benchmark-cinebench_r23_single_core), [2024](https://www.cpu-monkey.com/en/cpu_benchmark-cinebench_2024_single_core) </br>
+Games loads faster in Newer board with PCIe v4 & PCIe v5 </br>
+PCIe v3 GPU's run very slow on older PCIe v2.0 boards. </br>
+
+IF Unigine Tropics-1.3 does Not work, </br>
+Older games like Batman Arkham Asylum also does Not work. </br>
+require 32-Bit OpenGL drivers. </br>
+32-Bit 3D graphics have issues on Linux. </br>
+
+Unigine Tropics-1.3 on Win8.1x64 & W10 is easy, just needs NET3.5 </br>
+But on Linux is tricky. </br>
+
+Win 32-but 3D games could run flawless on Wine9.x because Wine was designed mostly for 32-Bits, but problem is the GPU drivers, Not designed for 32-Bits on Linux. </br>
+
+Legal Games require a "middle man" software like EA "Origin" or Steem + useless anti-cheat, </br>
+are designed for latest 64-Bit Windows11 & 10. </br>
+Support for Win8.1x64 was Dropped /Deleted. </br>
+But Win8.1x64 works ok for 32-Bits, </br>
+also Win10 tested with Tropics 1.3 </br>
+
+Linux + Lutris + Proton allows to install EA & Steem and Run Windows games, but problem is the 32-Bit driver support on Linux. </br>
+
+Ubuntu 17.04 was the last to release a 32-Bit "100% Bios" .iso installer. </br>
+
+Installing 17.04 on VirtualBox 6.1.44 </br>
+works, but VirtualBox 6.1 3D acceleration is incomplete, does Not have the minimum requirements for Unigine Heaven 4.0 </br>
+Fail to run. </br>
+
+VirtualBox 6.1 allows to install Win8.1x64 2D works ok. </br>
+VirtualBox 7 has a problem with video drivers for Win8.1 </br>
+
+Its a combination lock to make Unigine Tropics-1.3 work. </br>
+
+Unigine Heaven-4.0 works Flawless on 17.04 x64 & 20.04.4 LTS </br>
+Problem is pure 32-Bit like Tropics-1.3 </br>
+
+#### Problem #3. </br>
+
+No sound. </br>
+
+Kubuntu installer 22.04.5 does something strange/different when detects Nvidia GPU, vs. iGPU </br>
 .iso propietary drivers seem different from nvidia web drivers, </br>
 web drivers does Not install easy. </br>
 
-#### Problem #3. </br>
 > Loading "libopenal.so.1"... </br>
 > ALWrapper::init(): can't load "libopenal.so.1" library </br>
 > libopenal.so.1: cannot open shared object file: No such file or directory </br>
@@ -433,6 +477,24 @@ https://cdimage.ubuntu.com/ubuntucinnamon/releases/24.04.1/release/ </br>
 
 --------------------------
 
-# Debian 12.x Bookworm
+Real GPU is Required for Dual Boot with legacy OS like Win8.1 in Z790 boards + 12th gen cpu's. </br>
+intel iGPU removed Legacy boot support in 12th gen, works up to 10th gen cpu's, 11th gen CPU's Unknown / Untested. </br>
+
+
+Linux developers delete source code for Non-LTS releases </br>
+example: Ubuntu 23.10 (Mantic Minotaur) </br>
+released on 12 October 2023, supported for nine months until July 2024. </br>
+[Source code Deleted](https://cdimage.ubuntu.com/releases/23.10/release/source/) January 2025. </br>
+to me it´s insane to delete source code, goes against the laws of [Reversible Computing](https://en.wikipedia.org/wiki/Reversible_computing) </br>
+but thats one of the ways they have to keep open source closed as possible. </br>
+other methods like robots.txt to stop [archive.org](https://web.archive.org/web/20240303064513/https://cdimage.ubuntu.com/releases/23.10/release/source/) to make a [copy](https://web.archive.org/web/20240421133031/http://cdimage.ubuntu.com/releases/mantic/release/source/) </br>
+other is to hide the directory, stop mirrors, etc... </br>
+i wish i could find [10.04.4](https://archive.org/download/ubuntu-repo-lucid-lynx-10.04-20210302) and [10.10](https://archive.org/download/ubuntu-repo-maverick-meerkat-10.10-20210302) [source](https://old-releases.ubuntu.com/releases/releases/) to see the changes, </br>
+[Ubuntu Version History](https://en.wikipedia.org/wiki/Ubuntu_version_history) </br>
+[Ubuntu old-releases](http://old-releases.ubuntu.com/releases/) </br>
+
+for VLC developers: Non-LTS = LTS </br> 
+they link [VLC version to OS version](https://packages.ubuntu.com/search?searchon=sourcenames&keywords=vlc) </br>
+
 
 [AV Linux 23.x](https://www.bandshed.net/avlinux/)
