@@ -14,7 +14,8 @@ but [pearOS Monterrey (2021.07.01)](https://archive.org/details/pearOS_Monterey_
 [Superposition-1.1 (2017)](https://benchmark.unigine.com/superposition) </br>
 
 Heaven works flawless in most systems, most drivers, tested 17.04, 20.04, 22.04 </br>
-problem is 32-Bit Tropics 1.3 & Sanctuary, require 32-Bit OpenGL drivers </br>
+problem is 32-Bit Tropics-1.3 & Sanctuary, require 32-Bit OpenGL drivers </br>
+
 Latest Nvidia RTX 5000 GPU's removed 32-Bit support for [Physx](https://www.nvidia.com/en-us/drivers/physx/physx-9-23-1019-driver/).[Legacy](https://www.nvidia.com/en-us/drivers/physx/physx-9-13-0604-legacy-driver/).[9.19](https://www.nvidia.com/en-us/drivers/physx/physx-9-19-0218-driver/) </br>
 to run 32-Bit games, requires older GPU. </br>
 
