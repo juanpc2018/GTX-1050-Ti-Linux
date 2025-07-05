@@ -1,9 +1,9 @@
 # GTX 1050 Ti Linux
 
 i use [LTS](https://en.wikipedia.org/wiki/Long-term_support) releases, </br>
-i like Kernel 6.7 or higher because [Focusrite USB mk2/3 ](https://github.com/geoffreybennett/alsa-scarlett-gui/blob/master/docs/INSTALL.md) drivers are Activated by Default. </br> 
-but [pearOS Monterrey (2021.07.01)](https://archive.org/details/pearOS_Monterey_64bit-12-beta-2021.07.01) 20.04.4 LTS + [liquorix](https://liquorix.net/) kernel: 6.3.13-1-liquorix-amd64 </br>
-20.04 does Not have Gtk4, Focusrite app requires Gtk4 to compile, without Gtk4 ALSA Scarlett Control Panel requires Flatpak version. </br>
+Kernel 6.7 or higher because [Focusrite USB mk2/3 ](https://github.com/geoffreybennett/alsa-scarlett-gui/blob/master/docs/INSTALL.md) drivers are Activated by Default. </br> 
+but [pearOS Monterrey (2021.07.01)](https://archive.org/details/pearOS_Monterey_64bit-12-beta-2021.07.01) 20.04.4 LTS + [liquorix](https://liquorix.net/) kernel 6.3.13-1-liquorix-amd64 </br>
+20.04 does Not have Gtk4, ALSA Scarlett Control Panel requires Gtk4 to compile, without Gtk4 requires Flatpak version. </br>
 
 32-Bit: </br>
 [Unigine Tropics-1.3 (2008-2010)](https://benchmark.unigine.com/tropics) [.run](https://assets.unigine.com/d/Unigine_Tropics-1.3.run) [Benchmark](https://benchmark.unigine.com/) for Linux OpenGL </br>
@@ -13,11 +13,11 @@ but [pearOS Monterrey (2021.07.01)](https://archive.org/details/pearOS_Monterey_
 [Valley-1.0 (2013)](https://benchmark.unigine.com/valley) </br>
 [Superposition-1.1 (2017)](https://benchmark.unigine.com/superposition) </br>
 
-Heaven works flawless in most systems, most drivers, tested 17.04, 20.04, 22.04 </br>
+Heaven-4.0 works flawless in most systems, most drivers, tested 17.04, 20.04, 22.04 </br>
 problem is 32-Bit Tropics-1.3 & Sanctuary, require 32-Bit OpenGL drivers </br>
 
 Latest Nvidia RTX 5000 GPU's removed 32-Bit support for [Physx](https://www.nvidia.com/en-us/drivers/physx/physx-9-23-1019-driver/).[Legacy](https://www.nvidia.com/en-us/drivers/physx/physx-9-13-0604-legacy-driver/).[9.19](https://www.nvidia.com/en-us/drivers/physx/physx-9-19-0218-driver/) </br>
-to run 32-Bit games, requires older GPU. </br>
+to run [32-Bit games](https://en.wikipedia.org/wiki/Category:Video_games_using_PhysX) requires older GPU. </br>
 
 Tropics-1.3 sometimes works flawless, but clean install Fails & [Never works](https://forums.linuxmint.com/viewtopic.php?t=337657) </br>
 requires [MesaGL, OpenAL, xorg libs](https://freebsd.pkgs.org/14/freebsd-amd64/linux-unigine-tropics-1.3.pkg.html) but still does Not work, </br>
@@ -26,17 +26,18 @@ i think found the problem, but tested all OS without knowing, have to re-test. <
 Kubuntu 22.04.5 </br>
 "worked" when installed something, but unable to reproduce. </br>
 Clean install Fail. </br>
-same happens with other OS like pearOS, i have other M.2 works flawless, but clean install does Not work. </br>
+same happens with other OS. </br>
 
 .run installer needs [X] executable in properties. </br>
 creates ~/Downloads/tropics </br>
 
 > copy 1024x768_windowed.sh to 1920x1080_windowed.sh </br>
-> edit 1920x1080_windowed.sh
+> edit 1920x1080_windowed.sh </br>
 with Tea, Kate, microsoft edit, vim, nano or similar </br>
 replace 1024 with 1920, & 768 with 1080 & save. </br>
 
-3440x1440 WQHD monitors: benchmark at 1920x1080 is better windowed. </br>
+3440x1440 WQHD monitors: </br>
+benchmark at 1920x1080 is better windowed. </br>
 
 64-bit OS requires to [Enable 32-bit](https://gitlab.winehq.org/wine/wine/-/wikis/Debian-Ubuntu) architecture: </br>
 > sudo dpkg --add-architecture i386 </br>
@@ -69,23 +70,28 @@ but... </br>
 
 #### Problem #2. </br>
 
-Nouveau NV driver runs very slow with 1050 Ti, but works ok with intel iGPU 10110u </br>
-GTX 1050 Ti also runs very slow with Nvidia propietary driver 570 & 535 </br>
+Nouveau NV driver runs very slow with GTX 1050 Ti, works ok with intel iGPU 10110u </br>
+GTX 1050 Ti also runs very slow with Nvidia propietary driver 570 </br>
 requires driver 470.256.02 </br>
 and Legacy GL Support "Libgl1" drivers: </br>
 ![image](https://github.com/user-attachments/assets/3d7409b7-8bb8-4433-8906-011468566e7e) </br>
+
+older GPU's like [Quadro 6000 (2010)](https://www.nvidia.com/content/dam/en-zz/Solutions/design-visualization/quadro-product-literature/NV_DS_QUADRO_6000_Oct10_US_LR.pdf) require driver 390.x </br>
 
 Problem: </br>
 LibGL1 i386 drivers are Not 100% compatible with All Nvidia & Nouveau drivers, </br>
 and Nvidia & Nouveau drivers are Not 100% compatible with All GPU's. </br>
 
+Unigine Tropics-1.3 on Win8.1x64 & W10 is easy, just needs NET3.5 </br>
+Linux is tricky. </br>
 i've seen tropics-1.3 run flawless. </br>
+
 The goal is to run Tropics-1.3 on modern hardware:  </br>
 x670e + 7600x </br>
 Z790 + i3-12100 / i5-12600 on Linux. </br>
 
-The reason is: </br>
-Nvidia GPU's run faster with faster CPU's. </br>
+The reason: </br>
+Nvidia GPU's run faster with faster CPU's </br>
 Faster Single-core... </br>
 [R15](https://www.cpu-monkey.com/en/cpu_benchmark-cinebench_r15_single_core), [R20](https://www.cpu-monkey.com/en/cpu_benchmark-cinebench_r20_single_core), [R23](https://www.cpu-monkey.com/en/cpu_benchmark-cinebench_r23_single_core), [2024](https://www.cpu-monkey.com/en/cpu_benchmark-cinebench_2024_single_core) </br>
 Games load faster in Newer boards with PCIe v4 & PCIe v5 NVMe </br>
@@ -96,8 +102,7 @@ Older games like [Batman Arkham Asylum](https://www.gog.com/en/game/batman_arkha
 requires Linux 32-Bit OpenGL drivers. </br>
 32-Bit 3D graphics have issues on Linux. </br>
 
-Unigine Tropics-1.3 on Win8.1x64 & W10 is easy, just needs NET3.5 </br>
-Linux is tricky. </br>
+
 
 Win 32-bit 3D games could run flawless on Wine 9.x because Wine was designed mostly for 32-Bits, </br>
 problem is GPU drivers, Not All work for 32-Bits on Linux. </br>
@@ -129,7 +134,7 @@ Need for Speed The Run is inspired by films like [The Cannonball Run (1981)](htt
 # Tropics-1.3
 
 Win10 Tropics-1.3 OpenGL had strange results </br>
-#### Quadro M6000 24GB | HP Z | lga3647 Platinum CPU </br>
+#### [Quadro M6000 24GB](https://www.nvidia.com/content/dam/en-zz/Solutions/design-visualization/quadro-product-literature/NV-DS-Quadro-M6000-24GB-US-NV-fnl-HR.pdf) | HP Z | lga3647 Platinum CPU </br>
 4x Anisotropy: <5500 points. </br>
 
 Other results: </br>
@@ -154,6 +159,8 @@ No Anisotropy: 3538 points. </br>
 4x Anisotropy: 3811 points. </br>
 #### Quadro M6000 24GB | 7600x x670e </br>
 4x Anisotropy: 6537 ponts. </br>
+
+[Quadro M6000 12GB](https://images.nvidia.com/content/pdf/quadro/data-sheets/NV_DS_Quadro_M6000_FEB15_NV_US_FNL_HR.pdf) should be similar.
 
 ---------------
 
