@@ -75,8 +75,9 @@ requires driver 470.256.02 </br>
 and Legacy GL Support "Libgl1" drivers: </br>
 ![image](https://github.com/user-attachments/assets/3d7409b7-8bb8-4433-8906-011468566e7e) </br>
 
-Problem: LibGl1 32-Bit drivers are Not 100% compatible with All Nvidia & Nouveau drivers, </br>
-and Nvidia drivers are Not 100% compatible with All GPU's. </br>
+Problem: </br>
+LibGl1 i386 drivers are Not 100% compatible with All Nvidia & Nouveau drivers, </br>
+and Nvidia & Nouveau drivers are Not 100% compatible with All GPU's. </br>
 
 i've seen tropics-1.3 run flawless. </br>
 The goal is to run Tropics-1.3 on modern hardware:  </br>
@@ -91,8 +92,8 @@ Games load faster in Newer boards with PCIe v4 & PCIe v5 NVMe </br>
 PCIe v3 GPU's run very slow on older PCIe v2.0 boards. </br>
 
 IF Unigine Tropics-1.3 does Not work, </br>
-Older games like Batman Arkham Asylum also does Not work. </br>
-require 32-Bit OpenGL drivers. </br>
+Older games like [Batman Arkham Asylum](https://www.gog.com/en/game/batman_arkham_asylum_goty).[steem](https://store.steampowered.com/app/35140/Batman_Arkham_Asylum_Game_of_the_Year_Edition/).[epic](https://store.epicgames.com/en-US/p/batman-arkham-asylum).[wiki](https://en.wikipedia.org/wiki/Batman:_Arkham_Asylum) & [many other](https://en.wikipedia.org/wiki/Category:Video_games_using_PhysX) also does Not work. </br>
+requires Linux 32-Bit OpenGL drivers. </br>
 32-Bit 3D graphics have issues on Linux. </br>
 
 Unigine Tropics-1.3 on Win8.1x64 & W10 is easy, just needs NET3.5 </br>
@@ -102,9 +103,17 @@ Win 32-bit 3D games could run flawless on Wine 9.x because Wine was designed mos
 problem is GPU drivers, Not All work for 32-Bits on Linux. </br>
 
 Legal Games require a "middle finger" software like [EA "Origin"](https://www.ea.com/ea-app) or [Steem](https://store.steampowered.com/about/) + useless anti-cheat, that can be bypass with DMA PCIe cards </br>
-Those Game Stores are designed for latest 64-Bit Windows11 & W10 </br>
+Those Game Stores are designed for latest 64-Bit Win11 & W10 </br>
 Support for Win8.1x64 was Deleted </br>
-But Win8.1x64 works ok for 32-Bits, </br>
+But Win8.1x64 works ok for 32-Bits </br>
+
+Store does Not work in W8.1x64.
+games work in Win8.1x64, but... 
+without store app, games do Not run/install. </br>
+Original [DVD](https://archive.org/details/NFSRUN) [installers](https://www.old-games.com/download/11915/need-for-speed-the-run) for [Need for Speed The Run](https://www.gog.com/dreamlist/game/need-for-speed-the-run-2011).[moby](https://www.mobygames.com/game/53576/need-for-speed-the-run/).[wiki](https://en.wikipedia.org/wiki/Need_for_Speed%3A_The_Run) for PC, are almost useless. </br>
+game was designed to require Online, and original installers were Not designed for W8.1 </br>
+game was updated several times & discontinued. </br>
+other option is using PS3 DVD and PS3 emulator for PC, but if game was available for PC. </br>
 
 Win10 Tropics-1.3 OpenGL had strange results </br>
 #### Quadro M6000 24GB | HP Z with intel lga3647 Platinum CPU </br>
