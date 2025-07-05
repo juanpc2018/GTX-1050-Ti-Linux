@@ -30,11 +30,12 @@ same happens with other OS like pearOS, i have other M.2 works flawless, but cle
 .run installer needs to be [X] executable in properties. </br>
 creates /Downloads/tropics folder </br>
 
-copy 1024x768_windowed.sh to 1920x1080_windowed.sh </br>
-edit 1920x1080_windowed.sh with Tea, Kate or similar text editor </br>
-replace 1024 with 1920, and 768 with 1080 & save. </br>
+> copy 1024x768_windowed.sh to 1920x1080_windowed.sh </br>
+> edit 1920x1080_windowed.sh
+with Tea, Kate, microsoft edit or similar </br>
+replace 1024 with 1920, & 768 with 1080 & save. </br>
 
-3440x1440 WQHD monitors, benchmark at 1920x1080 windowed. </br>
+3440x1440 WQHD monitors, benchmark at 1920x1080 is better windowed. </br>
 
 64-bit OS requires to [Enable 32-bit](https://gitlab.winehq.org/wine/wine/-/wikis/Debian-Ubuntu) architecture: </br>
 > sudo dpkg --add-architecture i386 </br>
