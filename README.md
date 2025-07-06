@@ -113,13 +113,13 @@ games for Win could run flawless on Linux because Wine / Proton / Codeweavers we
 problem is GPU drivers, Not All work for 32-Bits on 64-Bit Linux. </br>
 
 Using older 100% 32-Bit Linux like [17.04](https://old-releases.ubuntu.com/releases/17.04/) has other issues: </br>
-i386 does Not have UEFI support, Only BIOS. </br>
+[i386](https://old-releases.ubuntu.com/releases/17.04/ubuntu-17.04-desktop-i386.iso) does Not have UEFI support, Only BIOS. </br>
 Requires board to run in CSM-Legacy mode </br>
 2.5G Realtek Network do Not work, latest drivers RTL8196 do Not compile on Kernel 4.10.0-19 </br>
 same as Marvell / Aquantia ACQ100 sfp+ pcie, latest 2.5.x drivers also do Not compile. </br>
 Requires to download the whole [Repository 200GB](https://archive.org/details/ubuntu-repo-zesty-zapus-17.04-20210308) </br>
 Galium 0.4 Nouveau NV120 drivers do Not allow to change fps. </br>
-Nouveau Galium 0.4 NV120 drivers, has poor 3D performance / optimization on Unigine Heaven-4.0 </br>
+3D Nouveau Galium 0.4 NV120 drivers run slow on Unigine Heaven-4.0 </br>
 
 [Ubuntu 17.04 installer](https://old-releases.ubuntu.com/releases/17.04/) </br>
 GRUB does Not install/work when main / partition is formatted as GPT + XFS </br>
