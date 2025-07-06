@@ -100,7 +100,7 @@ on Linux. </br>
 
 The reason: </br>
 Nvidia GPU's run faster with faster CPU's </br>
-Faster Single-core... [R15](https://www.cpu-monkey.com/en/cpu_benchmark-cinebench_r15_single_core), [R20](https://www.cpu-monkey.com/en/cpu_benchmark-cinebench_r20_single_core), [R23](https://www.cpu-monkey.com/en/cpu_benchmark-cinebench_r23_single_core), [2024](https://www.cpu-monkey.com/en/cpu_benchmark-cinebench_2024_single_core) </br>
+Faster Single-core... [2003](https://web.archive.org/web/*/http://http.maxon.net/pub/benchmarks/*), [R11.5](https://www.cpu-monkey.com/en/cpu_benchmark-cinebench_r11.5_64bit_single_core), [R15](https://www.cpu-monkey.com/en/cpu_benchmark-cinebench_r15_single_core), [R20](https://www.cpu-monkey.com/en/cpu_benchmark-cinebench_r20_single_core), [R23](https://www.cpu-monkey.com/en/cpu_benchmark-cinebench_r23_single_core), [2024](https://www.cpu-monkey.com/en/cpu_benchmark-cinebench_2024_single_core) </br>
 Games load faster in Newer boards with PCIe v4 & PCIe v5 NVMe </br>
 PCIe v3 GPU's run very slow on older PCIe v2.0 boards. </br>
 
