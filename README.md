@@ -70,8 +70,9 @@ but... </br>
 
 #### Problem #2. </br>
 
-Nouveau NV driver runs very slow with GTX 1050 Ti, works ok with intel iGPU 10110u </br>
-GTX 1050 Ti also runs very slow with Nvidia propietary driver 570 </br>
+Nouveau NV driver runs very slow with [GTX 1050 Ti (2016)](https://www.techpowerup.com/gpu-specs/geforce-gtx-1050-ti.c2885) </br>
+Nouveau drivers work ok with intel iGPU 10110u </br>
+[GTX 1050 Ti (2016)](https://www.techpowerup.com/gpu-specs/geforce-gtx-1050-ti.c2885) runs very slow with Nvidia propietary driver 570 </br>
 requires driver 470.256.02 </br>
 and Legacy GL Support "Libgl1" drivers: </br>
 ![image](https://github.com/user-attachments/assets/3d7409b7-8bb8-4433-8906-011468566e7e) </br>
@@ -82,6 +83,11 @@ Problem: </br>
 LibGL1 i386 drivers are Not 100% compatible with All Nvidia & Nouveau drivers, </br>
 and Nvidia & Nouveau drivers are Not 100% compatible with All GPU's. </br>
 ![image](https://github.com/user-attachments/assets/12ca78fb-69a9-41ab-b837-e25cfa1061fa)
+A GPU compatible with 64-Bit Linux 20.04.4 LTS may Not be compatible with 32-Bit OpenGL drivers. </br>
+The List of compatible GPU's get smaller. </br>
+same: GPU's compatible with 100% 32-Bit Linux 17.04 & older: 16.10, 16.04, 15.10, 15.04, etc... </br>
+NVMe compatible Linux with Kernel 3.3 or higher, since Ubuntu 14.04, 14.10 </br>
+Older Linux 10.04, 10.10, 11.04, 11.10, 12.04, 12.10 require SATA-III or SCSI-320. </br>
 
 Unigine Tropics-1.3 on Win8.1x64 & W10 is easy, just needs NET3.5 </br>
 Linux is tricky. </br>
@@ -89,7 +95,8 @@ but i've seen tropics-1.3 run flawless. </br>
 
 The goal is to run Tropics-1.3 on modern hardware:  </br>
 x670e + 7600x </br>
-Z790 + i3-12100 / i5-12600 on Linux. </br>
+Z790 + i3-12100 / i5-12600 </br>
+on Linux. </br>
 
 The reason: </br>
 Nvidia GPU's run faster with faster CPU's </br>
@@ -100,13 +107,13 @@ PCIe v3 GPU's run very slow on older PCIe v2.0 boards. </br>
 IF Unigine Tropics-1.3 does Not work, </br>
 Older games like [Batman Arkham Asylum](https://www.gog.com/en/game/batman_arkham_asylum_goty)-[steem](https://store.steampowered.com/app/35140/Batman_Arkham_Asylum_Game_of_the_Year_Edition/).[epic](https://store.epicgames.com/en-US/p/batman-arkham-asylum).[wiki](https://en.wikipedia.org/wiki/Batman:_Arkham_Asylum) & [many other](https://en.wikipedia.org/wiki/Category:Video_games_using_PhysX) also do Not work. </br>
 requires Linux 32-Bit OpenGL </br>
-32-Bit 3D graphics has issues on 64-Bit Linux. </br>
+32-Bit 3D graphics is tricky on 64-Bit Linux. </br>
 
 games for Win could run flawless on Linux because Wine / Proton / Codeweavers were designed for 32-Bits, </br>
 problem is GPU drivers, Not All work for 32-Bits on 64-Bit Linux. </br>
 
-Using older 100% 32-Bit Linux like 17.04 has other issues: </br>
-does Not have UEFI support, Only BIOS. </br>
+Using older 100% 32-Bit Linux like [17.04](https://old-releases.ubuntu.com/releases/17.04/) has other issues: </br>
+i386 does Not have UEFI support, Only BIOS. </br>
 Requires board to run in CSM-Legacy mode </br>
 2.5G Realtek Network do Not work, latest drivers RTL8196 do Not compile on Kernel 4.10.0-19 </br>
 same as Marvell / Aquantia ACQ100 sfp+ pcie, latest 2.5.x drivers also do Not compile. </br>
@@ -114,13 +121,13 @@ Requires to download the whole [Repository 200GB](https://archive.org/details/ub
 Galium 0.4 Nouveau NV120 drivers do Not allow to change fps. </br>
 Nouveau Galium 0.4 NV120 drivers, has poor 3D performance / optimization on Unigine Heaven-4.0 </br>
 
-Ubuntu 17.04 installer: </br>
-GRUB does Not work when / partition is formatted as GPT + XFS </br>
+[Ubuntu 17.04 installer](https://old-releases.ubuntu.com/releases/17.04/) </br>
+GRUB does Not install/work when main / partition is formatted as GPT + XFS </br>
 Only works Ext4 </br>
 
-Some Boards do Not work with DisplayPort v1.4 with modern displays like LG 34" WQHD </br>
-UEFI goes crazy tring to detect 160fps, 3440x1440 </br>
-LG 34" allows to lower/force DP v1.2 but Colors / Settings look weird / Not the same. </br>
+Some New Boards do Not work with DisplayPort v1.4 on modern displays like LG 34" WQHD </br>
+UEFI Boot screen goes crazy tring to detect 160fps, 3440x1440 </br>
+LG 34" allows to lower/force DP v1.2 but Colors / Settings look weird / Not the same on Linux Nouveau driver. </br>
 
 [Quadro 6000 (2010)](https://www.nvidia.com/content/dam/en-zz/Solutions/design-visualization/quadro-product-literature/NV_DS_QUADRO_6000_Oct10_US_LR.pdf) does Not display Boot screen on modern UEFI boards like x670e v2.10 </br>
 Tested HDMI adapter, & direct DP 1.2 </br>
