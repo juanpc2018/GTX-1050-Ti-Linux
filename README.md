@@ -132,8 +132,7 @@ LG 34" allows to lower/force DP v1.2 but Colors / Settings look weird / Not the 
 [Quadro 6000 (2010)](https://www.nvidia.com/content/dam/en-zz/Solutions/design-visualization/quadro-product-literature/NV_DS_QUADRO_6000_Oct10_US_LR.pdf) does Not display Boot screen on modern UEFI boards like x670e v2.10 </br>
 Tested HDMI adapter, & direct DP 1.2 </br>
 DVI to HDMI untested. </br>
-
-[Quadro 6000 (2010)](https://www.nvidia.com/content/dam/en-zz/Solutions/design-visualization/quadro-product-literature/NV_DS_QUADRO_6000_Oct10_US_LR.pdf) Requires iGPU to display UEFI & Grub on 17.04 x64 </br>
+Requires iGPU to display UEFI & Grub on 17.04 x64 </br>
 Nouveau Gallium 0.4 NVC0 are very unstable on 17.04 x64. </br>
 
 All Quadro GPU's "Require" DP to HDMI adapter, or DVI to HDMI </br>
