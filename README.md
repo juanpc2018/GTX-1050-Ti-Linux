@@ -113,7 +113,22 @@ games for Win could run flawless on Linux because Wine / Proton / Codeweavers we
 problem is GPU drivers, Not All work for 32-Bits on 64-Bit Linux. </br>
 
 Using older 100% 32-Bit Linux like [17.04](https://old-releases.ubuntu.com/releases/17.04/) has other issues: </br>
-[i386](https://old-releases.ubuntu.com/releases/17.04/ubuntu-17.04-desktop-i386.iso) does Not have UEFI support, Only BIOS. </br>
+Ubuntu 17.04 was the last to release a 32-Bit "100% Bios" .iso installer. </br>
+
+Installing 17.04 x64 on [VirtualBox 6.1.44](https://www.virtualbox.org/wiki/Download_Old_Builds_6_1) </br>
+"works" but VirtualBox 6.1 3D acceleration is incomplete, </br>
+does Not have the minimum OpenGL requirements for Unigine Heaven-4.0 </br>
+Fails to run. </br>
+
+VirtualBox 6.1 allows to install Win8.1x64, 2D works ok. </br>
+[VirtualBox 7](https://www.virtualbox.org/wiki/Download_Old_Builds) video drivers have a problem with Win8.1x64 </br>
+
+Its a combination lock to make Unigine Tropics-1.3 work. </br>
+
+Unigine Heaven-4.0 works Flawless on 17.04 x64 & 20.04.4 LTS </br>
+Problem is pure 32-Bit like Tropics-1.3 </br>
+
+[17.04-i386](https://old-releases.ubuntu.com/releases/17.04/ubuntu-17.04-desktop-i386.iso) does Not have UEFI support, Only BIOS. </br>
 Requires board to run in CSM-Legacy mode </br>
 2.5G Realtek Network do Not work, latest drivers RTL8196 do Not compile on Kernel 4.10.0-19 </br>
 same as Marvell / Aquantia ACQ100 sfp+ pcie, latest 2.5.x drivers also do Not compile. </br>
@@ -126,17 +141,17 @@ GRUB does Not install/work when main / partition is formatted as GPT + XFS </br>
 Only works Ext4 </br>
 
 Some New Boards do Not work with DisplayPort v1.4 on modern displays like LG 34" WQHD </br>
-UEFI Boot screen goes crazy tring to detect 160fps, 3440x1440 </br>
+UEFI Boot screen goes crazy detecting: 160fps, 3440x1440 probably because its a compressed format </br>
 LG 34" allows to lower/force DP v1.2 but Colors / Settings look weird / Not the same on Linux Nouveau driver. </br>
-
-[Quadro 6000 (2010)](https://www.nvidia.com/content/dam/en-zz/Solutions/design-visualization/quadro-product-literature/NV_DS_QUADRO_6000_Oct10_US_LR.pdf) does Not display Boot screen on modern UEFI boards like x670e v2.10 </br>
-Tested HDMI adapter, & direct DP 1.2 </br>
-DVI to HDMI untested. </br>
-Requires iGPU to display UEFI & Grub on 17.04 x64 </br>
-Nouveau Gallium 0.4 NVC0 are very unstable on 17.04 x64. </br>
 
 All Quadro GPU's "Require" DP to HDMI adapter, or DVI to HDMI </br>
 Tested: [Startech DP2HD4KADAP](https://www.startech.com/en-us/display-video-adapters/dp2hd4kadap) </br>
+
+[Quadro 6000 (2010)](https://www.nvidia.com/content/dam/en-zz/Solutions/design-visualization/quadro-product-literature/NV_DS_QUADRO_6000_Oct10_US_LR.pdf) does Not display Boot screen on modern UEFI boards like x670e v2.10 </br>
+Tested HDMI adapter, & Direct DP v1.2 </br>
+DVI to HDMI Untested. </br>
+Requires iGPU to display UEFI & Grub on 17.04 x64, then switch input </br>
+Nouveau Gallium 0.4 NVC0 are unstable on 17.04 x64. </br>
 
 --------------------
 
@@ -202,20 +217,6 @@ Quadro M6000 24GB | 7600x x670e </br>
 Linux + Lutris + Proton allows to install EA "Origin" & Steem to Run Windows games, </br>
 problem is the 32-Bit driver support on Linux. </br>
 
-Ubuntu 17.04 was the last to release a 32-Bit "100% Bios" .iso installer. </br>
-
-Installing 17.04 on VirtualBox 6.1.44 </br>
-"works" but VirtualBox 6.1 3D acceleration is incomplete, </br>
-does Not have the minimum OpenGL requirements for Unigine Heaven-4.0 </br>
-Fails to run. </br>
-
-VirtualBox 6.1 allows to install Win8.1x64 2D works ok. </br>
-VirtualBox 7 has a problem with video drivers for Win8.1 </br>
-
-Its a combination lock to make Unigine Tropics-1.3 work. </br>
-
-Unigine Heaven-4.0 works Flawless on 17.04 x64 & 20.04.4 LTS </br>
-Problem is pure 32-Bit like Tropics-1.3 </br>
 
 #### Problem #3. </br>
 
