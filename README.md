@@ -105,9 +105,34 @@ requires Linux 32-Bit OpenGL </br>
 games for Win could run flawless on Linux because Wine / Proton / Codeweavers were designed for 32-Bits, </br>
 problem is GPU drivers, Not All work for 32-Bits on 64-Bit Linux. </br>
 
-Using older 100% 32-Bit Linux has other issues: </br>
+Using older 100% 32-Bit Linux like 17.04 has other issues: </br>
 does Not have UEFI support, Only BIOS. </br>
-Requires board to run in CSM-Legacy mode. </br>
+Requires board to run in CSM-Legacy mode </br>
+2.5G Realtek Network do Not work, latest drivers RTL8196 do Not compile on Kernel 4.10.0-19 </br>
+same as Marvell / Aquantia ACQ100 sfp+ pcie, latest 2.5.x drivers also do Not compile. </br>
+Requires to download the whole [Repository 200GB](https://archive.org/details/ubuntu-repo-zesty-zapus-17.04-20210308) </br>
+Galium 0.4 Nouveau NV120 drivers do Not allow to change fps. </br>
+Nouveau Galium 0.4 NV120 drivers, has poor 3D performance / optimization on Unigine Heaven-4.0 </br>
+
+Ubuntu 17.04 installer: </br>
+GRUB does Not work when / partition is formatted as GPT + XFS </br>
+Only works Ext4 </br>
+
+Some Boards do Not work with DisplayPort v1.4 with modern displays like LG 34" WQHD </br>
+UEFI goes crazy tring to detect 160fps, 3440x1440 </br>
+LG 34" allows to lower/force DP v1.2 but Colors / Settings look weird / Not the same. </br>
+
+[Quadro 6000 (2010)](https://www.nvidia.com/content/dam/en-zz/Solutions/design-visualization/quadro-product-literature/NV_DS_QUADRO_6000_Oct10_US_LR.pdf) does Not display Boot screen on modern UEFI boards like x670e v2.10 </br>
+Tested HDMI adapter, & direct DP 1.2 </br>
+DVI to HDMI untested. </br>
+
+[Quadro 6000 (2010)](https://www.nvidia.com/content/dam/en-zz/Solutions/design-visualization/quadro-product-literature/NV_DS_QUADRO_6000_Oct10_US_LR.pdf) Requires iGPU to display UEFI & Grub on 17.04 x64 </br>
+Nouveau Gallium 0.4 NVC0 are very unstable / unusable on 17.04 x64. </br>
+
+All Quadro GPU's Require DP to HDMI adapter, or DVI to HDMI </br>
+Tested: [Startech DP2HD4KADAP](https://www.startech.com/en-us/display-video-adapters/dp2hd4kadap) </br>
+
+--------------------
 
 Legal Games require a "middle finger" software like [EA "Origin"](https://www.ea.com/ea-app) or [Steem](https://store.steampowered.com/about/) + useless anti-cheat, that can be bypass with DMA PCIe </br>
 Game app stores are designed for latest 64-Bit Win11 & W10 </br>
@@ -115,9 +140,9 @@ Support for Win8.1x64 & W7 was Deleted </br>
 But Win8.1x64 works ok for 32-Bits </br>
 
 games work in W8.1x64, but... </br>
-app stores do Not work in Win8.1x64 </br>
+app store do Not work in Win8.1x64 </br>
 without store app, games do Not run/install. </br>
-worse... </br>
+% worse... </br>
 Original [DVD](https://archive.org/details/NFSRUN) [installers](https://www.old-games.com/download/11915/need-for-speed-the-run) for [Need for Speed The Run Special Edition](https://www.gog.com/dreamlist/game/need-for-speed-the-run-2011).[moby](https://www.mobygames.com/game/53576/need-for-speed-the-run/).[wiki](https://en.wikipedia.org/wiki/Need_for_Speed%3A_The_Run).[Origin](https://web.archive.org/web/20160322050632/https://www.origin.com/en-us/store/buy/nfs-the-run-2012/pc-download/base-game/standard-edition).[cdkeys](https://www.cdkeys.com/need-for-speed-the-run-pc-cd-key-origin).[YT](https://www.youtube.com/watch?v=v-4msZsoe18&t=6s) for PC, are almost useless. </br>
 game was designed to require Online, Original SE installers were Not designed for W8.1 </br>
 Black Box closure in April 2013, but game was updated to be compatible with Win8.1x64 by origin & Discontinued by EA, </br>
