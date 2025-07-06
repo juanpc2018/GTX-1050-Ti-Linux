@@ -169,7 +169,7 @@ Need for Speed The Run is inspired by films like [The Cannonball Run (1981)](htt
 ## Tropics-1.3
 
 Win10 OpenGL results: </br>
-[Quadro M6000 24GB](https://www.nvidia.com/content/dam/en-zz/Solutions/design-visualization/quadro-product-literature/NV-DS-Quadro-M6000-24GB-US-NV-fnl-HR.pdf) | HP Z | lga3647 Platinum CPU | 1920x1080 Full Screen | High | Trilinear </br>
+[Quadro M6000 24GB (2016)](https://www.nvidia.com/content/dam/en-zz/Solutions/design-visualization/quadro-product-literature/NV-DS-Quadro-M6000-24GB-US-NV-fnl-HR.pdf) | HP Z | lga3647 Platinum CPU | 1920x1080 Full Screen | High | Trilinear </br>
 4x Anisotropy: <5500 points. </br>
 
 Other results: </br>
@@ -195,7 +195,7 @@ Quadro M6000 24GB | Dual Opteron 6328 "2x8 16-cores" Tyan S8232 | Win8.1 limited
 Quadro M6000 24GB | 7600x x670e </br>
  4x Anisotropy: 6537 ponts. </br>
 
-[Quadro M6000 12GB](https://images.nvidia.com/content/pdf/quadro/data-sheets/NV_DS_Quadro_M6000_FEB15_NV_US_FNL_HR.pdf) should be similar.
+[Quadro M6000 12GB (2015)](https://images.nvidia.com/content/pdf/quadro/data-sheets/NV_DS_Quadro_M6000_FEB15_NV_US_FNL_HR.pdf) should be similar.
 
 ---------------
 
