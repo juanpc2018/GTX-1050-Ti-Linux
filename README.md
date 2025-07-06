@@ -160,34 +160,34 @@ Need for Speed The Run is inspired by films like [The Cannonball Run (1981)](htt
 
 -----------------------
 
-# Tropics-1.3
+## Tropics-1.3
 
-Win10 Tropics-1.3 OpenGL had strange results </br>
-#### [Quadro M6000 24GB](https://www.nvidia.com/content/dam/en-zz/Solutions/design-visualization/quadro-product-literature/NV-DS-Quadro-M6000-24GB-US-NV-fnl-HR.pdf) | HP Z | lga3647 Platinum CPU </br>
+Win10 OpenGL had strange results: </br>
+[Quadro M6000 24GB](https://www.nvidia.com/content/dam/en-zz/Solutions/design-visualization/quadro-product-literature/NV-DS-Quadro-M6000-24GB-US-NV-fnl-HR.pdf) | HP Z | lga3647 Platinum CPU </br>
 4x Anisotropy: <5500 points. </br>
 
 Other results: </br>
-#### GTX 1050 Ti </br>
-1920x1080 windowed | High, Trilinear </br>
+GTX 1050 Ti </br>
+ 1920x1080 windowed | High, Trilinear </br>
 Linux: 470.256.02 | 7600x CPU + x670e </br>
-No Anisotropy: 3538 points. </br>
-16x Anisotropy: 3137 points. </br>
+ No Anisotropy: 3538 points. </br>
+ 16x Anisotropy: 3137 points. </br>
 
-#### Win8.1x64 | driver 416 | i3-12100 CPU + Z790 </br>
-1920x1080: 3047 points. </br>
-3440x1440: 1367 points. </br>
-#### Quadro P400 | AMD Opteron 6308 </br>
-4x Anisotropy: 965 points </br>
-#### Quadro 6000 | AMD Opteron 6308 </br>
-4x Anisotropy: 1502 points. </br>
-#### Quadro M2000 4GB | AMD Opteron 6308 </br>
-4x Anisotropy: 2028 points. </br>
-#### Quadro M6000 24GB | AMD Opteron 6308 Supermicro H8SGL </br>
-4x Anisotropy: 3364 points. </br>
-#### Quadro M6000 24GB | Dual Opteron 6328 "2x8 16-cores" Tyan S8232 | Win8.1 limited to 8-cores </br>
-4x Anisotropy: 3811 points. </br>
-#### Quadro M6000 24GB | 7600x x670e </br>
-4x Anisotropy: 6537 ponts. </br>
+Win8.1x64 | driver 416 | i3-12100 CPU + Z790 </br>
+ 1920x1080: 3047 points. </br>
+ 3440x1440: 1367 points. </br>
+Quadro P400 | AMD Opteron 6308 </br>
+ 4x Anisotropy: 965 points </br>
+Quadro 6000 | AMD Opteron 6308 </br>
+ 4x Anisotropy: 1502 points. </br>
+Quadro M2000 4GB | AMD Opteron 6308 </br>
+ 4x Anisotropy: 2028 points. </br>
+Quadro M6000 24GB | AMD Opteron 6308 Supermicro H8SGL </br>
+ 4x Anisotropy: 3364 points. </br>
+Quadro M6000 24GB | Dual Opteron 6328 "2x8 16-cores" Tyan S8232 | Win8.1 limited to 8-cores </br>
+ 4x Anisotropy: 3811 points. </br>
+Quadro M6000 24GB | 7600x x670e </br>
+ 4x Anisotropy: 6537 ponts. </br>
 
 [Quadro M6000 12GB](https://images.nvidia.com/content/pdf/quadro/data-sheets/NV_DS_Quadro_M6000_FEB15_NV_US_FNL_HR.pdf) should be similar.
 
