@@ -26,7 +26,7 @@ i think found the problem, but tested all OS without knowing, have to re-test. <
 Kubuntu 22.04.5 </br>
 "worked" when installed something, but unable to reproduce. </br>
 Clean install Fail. </br>
-same happens with All other OS. </br>
+same happens with all other OS. </br>
 
 .run installer needs [X] executable in properties. </br>
 creates ~/Downloads/tropics </br>
