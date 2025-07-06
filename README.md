@@ -216,7 +216,7 @@ Quadro M6000 24GB | 7600x x670e </br>
 
 ---------------
 
-Linux + Lutris + Proton allows to install EA "Origin" & Steem to Run Windows games, </br>
+Linux + [Lutris](https://github.com/lutris/lutris/releases) + Proton allows to install EA "Origin" & Steem to Run Windows games, </br>
 problem is the 32-Bit driver support on Linux. </br>
 
 
