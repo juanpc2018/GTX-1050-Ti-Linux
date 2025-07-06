@@ -204,7 +204,7 @@ Quadro M2000 4GB | AMD Opteron 6308 </br>
  4x Anisotropy: 2028 points. </br>
 Quadro M6000 24GB | AMD Opteron 6308 Supermicro H8SGL </br>
  4x Anisotropy: 3364 points. </br>
-Quadro M6000 24GB | Dual Opteron 6328 "2x8 16-cores" Tyan S8232 | Win8.1 limited to 8-cores </br>
+Quadro M6000 24GB | Dual Opteron 6328 "2x8 16-cores" Tyan S8232 | Win8.1 limited to 8-cores 4+4 </br>
  4x Anisotropy: 3811 points. </br>
 Quadro M6000 24GB | 7600x x670e </br>
  4x Anisotropy: 6537 ponts. </br>
