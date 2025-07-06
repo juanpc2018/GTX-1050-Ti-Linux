@@ -169,7 +169,7 @@ Need for Speed The Run is inspired by films like [The Cannonball Run (1981)](htt
 ## Tropics-1.3
 
 Win10 OpenGL had strange results: </br>
-[Quadro M6000 24GB](https://www.nvidia.com/content/dam/en-zz/Solutions/design-visualization/quadro-product-literature/NV-DS-Quadro-M6000-24GB-US-NV-fnl-HR.pdf) | HP Z | lga3647 Platinum CPU </br>
+[Quadro M6000 24GB](https://www.nvidia.com/content/dam/en-zz/Solutions/design-visualization/quadro-product-literature/NV-DS-Quadro-M6000-24GB-US-NV-fnl-HR.pdf) | HP Z | lga3647 Platinum CPU | 1920x1080 Full Screen | High | Trilinear </br>
 4x Anisotropy: <5500 points. </br>
 
 Other results: </br>
