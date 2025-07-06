@@ -98,14 +98,15 @@ Games load faster in Newer boards with PCIe v4 & PCIe v5 NVMe </br>
 PCIe v3 GPU's run very slow on older PCIe v2.0 boards. </br>
 
 IF Unigine Tropics-1.3 does Not work, </br>
-Older games like [Batman Arkham Asylum](https://www.gog.com/en/game/batman_arkham_asylum_goty)-[steem](https://store.steampowered.com/app/35140/Batman_Arkham_Asylum_Game_of_the_Year_Edition/).[epic](https://store.epicgames.com/en-US/p/batman-arkham-asylum).[wiki](https://en.wikipedia.org/wiki/Batman:_Arkham_Asylum) & [many other](https://en.wikipedia.org/wiki/Category:Video_games_using_PhysX) also does Not work. </br>
+Older games like [Batman Arkham Asylum](https://www.gog.com/en/game/batman_arkham_asylum_goty)-[steem](https://store.steampowered.com/app/35140/Batman_Arkham_Asylum_Game_of_the_Year_Edition/).[epic](https://store.epicgames.com/en-US/p/batman-arkham-asylum).[wiki](https://en.wikipedia.org/wiki/Batman:_Arkham_Asylum) & [many other](https://en.wikipedia.org/wiki/Category:Video_games_using_PhysX) also do Not work. </br>
 requires Linux 32-Bit OpenGL </br>
 32-Bit 3D graphics has issues on 64-Bit Linux. </br>
 
-32-bit 3D games for Win could run flawless on Linux because Wine / Proton was designed for 32-Bits, </br>
-problem is GPU drivers, Not All work for 32-Bits on Linux. </br>
+games for Win could run flawless on Linux because Wine / Proton / Codeweavers were designed for 32-Bits, </br>
+problem is GPU drivers, Not All work for 32-Bits on 64-Bit Linux. </br>
 
-Using older 100% 32-Bit Linux has other issues, like does Not have UEFI support, Only BIOS. </br>
+Using older 100% 32-Bit Linux has other issues: </br>
+does Not have UEFI support, Only BIOS. </br>
 Requires board to run in CSM-Legacy mode. </br>
 
 Legal Games require a "middle finger" software like [EA "Origin"](https://www.ea.com/ea-app) or [Steem](https://store.steampowered.com/about/) + useless anti-cheat, that can be bypass with DMA PCIe </br>
@@ -116,11 +117,12 @@ But Win8.1x64 works ok for 32-Bits </br>
 games work in W8.1x64, but... </br>
 app stores do Not work in Win8.1x64 </br>
 without store app, games do Not run/install. </br>
-
+worse... </br>
 Original [DVD](https://archive.org/details/NFSRUN) [installers](https://www.old-games.com/download/11915/need-for-speed-the-run) for [Need for Speed The Run Special Edition](https://www.gog.com/dreamlist/game/need-for-speed-the-run-2011).[moby](https://www.mobygames.com/game/53576/need-for-speed-the-run/).[wiki](https://en.wikipedia.org/wiki/Need_for_Speed%3A_The_Run).[Origin](https://web.archive.org/web/20160322050632/https://www.origin.com/en-us/store/buy/nfs-the-run-2012/pc-download/base-game/standard-edition).[cdkeys](https://www.cdkeys.com/need-for-speed-the-run-pc-cd-key-origin).[YT](https://www.youtube.com/watch?v=v-4msZsoe18&t=6s) for PC, are almost useless. </br>
 game was designed to require Online, Original SE installers were Not designed for W8.1 </br>
-Black Box closure April 2013, but game was updated to be compatible with Win8.1x64 & discontinued, </br>
-Legal Game do Not run anymore since Origin app was rebranded as EA app, EA app downloads the game, but do Not work anymore. </br>
+Black Box closure in April 2013, but game was updated to be compatible with Win8.1x64 by origin & Discontinued by EA, </br>
+Legal Game do Not run anymore, since Origin app was rebranded as EA app,</br>
+EA app downloads the game, but do Not work anymore "Invalid Key". </br>
 [mods are available](https://github.com/mRally2?tab=repositories) </br>
 
 Best GPU to play NFSTR was GTX 580, GTX 590 was "the same" but underclocked *NFSTR does Not work with dual GPU's, only 1 GPU.</br>
