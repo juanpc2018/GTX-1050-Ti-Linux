@@ -99,31 +99,30 @@ PCIe v3 GPU's run very slow on older PCIe v2.0 boards. </br>
 IF Unigine Tropics-1.3 does Not work, </br>
 Older games like [Batman Arkham Asylum](https://www.gog.com/en/game/batman_arkham_asylum_goty).[steem](https://store.steampowered.com/app/35140/Batman_Arkham_Asylum_Game_of_the_Year_Edition/).[epic](https://store.epicgames.com/en-US/p/batman-arkham-asylum).[wiki](https://en.wikipedia.org/wiki/Batman:_Arkham_Asylum) & [many other](https://en.wikipedia.org/wiki/Category:Video_games_using_PhysX) also does Not work. </br>
 requires Linux 32-Bit OpenGL drivers. </br>
-32-Bit 3D graphics have issues on Linux. </br>
+32-Bit 3D graphics has issues on Linux. </br>
 
-
-
-Win 32-bit 3D games could run flawless on Wine 9.x because Wine was designed mostly for 32-Bits, </br>
+32-bit 3D games for Win could run flawless on Linux because Wine / Proton was designed for 32-Bits, </br>
 problem is GPU drivers, Not All work for 32-Bits on Linux. </br>
 
-Legal Games require a "middle finger" software like [EA "Origin"](https://www.ea.com/ea-app) or [Steem](https://store.steampowered.com/about/) + useless anti-cheat, that can be bypass with DMA PCIe cards </br>
-Those Game Stores are designed for latest 64-Bit Win11 & W10 </br>
-Support for Win8.1x64 was Deleted </br>
+Legal Games require a "middle finger" software like [EA "Origin"](https://www.ea.com/ea-app) or [Steem](https://store.steampowered.com/about/) + useless anti-cheat, that can be bypass with DMA PCIe </br>
+Game Stores are designed for latest 64-Bit Win11 & W10 </br>
+Support for Win8.1x64 & W7 was Deleted </br>
 But Win8.1x64 works ok for 32-Bits </br>
 
-Stores does Not work in W8.1x64. </br>
+Stores do Not work in W8.1x64. </br>
 games work, but... </br>
 without store app, games do Not run/install. </br>
 
 Original [DVD](https://archive.org/details/NFSRUN) [installers](https://www.old-games.com/download/11915/need-for-speed-the-run) for [Need for Speed The Run Special Edition](https://www.gog.com/dreamlist/game/need-for-speed-the-run-2011).[moby](https://www.mobygames.com/game/53576/need-for-speed-the-run/).[wiki](https://en.wikipedia.org/wiki/Need_for_Speed%3A_The_Run).[Origin](https://web.archive.org/web/20160322050632/https://www.origin.com/en-us/store/buy/nfs-the-run-2012/pc-download/base-game/standard-edition).[cdkeys](https://www.cdkeys.com/need-for-speed-the-run-pc-cd-key-origin).[YT](https://www.youtube.com/watch?v=v-4msZsoe18&t=6s) for PC, are almost useless. </br>
 game was designed to require Online, Original SE installers were Not designed for W8.1 </br>
-game was updated several times & discontinued, updates cannot be downloaded </br>
-but [mods are available](https://github.com/mRally2?tab=repositories) </br>
+Black Box closure April 2013, game was updated several times after & discontinued, </br>
+Legal Game do Not run anymore since Origin app was rebranded as EA app, EA app downloads the game, but do Not work. </br>
+[mods are available](https://github.com/mRally2?tab=repositories) </br>
 
-Back then the best GPU to play NFSTR was GTX 580, the GTX 590 was same but undeclocked, *NFSTR does Not work with dual GPU's, only single GPU </br>
-GTX 680 & GTX 690 felt inferior, but overclocked a complete dissapointment. </br>
-GTX Titan 6GB & AMD HD7950 also nice. </br>
-but GPU depends on the board, Ram & CPU. </br>
+Best GPU to play NFSTR was GTX 580, GTX 590 was "the same" but undeclocked *NFSTR does Not work with dual GPU's, only 1 </br>
+GTX 680 & GTX 690 felt inferior, dissapointment. </br>
+GTX Titan 6GB & AMD HD7950 Nice. </br>
+GPU depends on the board, Ram & CPU. </br>
 New 34" WQHD monitors with 160fps "Ultra Wide" would be interesting to test. </br>
 
 Need for Speed The Run is inspired by films like [The Cannonball Run (1981)](https://www.imdb.com/title/tt0082136).[(1984)](https://www.imdb.com/title/tt0087032/), [It's a Mad Mad Mad Mad World (1963)](https://www.imdb.com/title/tt0057193), [The Gumball Rally (1976)](https://www.imdb.com/title/tt0074597/), [Cannonball! (1976)](https://www.imdb.com/title/tt0074279/) & others...
