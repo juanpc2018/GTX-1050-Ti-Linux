@@ -196,6 +196,7 @@ Linux: 470.256.02 | 7600x CPU + x670e </br>
 Win8.1x64 | driver 416 | i3-12100 CPU + Z790 </br>
  1920x1080: 3047 points. </br>
  3440x1440: 1367 points. </br>
+ 
 Quadro P400 | AMD Opteron 6308 </br>
  4x Anisotropy: 965 points </br>
 Quadro 6000 | AMD Opteron 6308 </br>
