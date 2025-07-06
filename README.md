@@ -187,10 +187,9 @@ Win10 OpenGL results: </br>
 [Quadro M6000 24GB (2016)](https://www.nvidia.com/content/dam/en-zz/Solutions/design-visualization/quadro-product-literature/NV-DS-Quadro-M6000-24GB-US-NV-fnl-HR.pdf) | HP Z | lga3647 Platinum CPU | 1920x1080 Full Screen | High | Trilinear </br>
 4x Anisotropy: <5500 points. </br>
 
-Other results: </br>
 GTX 1050 Ti </br>
- 1920x1080 windowed | High, Trilinear </br>
 Linux: 470.256.02 | 7600x CPU + x670e </br>
+ 1920x1080 windowed | High, Trilinear </br>
  No Anisotropy: 3538 points. </br>
  16x Anisotropy: 3137 points. </br>
 
