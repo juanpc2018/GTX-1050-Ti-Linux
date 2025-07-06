@@ -131,6 +131,7 @@ Problem is pure 32-Bit like Tropics-1.3 </br>
 [17.04-i386](https://old-releases.ubuntu.com/releases/17.04/ubuntu-17.04-desktop-i386.iso) does Not have UEFI support, Only BIOS. </br>
 Requires board to run in CSM-Legacy mode </br>
 2.5G Realtek Network do Not work, latest drivers for [r8125](https://www.realtek.com/Download/List?cate_id=584) / r8169 / rtl8196 do Not compile on Kernel 4.10.0-19 </br>
+[drivers for Kernel 2.6](https://www.realtek.com/Download/List?cate_id=584) Untested. | [other](https://www.realtek.com/Download/List?cate_id=584) </br>
 same: Marvell / Aquantia AQC100 SFP+ pcie, latest [2.5.12 drivers](https://www.marvell.com/support/downloads.html) do Not compile on 4.10.0-19 </br>
 Requires to download the whole [Repository 200GB](https://archive.org/details/ubuntu-repo-zesty-zapus-17.04-20210308) </br>
 Galium 0.4 Nouveau NV120 drivers do Not allow to change fps </br>
